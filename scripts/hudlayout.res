@@ -75,19 +75,15 @@
 		"RightTitleY"	"422"
 	}
 
-	CHudCombatText
+	HudCombatText
 	{
-		"fieldName"				"CHudCombatText"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
-		"wide"					"116"
-		"tall"  				"180"
+		"fieldName"				"HudCombatText"
+		"xpos"					"r162"
+		"ypos"					"r152"
+		"wide"	 "640"
+		"tall"	 "480"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
 	}
 	
 	
