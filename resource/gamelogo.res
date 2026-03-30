@@ -22,10 +22,10 @@ Resource/GameLogo.res
 		ControlName	ImagePanel
 		fieldName	Logo
 		xpos		0   // -Left
-		ypos		-64 // -Top
+		ypos		0 // -Top
 		zpos		0
 		wide		256 // Scaled VTF width
-		tall		256 // Scaled VTF height
+		tall		128 // Scaled VTF height
 		visible		1
 		enabled		1
 		image		ui_logo
