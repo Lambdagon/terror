@@ -22,11 +22,11 @@
 	{
 		"item_1"
 		{
-			"concept"				"TLK_PLAYER_MEDIC"		
-			"menu_label"				"#Voice_Menu_Medic"
+			"concept"				"PlayerCoverMe"		
+			"menu_label"				"#Voice_Menu_CoverMe"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
-			"subtitle"				"#Voice_Menu_Medic"
+			"subtitle"				"#Voice_Menu_CoverMe"
 			"activity"				"ACT_MP_GESTURE_VC_HANDMOUTH"
 		}
 		
@@ -53,10 +53,10 @@
 		"item_4"
 		{
 			"concept"				"PlayerBackUp"		
-			"menu_label"				"#Voice_Menu_MoveUp"
+			"menu_label"				"#Voice_Menu_BackUp"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
-			"subtitle"				"#Voice_Menu_MoveUp"
+			"subtitle"				"#Voice_Menu_BackUp"
 			"activity"				"ACT_MP_GESTURE_VC_FINGERPOINT"
 		}
 		
@@ -92,10 +92,12 @@
 		"item_2"
 		{
 			"concept"				"PlayerLaugh"		
-			"menu_label"				"#Voice_Menu_Incoming"
-			"show_subtitle"				"1"
-			"distance_check_subtitle"		"1"
-			"subtitle"				"#Voice_Menu_Incoming"
+			"menu_label"				"#Voice_Menu_Laugh"
+		}
+		"item_3"
+		{
+			"concept"				"PlayerWarnSpecial"		
+			"menu_label"				"#Voice_Menu_Look"
 			"activity"				"ACT_MP_GESTURE_VC_HANDMOUTH"
 		}
 	}
@@ -134,7 +136,7 @@
 		
 		"item_7"
 		{
-			"concept"				"PlayerNiceJob"		
+			"concept"				"PlayerNiceShot"		
 			"menu_label"				"#Voice_Menu_NiceShot"
 			"activity"				"ACT_MP_GESTURE_VC_THUMBSUP"
 		}

@@ -1,7 +1,7 @@
 "GameInfo"
 {
-	game	"Terror-Strike"
-	title	"TERROR-STRIKE"
+	game	"Left 4 Dead (Source 2013)"
+	title	""
 	title2	""
 	type multiplayer_only
 	nomodels 1
@@ -9,6 +9,7 @@
 	nocrosshair 0
 	advcrosshair 3
 	bots 1
+	gamelogo 1
 	icon		"resource/icon"
 	supportsvr	0
 	hidden_maps

@@ -24,11 +24,11 @@
 		"command" ""
 		"OnlyInGame" "1"
 	}
-//	"5"
-//	{
-//		"label" "PLAY ALONE"
-//		"command" "OpenSoloGame"
-//	}
+	"5"
+	{
+		"label" "PLAY ALONE"
+		"command" "OpenNewGameDialog"
+	}
 	"6"
 	{
 		"label" "#GameUI_GameMenu_FindServers"
@@ -38,7 +38,6 @@
 	{
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
-//		"command" "engine cl_create_server"
 	}
 	"8"
 	{

@@ -2163,3 +2163,12 @@ Hint_Territory_Hack_Attack
 {
 #Cstrike_TitlesTXT_Hint_Territory_Hack_Attack
 }
+
+$fadein 0.01
+$holdtime 3.5
+$position -1 0.58
+
+CHAPTER1_TITLE
+{
+#Terror_Chapter1_Title
+}

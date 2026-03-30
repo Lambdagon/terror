@@ -46,7 +46,7 @@ WeaponData
 	"RecoveryTimeStand"			0.26249
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#Cstrike_WPNHUD_Glock18"
+	"printname"			"Pistol"
 	"viewmodel"			"models/v_models/v_pistolA.mdl"
 	"playermodel"			"models/w_models/weapons/w_pistol_A.mdl"
 	"shieldviewmodel"		"models/weapons/v_shield_glock18_r.mdl"	

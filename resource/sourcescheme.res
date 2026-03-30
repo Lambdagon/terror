@@ -1,9 +1,11 @@
+#base "SourceSchemeBase.res"
+
 ///////////////////////////////////////////////////////////
 // Tracker scheme resource file
 //
 // sections:
 //		Colors			- all the colors used by the scheme
-//		BaseSettings	- contains settings for app to use to draw controls
+//		BaseSettings		- contains settings for app to use to draw controls
 //		Fonts			- list of all the fonts used by app
 //		Borders			- description of all the borders
 //
@@ -27,7 +29,7 @@ Scheme
 		"DarkGrayLowAlpha"	"32 32 32 64"
 		"DarkRed"			"65 0 0 255"
 		"DeepRed"			"168 26 26 255"
-		"Orange"			"255 155 0 255"
+		"Orange"			"168 26 26 255"
 		"TransparentBlack"	"0 0 0 128"
 		"Black"				"0 0 0 255"
 		"Blank"				"0 0 0 0"
@@ -42,11 +44,6 @@ Scheme
 		"BrightYellow"		"242 237 0 255"
 		"DarkYellow"		    "136 133 0 255"
 		"TextYellow"        "110 110 84 255"
-		
-		"SteamLightGreen"	"157 194 80 255"
-		"AchievementsLightGrey"		"79 79 79 255"
-		"AchievementsDarkGrey"		"55 55 55 255"
-		"AchievementsInactiveFG"	"130 130 130 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -91,7 +88,7 @@ Scheme
 		Frame.ClientInsetY					"9"
 		Frame.BgColor						"DarkGray"
 		Frame.OutOfFocusBgColor				"DarkGray"
-		Frame.FocusTransitionEffectTime		"0.2"			// time it takes for a window to fade in/out on focus/out of focus
+		Frame.FocusTransitionEffectTime		"0.3"			// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime			"0.2"			// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange					"0"
 		FrameGrip.Color1					"200 200 200 196"
@@ -104,12 +101,11 @@ Scheme
 		FrameSystemButton.BgColor			"Blank"
 		FrameSystemButton.Icon				""
 		FrameSystemButton.DisabledIcon		""
-		FrameTitleBar.Font				"UiBold"		[$WIN32]
-		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
-		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"255 255 255 192"
-		FrameTitleBar.DisabledBgColor	"Blank"
+		FrameTitleBar.Font					"FrameTitle"
+		FrameTitleBar.TextColor				"White"
+		FrameTitleBar.BgColor				"Blank"
+		FrameTitleBar.DisabledTextColor		"255 255 255 192"
+		FrameTitleBar.DisabledBgColor		"Blank"
 
 		Frame.TopBorderImage				"vgui/menu_backgroud_top"
 		Frame.BottomBorderImage				"vgui/menu_backgroud_bottom"
@@ -142,7 +138,7 @@ Scheme
 
 		Lobby.BgColor						"AshGrayHighAlpha"
 
-		Menu.TextColor						"White"
+		Menu.TextColor						"BrightYellow"
 		Menu.BgColor						"80 80 80 180"
 		Menu.ArmedTextColor					"Black"
 		Menu.ArmedBgColor					"DeepRed"
@@ -237,8 +233,6 @@ Scheme
 		WizardSubPanel.BgColor				"Blank"
 
 		// scheme-specific colors
-		MainMenu.TextColor					"White"
-		MainMenu.ArmedTextColor				"Gray"
 		MainMenu.DepressedTextColor			"192 186 80 255"
 		MainMenu.MenuItemHeight				"22"				[$WIN32 || $X360LODEF]
 		MainMenu.MenuItemHeight				"32"				[$X360HIDEF]
@@ -248,7 +242,7 @@ Scheme
 		Console.TextColor				"OffWhite"
 		Console.DevTextColor				"White"
 
-		NewGame.TextColor				"White"
+		NewGame.TextColor				"BrightYellow"
 		NewGame.FillColor				"0 0 0 255"
 		NewGame.SelectionColor				"0 0 0 255"
 		NewGame.DisabledColor				"128 128 128 196"
@@ -328,11 +322,8 @@ Scheme
 		MainMenuSmallButton.Style					"10"
 
 		MediumButton.Style						"8"
-
-		"QuickListBGDeselected"		"AchievementsDarkGrey"
-	 	"QuickListBGSelected"           "AchievementsLightGrey"
 	}
-
+	
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
 	//
 	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
@@ -347,118 +338,99 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-		// fonts are used in order that they are listed
-		// fonts listed later in the order will only be used if they fulfill a range not already filled
-		// if a font fails to load then the subsequent fonts will replace
-		// fonts are used in order that they are listed
-		"DebugFixed"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"10"
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}
-		// fonts are used in order that they are listed
-		"DebugFixedSmall"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"7"
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}
-		"DefaultFixedOutline"
-		{
-			"1"
-			{
-				"name"		 "Stubble bold" [!$OSX]
-				"name"		 "Stubble bold" [$X360]
-				"name"		 "Stubble bold" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"11" [$OSX]
-				"tall"		 "10"
-				"tall_lodef" "15"
-				"tall_hidef" "20"
-				"weight"	 "0"
-				"outline"	 "1"
-				"antialias" "1"
-			}
-		}
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Stubble bold" [$OSX]
-				"tall"		"16" [!$LINUX]
-				"tall"		"18" [$LINUX]
-				"weight"	"500"
-				"antialias" "1"
+				"name"		"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"		"14"
+				"weight"	"400"
+				"antialias"	"1"
 			}
 		}
+		
+		"DefaultSystemUI" [$WIN32]
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"14"
+				"weight"	"400"
+				"antialias"	"1"
+			}
+		}
+				
+		// used for bink legals or other small application (dev/debug) that is not game specific
+		// and so EXPLICITLY does not use the stylized game fonts for readibility
+		"DefaultVerySmall"	[$WIN32]
+		{
+			"1"
+			{
+				"name"		"Trade Gothic Bold"
+				"tall"		"12"
+				"weight"	"400"
+				"antialias"	"1"
+			}
+		}
+
+		"DefaultMedium"
+		{
+			"1"
+			{
+				"name"		"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"		"14"				[$WIN32]
+				"tall"		"16"				[$X360]
+				"weight"	"400"
+				"antialias"	"1"
+			}
+		}
+
+		"DefaultMediumBlur"
+		{
+			"1"
+			{
+				"name"		"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"		"14"				[$WIN32]
+				"tall"		"16"				[$X360]
+				"weight"	"400"
+				"blur"		"3"
+				"antialias"	"1"
+			}
+		}
+
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Verdana Bold" [$POSIX]
-				"tall"		"16" [!$LINUX]
-				"tall"		"18" [$LINUX]
-				"weight"	"1000"
-				"antialias" "1"
+				"name"		"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"		"18" 				[$X360 && ($ENGLISH || $FRENCH || $GERMAN || $ITALIAN || $SPANISH)]
+				// these need a smaller font because the gamer names in the lobbys were not title safe
+				// because these languages use a fallback font instead of Trade Gothic
+				"tall"		"14" 				[$X360 && ($PORTUGUESE || $POLISH || $RUSSIAN || $SCHINESE || $TCHINESE || $KOREAN || $JAPANESE)]
+				"tall"		"16"				[$WIN32]
+				"weight"	"400"
+				"antialias"	"1"
 			}
 		}
-		"DefaultUnderline"
+
+		"DefaultBoldBlur"
 		{
 			"1"
 			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Stubble bold" [$OSX]
-				"tall"		"16" [!$LINUX]
-				"tall"		"18" [$LINUX]
-				"weight"	"500"
-				"underline" "1"
-				"antialias" "1"
-			}
-		}
-		"DefaultSmall"
-		{
-			"1"
-			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Stubble bold" [$OSX]
-				"tall"		"12" [!$POSIX]
-				"tall"		"15" [$POSIX]
-				"weight"	"0"
-				"antialias" "1"
-			}
-		}
-		"DefaultSmallDropShadow"
-		{
-			"1"
-			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Stubble bold" [$OSX]
-				"tall"		"13"
-				"weight"	"0"
-				"dropshadow" "1"
-				"antialias" "1"
-			}
-		}
-		"DefaultVerySmall"
-		{
-			"1"
-			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Stubble bold" [$OSX]
-				"tall"		"12"
-				"weight"	"0"
-				"antialias" "1"
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"			"18" 				[$X360 && ($ENGLISH || $FRENCH || $GERMAN || $ITALIAN || $SPANISH)]
+				// these need a smaller font because the gamer names in the lobbys were not title safe
+				// because these languages use a fallback font instead of Trade Gothic
+				"tall"			"14" 				[$X360 && ($PORTUGUESE || $POLISH || $RUSSIAN || $SCHINESE || $TCHINESE || $KOREAN || $JAPANESE)]
+				"tall"			"16"				[$WIN32]
+				"weight"		"400"
+				"blur"			"3"
+				"antialias"		"1"
 			}
 		}
 
@@ -466,584 +438,156 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Stubble bold" [$OSX]
-				"tall"		"18"
-				"weight"	"0"
-				"antialias" "1"
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"			"18"
+				"weight"		"400"				[$WIN32]
+				"weight"		"700"				[$X360]
+				"antialias"		"1"
 			}
 		}
-		"UiBold"
-		{
-			"1"	[$WIN32]
-			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Stubble bold" [$OSX]
-				"tall"		"12" [!$LINUX]
-				"tall"		"15" [$LINUX]
-				"weight"	"1000"
-				"antialias" "1"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Stubble bold"
-				"tall"		"24"
-				"weight"	"2000"
-				"outline"	"1"
-				"antialias" "1"
-			}
-		}
-		"ChapterTitle"	[$X360]
+
+		"FrameTitle"
 		{
 			"1"
 			{
-				"name"			"Stubble bold"
-				"tall"			"20"
-				"tall_hidef"	"28"
-				"weight"		"2000"
-				"outline"		"1"
-				"antialias" "1"
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"			"24"
+				"weight"		"400"
+				"antialias"		"1"
 			}
 		}
-		"ChapterTitleBlur"	[$X360]
+
+		"FrameTitleBlur"
 		{
 			"1"
 			{
-				"name"			"Stubble bold"
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold"	[($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"			"24"
+				"weight"		"400"
+				"blur"			"3"					[$WIN32 || $X360LODEF]
+				"blur"			"5"					[$X360HIDEF]
+				"antialias"		"1"
+			}
+		}
+
+		"MainBold"
+		{
+			"1"
+			{
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"20"
-				"tall_hidef"	"28"
-				"weight"		"2000"
+				"weight"		"400"				[$WIN32]
+				"weight"		"800"				[$X360]
+				"antialias"		"1"
+			}
+		}
+
+		"MainBoldBlur"
+		{
+			"1"
+			{
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"			"20"
+				"weight"		"400"				[$WIN32]
+				"weight"		"800"				[$X360]
 				"blur"			"3"
-				"blur_hidef"	"5"
-				"antialias" "1"
+				"antialias"		"1"
 			}
 		}
-		"MenuLarge"
-		{
-			//"1"	[$LINUX]
-			//{
-			//	"name"		"Stubble bold"
-			//	"tall"		"24"
-			//	"weight"	"600"
-			//	"antialias" "1"
-			//	"yres"	 "480 1199"
-			//}
-			//"1"	[$WINDOWS]
-			//{
-			//	"name"		"Stubble bold" 
-			//	"tall"		"20"
-			//	"weight"	"600"
-			//	"antialias" "1"
-			//	"yres"	 "480 1199"
-			//}
-			"1"	
-			{
-				"name"		"Stubble bold" 
-				"tall"		"16"
-				"weight"	"600"
-				"antialias" "1"
-			}
-		}
-		"AchievementTitleFont"
+
+		//
+		// ScreenTitle is the super large font ONLY used as THE major screen title heading.
+		//
+		"ScreenTitle"
 		{
 			"1"
 			{
-				"name"		"Stubble bold"
-				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"antialias" "1"
+				"name"		"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"		"28"
+				"weight"	"400"
+				"antialias"	"1"
 			}
 		}
-		
-		"AchievementTitleFontSmaller"
+
+		// symbol font currently duplicate of GameUIButtons this is needed so code 
+		// changes dont have to be made for controls dependant on this font and so
+		// they can be re-pointed to the bitmap uibuttons.
+		"Marlett"
 		{
 			"1"
 			{
-				"name"		"Stubble bold"
-				"tall"		"18"
-				"weight"	"1200"
-				"antialias" "1"
-				//"outline" "1"
-				"antialias" "1"
-			}
-		}
-		
-		
-		"AchievementDescriptionFont"
-		{
-			"1"
-			{
-				"name"		"Stubble bold"
-				"tall"		"15"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"		"0 480"
-				"antialias" "1"
-			}
-			"2"
-			{
-				"name"		"Stubble bold"
-				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"	 "481 10000"
-				"antialias" "1"
+				"bitmap"	"1"				[$X360]
+				"name"		"Buttons"		[$X360]
+				"scalex"	"0.63"			[$X360]
+				"scaley"	"0.63"			[$X360]
+
+				"name"		"Marlett"		[$WIN32]
+				"tall"		"11"			[$WIN32]
+				"weight"	"0"				[$WIN32]
+				"symbol"	"1"				[$WIN32]
+				"range"		"0x0000 0x007F"	[$WIN32]	//	Basic Latin
 			}
 		}
 		
 		GameUIButtons
 		{
-			"1"	[$X360]
+			"1"
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
-				"scalex"	"0.63"
-				"scaley"	"0.63"
-				"scalex_hidef"	"1.0"
-				"scaley_hidef"	"1.0"
-				"scalex_lodef"	"0.75"
-				"scaley_lodef"	"0.75"
-				"antialias" "1"
-			}
-		}
-		"ConsoleText"
-		{
-			"1"
-			{
-				"name"		 "Stubble bold" [!$OSX]
-				"name"		 "Stubble bold" [$X360]
-				"name"		 "Stubble bold" [$OSX]
-				"tall"		"11" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"14"
-				"weight"	"500"
-				"antialias" "1"
+				"scalex"	"0.80"
+				"scaley"	"0.80"
 			}
 		}
 
-		// this is the symbol font
-		"Marlett"
+		GameUIButtonsMini
 		{
 			"1"
 			{
-				"name"		"Marlett"
-				"tall"		"14"
-				"weight"	"0"
-				"symbol"	"1"
-				"antialias" "1"
-			}
-		}
-
-		"Trebuchet24"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"1"
-				"yres"	"480 1199"
-				"antialias" "1"
-			}
-			"2" // misyl: Proportional
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"16"
-				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"1"
-				"antialias" "1"
-			}
-		}
-
-		"Trebuchet20"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"20"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
-
-		"Trebuchet18"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
-
-		// HUD numbers
-		// We use multiple fonts to 'pulse' them in the HUD, hence the need for many of near size
-		"HUDNumber"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"40"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
-		"HUDNumber1"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"41"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
-		"HUDNumber2"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"42"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
-		"HUDNumber3"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"43"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
-		"HUDNumber4"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"44"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
-		"HUDNumber5"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"45"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
-		"DefaultFixed"
-		{
-			"1"
-			{
-				"name"		 "Stubble bold" [!$OSX]
-				"name"		 "Stubble bold" [$OSX]
-				"tall"		"11" [$POSIX]
-				"tall"		"10" [!$POSIX]
-				"weight"	"0"
-				"antialias" "1"
-			}
-//			"1"
-//			{
-//				"name"		"FixedSys"
-//				"tall"		"20"
-//				"weight"	"0"
-				"antialias" "1"
-//			}
-		}
-
-		"DefaultFixedDropShadow"
-		{
-			"1"
-			{
-				"name"		 "Stubble bold" [!$OSX]
-				"name"		 "Stubble bold" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"11" [$POSIX]
-				"tall"		"10"
-				"weight"	"0"
-				"dropshadow" "1"
-				"antialias" "1"
-			}
-//			"1"
-//			{
-//				"name"		"FixedSys"
-//				"tall"		"20"
-//				"weight"	"0"
-				"antialias" "1"
-//			}
-		}
-
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Stubble bold" [$OSX]
-				"tall"		"16"
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Verdana Italic" [$OSX]
-				"tall"		"16"
-				"weight"	"500"
-				"italic"	"1"
-				"antialias" "1"
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"tall"		"16"
-				"weight"	"900"
-				"antialias" "1"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Verdana Bold Italic" [$OSX]
-				"tall"		"16"
-				"weight"	"900"
-				"italic"	"1"
-				"antialias" "1"
-			}
-		}
-
-		TitleFont
-		{
-			"1"
-			{
-				"name"		"HalfLife2"
-				"tall"		"72"
-				"weight"	"400"
-				"antialias"	"1"
-				"custom"	"1"
-			}
-		}
-
-		TitleFont2
-		{
-			"1"
-			{
-				"name"		"HalfLife2"
-				"tall"		"120"
-				"weight"	"400"
-				"antialias"	"1"
-				"custom"	"1"
-			}
-		}
-
-		AppchooserGameTitleFont	[$X360]
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"16"
-				"tall_hidef"	"24"
-				"weight"		"900"
-				"antialias"		"1"
-			}
-		}
-
-		AppchooserGameTitleFontBlur	[$X360]
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"16"
-				"tall_hidef"	"24"
-				"weight"		"900"
-				"blur"			"3"
-				"blur_hidef"	"5"
-				"antialias"		"1"
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.65"
+				"scaley"	"0.65"
 			}
 		}
 		
-		StatsTitle	[$WIN32]
+		GameUIButtonsTiny
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"2000"
-				"tall"			"20"
-				"antialias"		"1"
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.5"
+				"scaley"	"0.5"
 			}
 		}
 		
-		StatsText	[$WIN32]
+		"MenuLarge"
 		{
-			"1"
+			"1"	
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"2000"
-				"tall"			"18"
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemTitle	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"1500"
-				"tall"			"16" [!$POSIX]
-				"tall"			"18" [$POSIX]
-				"antialias"		"1"
-			}
-		}
-
-		AchievementItemDate	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"1500"
-				"tall"			"16"
-				"antialias"		"1"
-			}
-		}
-
-		
-		StatsPageText
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"1500"
-				"tall"			"14" [!$POSIX]
-				"tall"			"16" [$POSIX]
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemTitleLarge	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"weight"		"1500"
-				"tall"			"18" [!$POSIX]
-				"tall"			"19" [$POSIX]
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemDescription	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Stubble bold" [$OSX]
-				"weight"		"1000"
-				"tall"			"14" [!$POSIX]
-				"tall"			"15" [$POSIX]
-				"antialias"		"1"
-			}
-		}
-
-		
-		"ServerBrowserTitle"
-		{
-			"1"
-			{
-				"name"		"Stubble bold" [!$OSX]
-				"name"		"Stubble bold" [$OSX]
-				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
+				"name"		"Stubble bold" 
+				"tall"		"16"
+				"weight"	"0"
 				"antialias" "1"
 			}
 		}
 
-		"ServerBrowserSmall"
-		{
-			"1"
-			{
-				"name"		"Stubble bold"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Stubble bold"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Stubble bold"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Stubble bold"
-				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Stubble bold"
-				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-		}
-	
+		// DO NOT!!! ADD ANY MORE FONTS, THESE ARE REFERENCED BY INIT CODE
+		// TO PREVENT X360 RUNTIME HITCHES. THESE HAVE BEEN ESTABLISHED WITH
+		// ALDEN AS THE ONLY FONTS AND SIZES L4D360 UI WILL USE.
 	}
 
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types
-	
 	Borders
 	{
 		BaseBorder				DepressedBorder
@@ -1650,24 +1194,12 @@ Scheme
 			}
 		}		
 	}
-
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"	
-		"3"		"resource/marlett.ttf"
-
-		"4"		"resource/linux_fonts/DejaVuSans.ttf"
-		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
-		"12"		"resource/stubble-bold.ttf"
+		"1"		"resource/Stubble-Bold.vfont"	
 	}
+
 }
