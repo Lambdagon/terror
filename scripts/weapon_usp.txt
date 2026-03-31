@@ -46,16 +46,14 @@ WeaponData
 	"RecoveryTimeStand"			0.28045
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#Cstrike_WPNHUD_USP45"
-	"viewmodel"			"models/weapons/v_pist_usp.mdl"
-	"playermodel"			"models/weapons/w_pist_usp.mdl"
-	"shieldviewmodel"		"models/weapons/v_shield_usp_r.mdl"	
-	"SilencerModel"			"models/weapons/w_pist_usp_silencer.mdl"
+	"printname"			"M1911 Pistol"
+	"viewmodel"			"models/v_models/v_pistol.mdl"
+	"playermodel"			"models/w_models/weapons/w_pistol_1911.mdl"
 	"anim_prefix"			"anim"
 	"bucket"			"1"
 	"bucket_position"		"1"
 
-	"clip_size"			"12"
+	"clip_size"			"15"
 	
 	"primary_ammo"			"BULLET_PLAYER_45ACP"
 	"secondary_ammo"		"None"
@@ -68,29 +66,32 @@ WeaponData
 	{
 		//"reload"			"Default.Reload"
 		//"empty"				"Default.ClipEmpty_Rifle"
-		"single_shot"		"Weapon_USP.Single"
-		"special1"			"Weapon_USP.SilencedShot"
-		"special2"			"Weapon_USP.DetachSilencer"
-		"special3"			"Weapon_USP.AttachSilencer"
+		"single_shot"		"L4D1_Pistol.Fire"
 	}
 
-	// Weapon Sprite data is loaded by the Client DLL.
+// Weapon Sprite data is loaded by the Client DLL.
 	TextureData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"A"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"256"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"
 		}
-		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"A"
+		"weapon_dual"
+		{
+				"file"		"vgui/hud/iconsheet"
+				"x"			"192"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"M"
+				"font"		"DebugFixed"
+				"character"	"A"
 		}
 		"crosshair"
 		{
@@ -113,13 +114,13 @@ WeaponData
 	{
 		Viewmodel
 		{
-			Mins	"-7 -4 -14"
-			Maxs	"24 9 -2"
+			Mins	"-8 -4 -14"
+			Maxs	"17 9 -1"
 		}
 		World
 		{
-			Mins	"-1 -4 -3"
-			Maxs	"17 5 6"
+			Mins	"-1 -3 -3"
+			Maxs	"11 4 4"
 		}
 	}
 }
