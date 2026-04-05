@@ -1,0 +1,14 @@
+patch
+{
+
+include "materials\weapons\4pistols/4pistols_LW.vmt"
+insert
+{
+	$baseTexture "Weapons\4pistols/4pistols_D"
+	$phongexponenttexture "Weapons\4pistols/4pistols_G"
+	"$itemid" "3"
+	$phongboost	60
+	$phongfresnelranges "[.4 2 .1]"
+	$envmapFresnelMinMaxExp "[.4 1 .4]"
+	$envmaptint	"[0.75 0.75 0.75]"
+}

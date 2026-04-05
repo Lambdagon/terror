@@ -1,0 +1,10 @@
+patch
+{
+
+include "materials\weapons\4pistols/4pistols_LW.vmt"
+insert
+{
+	$baseTexture "Weapons\4pistols/4pistols_D"
+	$phongexponenttexture "Weapons\4pistols/4pistols_G"
+	"$itemid" "0"
+}

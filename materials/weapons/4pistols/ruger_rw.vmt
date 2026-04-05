@@ -1,0 +1,11 @@
+patch
+{
+
+include "materials\weapons\4pistols/4pistols_RW.vmt"
+insert
+{
+	$baseTexture "Weapons\4pistols/4pistols_D"
+	$phongexponenttexture "Weapons\4pistols/4pistols_G"
+	$envmapFresnelMinMaxExp "[0 5 .4]"
+	"$itemid" "2"
+}

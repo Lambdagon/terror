@@ -59,6 +59,7 @@ WeaponData
 	SoundData
 	{
 		"single_shot"		"Pistol.Fire"
+		"burst"		"Pistol.DualFire"
 	}
 
 // Weapon Sprite data is loaded by the Client DLL.

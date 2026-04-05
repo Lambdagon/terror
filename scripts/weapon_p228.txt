@@ -37,9 +37,9 @@ WeaponData
 	"RecoveryTimeStand"			0.27631
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#Cstrike_WPNHUD_P228"
-	"viewmodel"			"models/weapons/v_pist_p228.mdl"
-	"shieldviewmodel"		"models/weapons/v_shield_p228_r.mdl"	
+	"printname"			"Ruger Pistol"
+	"viewmodel"			"models/v_models/v_ruger.mdl"
+	"playermodel"			"models/w_models/weapons/w_ruger.mdl"
 	"playermodel"			"models/weapons/w_pist_p228.mdl"
 	"anim_prefix"			"anim"
 	"bucket"			"1"
@@ -47,7 +47,7 @@ WeaponData
 
 	"clip_size"			"13"
 	
-	"primary_ammo"			"BULLET_PLAYER_357SIG"
+	"primary_ammo"			"BULLET_PLAYER_9MM"
 	"secondary_ammo"		"None"
 
 	"weight"			"5"
@@ -58,26 +58,32 @@ WeaponData
 	{
 		//"reload"			"Default.Reload"
 		//"empty"				"Default.ClipEmpty_Rifle"
-		"single_shot"		"Weapon_P228.Single"
+		"single_shot"		"Ruger.Fire"
 	}
 
-	// Weapon Sprite data is loaded by the Client DLL.
+// Weapon Sprite data is loaded by the Client DLL.
 	TextureData
 	{
 		"weapon"
 		{
-				"font"		"CSweaponsSmall"
-				"character"	"Y"
+				"file"		"vgui/hud/iconsheet"
+				"x"			"256"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"
 		}
-		"weapon_s"
-		{	
-				"font"		"CSweapons"
-				"character"	"Y"
+		"weapon_dual"
+		{
+				"file"		"vgui/hud/iconsheet"
+				"x"			"192"
+				"y"			"320"
+				"width"		"64"
+				"height"	"64"
 		}
 		"ammo"
 		{
-				"font"		"CSTypeDeath"
-				"character"		"T"
+				"font"		"DebugFixed"
+				"character"	"A"
 		}
 		"crosshair"
 		{

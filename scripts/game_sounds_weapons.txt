@@ -50,21 +50,21 @@
 	"channel"		"CHAN_VOICE_BASE"
 	"soundlevel"		"SNDLVL_NORM"
 	"volume"		"0.80,0.77"
-	"wave"		")weapons/magnum/gunother/pistol_deploy_1.wav"
+	"wave"		")weapons/de_draw.wav"
 }
 
 "Magnum.ClipIn"
 {
 	"channel"		"CHAN_ITEM"
 	"soundlevel"		"SNDLVL_NORM"
-	"wave"		")weapons/magnum/gunother/pistol_clip_in_1.wav"
+	"wave"		")weapons/de_clipin.wav"
 }
 
 "Magnum.ClipOut"
 {
 	"channel"		"CHAN_ITEM"
 	"soundlevel"		"SNDLVL_NORM"
-	"wave"		")weapons/magnum/gunother/pistol_clip_out_1.wav"
+	"wave"		")weapons/de_clipout.wav"
 }
 
 "Magnum.ClipLocked"
@@ -78,14 +78,14 @@
 {
 	"channel"		"CHAN_ITEM"
 	"soundlevel"		"SNDLVL_NORM"
-	"wave"		")weapons/magnum/gunother/pistol_slideback_1.wav"
+	"wave"		")weapons/de_slideback.wav"
 }
 
 "Magnum.SlideForward"
 {
 	"channel"		"CHAN_ITEM"
 	"soundlevel"		"SNDLVL_NORM"
-	"wave"		")weapons/magnum/gunother/pistol_slideforward_1.wav"
+	"wave"		")weapons/de_slideforward.wav"
 }
 
 "Magnum.HelpingHandRetract"
@@ -202,6 +202,15 @@
 	"pitch"			"97,103"
 	"volume"		"0.7"
 	"wave"		")weapons/pistol/gunfire/pistol_fire.wav"
+}
+
+"Ruger.Fire"
+{
+	"channel"		"CHAN_VOICE_BASE"
+	"soundlevel"		"SNDLVL_TALKING"
+	"pitch"			"97,103"
+	"volume"		"0.7"
+	"wave"		")weapons/glock18-1.wav"
 }
 
 "Pistol.DualFire"
@@ -3150,7 +3159,7 @@
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 
-	"wave"			"weapons/glock/glock_clipout.wav"
+	"wave"			"weapons/clipout1.wav"
 }
 
 "Weapon_Glock.Clipin"
@@ -3160,7 +3169,7 @@
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"PITCH_NORM"
 
-	"wave"			"weapons/glock/glock_clipin.wav"
+	"wave"			"weapons/clipin1.wav"
 }
 
 "Weapon_Glock.Sliderelease"
@@ -3181,6 +3190,26 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"			"weapons/glock/glock_slideback.wav"
+}
+
+"Weapon_Glock.DeploySlideback"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/slideback1.wav"
+}
+
+"Weapon_Glock.Deploy"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			")items/itempickup.wav"
 }
 
 //GALIL

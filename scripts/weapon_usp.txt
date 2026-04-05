@@ -47,15 +47,15 @@ WeaponData
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"M1911 Pistol"
-	"viewmodel"			"models/v_models/v_pistol.mdl"
-	"playermodel"			"models/w_models/weapons/w_pistol_1911.mdl"
+	"viewmodel"			"models/v_models/v_m1911.mdl"
+	"playermodel"			"models/w_models/weapons/w_m1911.mdl"
 	"anim_prefix"			"anim"
 	"bucket"			"1"
 	"bucket_position"		"1"
 
 	"clip_size"			"15"
 	
-	"primary_ammo"			"BULLET_PLAYER_45ACP"
+	"primary_ammo"			"BULLET_PLAYER_9MM"
 	"secondary_ammo"		"None"
 
 	"weight"			"5"

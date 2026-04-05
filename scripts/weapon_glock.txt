@@ -54,7 +54,7 @@ WeaponData
 	"bucket"			"1"
 	"bucket_position"		"1"
 
-	"clip_size"			"20"
+	"clip_size"			"15"
 	
 	"primary_ammo"			"BULLET_PLAYER_9MM"
 	"secondary_ammo"		"None"
