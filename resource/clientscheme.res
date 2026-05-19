@@ -35,6 +35,42 @@ Scheme
 		"SteamLightGreen"	"157 194 80 255"
 		"AchievementsLightGrey"		"79 79 79 255"
 		"White"				"255 255 255 255"
+		
+		// TERROR
+		"ProgressGreen"			"0 128 0 255"
+		"HealthGreen"			"0 200 0 255"
+		"BrightGreen"			"0 255 0 255"
+		"BrightRed"				"255 0 0 255"
+		"DeepRed"				"168 26 26 255"
+		"Blue"                  "138 182 219 255"
+		"Tan"				"209 199 151 255"
+		"BrightGray"		"216 216 216 255"
+		"MediumGray"        "145 145 145 255"
+		"TransparentGray"		"192 192 192 192"
+		"Gray"					"192 192 192 255"
+		"DarkGray"				"64 64 64 255"
+		"DarkerGray"            "40 40 40 255"
+		"Yellow"				"255 255 0 255"
+		"White"					"255 255 255 255"
+		"TransparentLightRed"	"255 0 0 90"
+		"HudIcon_Cyan"			"0 255 255 120"
+		"HudIcon_Cyan_Pulse"	"0 255 255 255"
+		"BrightCyan"			"0 255 255 255"
+		"Credits"				"192 192 192 192"
+		"TransparentGreen"		"64 255 64 192"
+
+		"LightBlue"				"60 143 175 255"
+
+		"Blank"				"0 0 0 0"
+		"ForTesting"		"255 0 0 32"
+		"ForTesting_Magenta"	"255 0 255 255"
+		"ForTesting_MagentaDim"	"255 0 255 120"
+		
+		"dialogueSubTitle"		"158 158 158 255"
+		
+		"VersusBrown"		"129 114 89 255"
+		"VersusSelected"	"143 50 19 255"
+		"VersusDarkGrey"	"55 56 60 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -43,6 +79,18 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
+		// Radial menu changes 
+		////// Fortress connected custom colors //////////
+		Rosetta.DefaultFgColor			"White"
+		Rosetta.DefaultBgColor			"Blank"
+		Rosetta.ArmedBgColor			"Blank"
+		Rosetta.DisabledBgColor			"Blank"
+		Rosetta.DisabledBorderColor		"Blank"
+		Rosetta.LineColor				"192 192 192 128"
+		Rosetta.DrawBorder				"0"
+		Rosetta.DefaultFont				DefaultDropShadowBold
+		Rosetta.ArmedFont				DefaultLargeDropShadowBold
+		
 		// vgui_controls color specifications
 		Border.Bright					"LightOrange"		// the lit side of a control
 		Border.Dark						"LightOrange"		// the dark/unlit side of a control
@@ -665,6 +713,55 @@ Scheme
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 				"antialias"	"1"
+			}
+		}
+		"DefaultDropShadow"
+		{
+			"1"
+			{
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"			"12"
+				"weight"		"900"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"dropshadow"	"1"
+				"antialias"		"1"
+			}
+		}
+		"DefaultDropShadowBold"
+		{
+			"1"
+			{
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"			"12"
+				"weight"		"900"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"dropshadow"	"1"
+				"antialias"		"1"
+			}
+		}
+		//RADIAL MENU CHANGES
+		"RosettaSmall"
+		{
+			"1"
+			{
+				"Name"			"TF2 Secondary"
+				"tall"			"14"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
+			}
+		}
+		"RosettaLarge"
+		{
+			"1"
+			{
+				"Name"			"TF2 Secondary"
+				"tall"			"18"
+				"weight"	"100"
+				"antialias" "1"
+				//"dropshadow"	"1"
 			}
 		}
 		"CSUnderline"
