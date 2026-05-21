@@ -1833,6 +1833,52 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		// Instructor 
+		InstructorButtons
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.8"
+				"scaley"	"0.8"
+			}
+		}
+
+		InstructorButtonsSteamController
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.5"
+				"scaley"	"0.5"
+			}
+		}
+		"InstructorTitle"  //Left 4 Dead
+		{
+			"1"
+			{
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"			"18"
+				"weight"		"400"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		"InstructorTitle_ss"  //Left 4 Dead
+		{
+			"1"
+			{
+				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
+				"tall"			"14"
+				"weight"		"400"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
 	}
 
 	//
