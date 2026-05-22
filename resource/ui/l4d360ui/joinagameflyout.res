@@ -2,7 +2,7 @@
 {
 	"BtnJoinFriend"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnJoinFriend"
 		"xpos"					"2"
 		"ypos"					"2"
@@ -27,7 +27,7 @@
 	
 	"BtnJoinSysLink"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnJoinSysLink"
 		"xpos"					"2"
 		"ypos"					"22"

@@ -19,7 +19,7 @@
 
 	"BtnQuickMatch"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnQuickMatch"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -43,7 +43,7 @@
 
 	"BtnPlayRealismWithAnyone"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayRealismWithAnyone"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -67,7 +67,7 @@
 	
 	"BtnPlayRealismWithFriends"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayRealismWithFriends"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -91,7 +91,7 @@
 	
 	"BtnPlayOnGroupServer" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayOnGroupServer"
 		"xpos"					"0"
 		"ypos"					"60"

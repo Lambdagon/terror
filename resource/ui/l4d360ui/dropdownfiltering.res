@@ -8,8 +8,7 @@
 		"ypos"					"0"
 		"zpos"					"-1"
 		"wide"					"156"
-		"tall"					"125"	[!$OSX]
-		"tall"					"105"	[$OSX]
+		"tall"					"125"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
@@ -18,7 +17,7 @@
 
 	"BtnBilinear"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnBilinear"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -30,8 +29,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
-		"navUp"					"BtnAnisotropic16X"		[!$OSX]
-		"navUp"					"BtnAnisotropic8X"		[$OSX]
+		"navUp"					"BtnAnisotropic16X"
 		"navDown"				"BtnTrilinear"
 		"labelText"				"#GameUI_Bilinear"
 		"tooltiptext"			"#GameUI_Bilinear"
@@ -43,7 +41,7 @@
 	
 	"BtnTrilinear"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnTrilinear"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -67,7 +65,7 @@
 	
 	"BtnAnisotropic2X"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAnisotropic2X"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -91,7 +89,7 @@
 	
 	"BtnAnisotropic4X"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAnisotropic4X"
 		"xpos"					"0"
 		"ypos"					"60"
@@ -115,7 +113,7 @@
 	
 	"BtnAnisotropic8X"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAnisotropic8X"
 		"xpos"					"0"
 		"ypos"					"80"
@@ -128,8 +126,7 @@
 		"tabPosition"			"0"
 		"wrap"					"1"
 		"navUp"					"BtnAnisotropic4X"
-		"navDown"				"BtnAnisotropic16X"		[!$OSX]
-		"navDown"				"BtnBilinear"			[$OSX]
+		"navDown"				"BtnAnisotropic16X"
 		"labelText"				"#GameUI_Anisotropic8X"
 		"tooltiptext"			"#GameUI_Anisotropic8X"
 		"disabled_tooltiptext" 	"#GameUI_Anisotropic8X"
@@ -137,10 +134,10 @@
 		"command"				"#GameUI_Anisotropic8X"
 		"OnlyActiveUser"		"1"
 	}
-
-	"BtnAnisotropic16X"		[!$OSX]
+	
+	"BtnAnisotropic16X"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAnisotropic16X"
 		"xpos"					"0"
 		"ypos"					"100"

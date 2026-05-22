@@ -20,7 +20,7 @@
 
 	"BtnOfficial"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnOfficial"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -47,7 +47,7 @@
 
 	"BtnDedicated" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnDedicated"
 		"xpos"				"0"
 		"ypos"				"20"
@@ -72,7 +72,7 @@
 	
 	"BtnListen"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnListen"
 		"xpos"					"0"
 		"ypos"					"40" [$WIN32]

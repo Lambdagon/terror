@@ -35,7 +35,7 @@
 
 	"BtnCancel"		[$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancel"
 		"ypos"					"300"
 		"xpos"					"10"

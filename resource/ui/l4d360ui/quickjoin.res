@@ -3,7 +3,7 @@
 	"LblTitle"
 	{
 		"ControlName"			"Label"					[$X360]
-		"ControlName"			"L4D360HybridButton"	[$WIN32]
+		"ControlName"			"BaseModHybridButton"	[$WIN32]
 		"fieldName"				"LblTitle"
 
 		"xpos"					"0"		[$X360]
@@ -27,7 +27,7 @@
 		"Font"					"DefaultMedium"
 		"fgcolor_override"		"255 255 255 255"
 		
-		"style"						"MainMenuSmallButton"[$WIN32]
+		"style"						"AlienSwarmMenuButtonSmall"[$WIN32]
 		"command"					"SeeAll"		[$WIN32]
 		"ActivationType"			"1"				[$WIN32]
 		"FocusDisabledBorderSize"	"1"				[$WIN32]

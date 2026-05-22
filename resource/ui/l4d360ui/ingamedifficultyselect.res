@@ -81,7 +81,7 @@
 
 	"BtnEasy"
 	{
-		"ControlName"				"L4D360HybridButton"
+		"ControlName"				"BaseModHybridButton"
 		"fieldName"					"BtnEasy"
 		"ypos"						"55"
 		"xpos"						"15"
@@ -106,7 +106,7 @@
 
 	"BtnNormal"
 	{
-		"ControlName"				"L4D360HybridButton"
+		"ControlName"				"BaseModHybridButton"
 		"fieldName"					"BtnNormal"
 		"ypos"						"70"
 		"xpos"						"15"
@@ -131,7 +131,7 @@
 	
 	"BtnHard"
 	{
-		"ControlName"				"L4D360HybridButton"
+		"ControlName"				"BaseModHybridButton"
 		"fieldName"					"BtnHard"
 		"ypos"						"85"
 		"xpos"						"15"
@@ -156,7 +156,7 @@
 	
 	"BtnImpossible"
 	{
-		"ControlName"				"L4D360HybridButton"
+		"ControlName"				"BaseModHybridButton"
 		"fieldName"					"BtnImpossible"
 		"ypos"						"100"
 		"xpos"						"15"
@@ -174,14 +174,14 @@
 		"labelText"					"#L4D360UI_Difficulty_Impossible"
 		"tooltiptext"				"#L4D360UI_Difficulty_Tooltip_Impossible"
 		"style"						"MainMenuSmallButton"
-		"command"					"Impossible"
+		"command"					"Insane"
 		"proportionalToParent"		"1"
 		"usetitlesafe" 				"1"
 	}
 	
 	"BtnCancel"
 	{
-		"ControlName"				"L4D360HybridButton"
+		"ControlName"				"BaseModHybridButton"
 		"fieldName"					"BtnCancel"
 		"ypos"						"125"
 		"xpos"						"15"

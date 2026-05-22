@@ -17,7 +17,7 @@
 
 	"BtnTelevision"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnTelevision"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -41,7 +41,7 @@
 	
 	"BtnLCD"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLCD"
 		"xpos"					"0"
 		"ypos"					"20"

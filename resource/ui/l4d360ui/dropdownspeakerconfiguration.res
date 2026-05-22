@@ -8,8 +8,7 @@
 		"ypos"					"0"
 		"zpos"					"-1"
 		"wide"					"156"
-		"tall"					"105" [!$OSX]
-		"tall"					"45" [$OSX]
+		"tall"					"85"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
@@ -18,7 +17,7 @@
 
 	"BtnHeadphones"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnHeadphones"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -30,7 +29,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
-		"navUp"					"Btn7Speakers"
+		"navUp"					"Btn5Speakers"
 		"navDown"				"Btn2Speakers"
 		"labelText"				"#GameUI_Headphones"
 		"tooltiptext"			"#GameUI_Headphones"
@@ -42,7 +41,7 @@
 	
 	"Btn2Speakers"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"Btn2Speakers"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -66,7 +65,7 @@
 	
 	"Btn4Speakers"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"Btn4Speakers"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -74,8 +73,7 @@
 		"tall"					"20"
 		"autoResize"			"1"
 		"pinCorner"				"0"
-		"visible"				"1" [!$OSX]
-		"visible"				"0" [$OSX]
+		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
@@ -91,7 +89,7 @@
 	
 	"Btn5Speakers"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"Btn5Speakers"
 		"xpos"					"0"
 		"ypos"					"60"
@@ -99,43 +97,17 @@
 		"tall"					"20"
 		"autoResize"			"1"
 		"pinCorner"				"0"
-		"visible"				"1" [!$OSX]
-		"visible"				"0" [$OSX]
+		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
 		"navUp"					"Btn4Speakers"
-		"navDown"				"Btn7Speakers"
+		"navDown"				"BtnHeadphones"
 		"labelText"				"#GameUI_5Speakers"
 		"tooltiptext"			"#GameUI_5Speakers"
 		"disabled_tooltiptext" 	"#GameUI_5Speakers"
 		"style"					"FlyoutMenuButton"
 		"command"				"#GameUI_5Speakers"
-		"OnlyActiveUser"		"1"
-	}
-	
-	"Btn7Speakers"
-	{
-		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"Btn7Speakers"
-		"xpos"					"0"
-		"ypos"					"80"
-		"wide"					"150"
-		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"1" [!$OSX]
-		"visible"				"0" [$OSX]
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"wrap"					"1"
-		"navUp"					"Btn5Speakers"
-		"navDown"				"BtnHeadphones"
-		"labelText"				"#GameUI_7Speakers"
-		"tooltiptext"			"#GameUI_7Speakers"
-		"disabled_tooltiptext" 	"#GameUI_7Speakers"
-		"style"					"FlyoutMenuButton"
-		"command"				"#GameUI_7Speakers"
 		"OnlyActiveUser"		"1"
 	}
 }

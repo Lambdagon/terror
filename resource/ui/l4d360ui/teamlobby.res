@@ -50,7 +50,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"scaleImage"			"1"
-		"image"					"common/l4d_spinner"
+		"image"					"common/swarm_cycle"
 	}	
 
 	"GplSurvivors"
@@ -82,7 +82,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnSendMessage"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownLobbySteamPlayer.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownLobbySteamPlayer.res"
 	}
 			
 	"FlmPlayerFlyoutLeader"
@@ -94,7 +94,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnSendMessage"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownLobbySteamPlayerLeader.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownLobbySteamPlayerLeader.res"
 	}
 			
 	"LblLeaderLine"
@@ -307,7 +307,7 @@
 	}
 	"BtnChangeGameSettings"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnChangeGameSettings"
 		"command"				"ChangeGameSettings"
 		"xpos"					"c-240"		[$WIN32 && $ENGLISH]
@@ -380,7 +380,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -414,7 +414,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnRandom"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownCoopCharacters.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownCoopCharacters.res"
 	}
 	
     "IconCharacterVersus"
@@ -462,7 +462,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -496,7 +496,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnRandom"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownVersusCharacters.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownVersusCharacters.res"
 	}
 	
 	"IconFriends"
@@ -522,7 +522,7 @@
 	}	
 	"BtnInviteFriends"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnInviteFriends"
 		"command"				"InviteUI_Steam"
 		"xpos"					"c-240"		[$WIN32 && $ENGLISH]
@@ -574,7 +574,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -607,7 +607,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnPlayers"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownInviteLive.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownInviteLive.res"
 	}
 	
     "IconPermissions"
@@ -658,7 +658,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -692,7 +692,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnPublic"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownGameAccessTeam.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownGameAccessTeam.res"
 	}
 
     "IconForwardArrow"
@@ -718,7 +718,7 @@
 	}	
 	"BtnStartGame"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnStartGame"
 		"command"				"StartGame"
 		"xpos"					"c-240"		[$WIN32 && $ENGLISH]
@@ -768,7 +768,7 @@
 	}
 	"BtnCancelDedicatedSearch"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancelDedicatedSearch"
 		"command"				"CancelDedicatedSearch"
 		"xpos"					"c-240"		[$WIN32 && $ENGLISH]
@@ -814,7 +814,7 @@
 	}
 	"BtnLeaveLobby" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLeaveLobby"
 		"command"				"LeaveLobby"
 		"xpos"					"c-240" [$ENGLISH]
@@ -875,7 +875,7 @@
 		"labelText"				""
 		"textAlignment"			"south-west"
 		"font"					"ChatFont"
-		"maxchars"				"65536"
+		"maxchars"				"-1"
 		"bgcolor_override"     	"0 0 0 255"
 	}
 
@@ -917,7 +917,7 @@
 	}
 	"BtnVoiceButton" [$WIN32]
 	{
-		"ControlName"		"L4D360HybridButton"
+		"ControlName"		"BaseModHybridButton"
 		"fieldName"			"BtnVoiceButton"
 		"command"			"ToggleVoice"
 		"xpos"				"c-240" [$ENGLISH]

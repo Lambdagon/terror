@@ -36,7 +36,7 @@
 	
 	"BtnEasy"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnEasy"
 		"ypos"					"25"
 		"xpos"					"-31"
@@ -66,7 +66,7 @@
 	
 	"BtnNormal"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnNormal"
 		"ypos"					"50"
 		"xpos"					"-31"
@@ -96,7 +96,7 @@
 	
 	"BtnHard"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnHard"
 		"ypos"					"75"
 		"xpos"					"-31"
@@ -126,7 +126,7 @@
 	
 	"BtnImpossible"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnImpossible"
 		"ypos"					"100"
 		"xpos"					"-31"
@@ -145,7 +145,7 @@
 		"tooltiptext"			"#L4D360UI_Difficulty_Tooltip_Impossible"
 		"disabled_tooltiptext"	"#L4D360UI_Difficulty_Tooltip_Impossible_Disabled"
 		"style"					"DefaultButton"
-		"command"				"Impossible"
+		"command"				"Insane"
 		"proportionalToParent"	"1"
 		"usetitlesafe" 			"1"
 		EnabledTextInsetX		"10"

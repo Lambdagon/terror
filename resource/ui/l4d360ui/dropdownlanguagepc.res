@@ -17,7 +17,7 @@
 	
 	"BtnLanguage0"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage0"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -41,7 +41,7 @@
 
 	"BtnLanguage1"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage1"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -65,7 +65,7 @@
 	
 	"BtnLanguage2"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage2"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -89,7 +89,7 @@
 	
 	"BtnLanguage3"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage3"
 		"xpos"					"0"
 		"ypos"					"60"
@@ -113,7 +113,7 @@
 	
 	"BtnLanguage4"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage4"
 		"xpos"					"0"
 		"ypos"					"80"
@@ -137,7 +137,7 @@
 	
 	"BtnLanguage5"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage5"
 		"xpos"					"0"
 		"ypos"					"100"
@@ -161,7 +161,7 @@
 	
 	"BtnLanguage6"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage6"
 		"xpos"					"0"
 		"ypos"					"120"
@@ -185,7 +185,7 @@
 	
 	"BtnLanguage7"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage7"
 		"xpos"					"0"
 		"ypos"					"140"
@@ -209,7 +209,7 @@
 	
 	"BtnLanguage8"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage8"
 		"xpos"					"0"
 		"ypos"					"160"
@@ -233,7 +233,7 @@
 	
 	"BtnLanguage9"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage9"
 		"xpos"					"0"
 		"ypos"					"180"
@@ -257,7 +257,7 @@
 	
 	"BtnLanguage:"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage:"
 		"xpos"					"0"
 		"ypos"					"200"
@@ -281,7 +281,7 @@
 	
 	"BtnLanguage;"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage;"
 		"xpos"					"0"
 		"ypos"					"220"
@@ -305,7 +305,7 @@
 	
 	"BtnLanguage<"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage<"
 		"xpos"					"0"
 		"ypos"					"240"
@@ -329,7 +329,7 @@
 	
 	"BtnLanguage="
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage="
 		"xpos"					"0"
 		"ypos"					"260"
@@ -353,7 +353,7 @@
 	
 	"BtnLanguage>"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLanguage>"
 		"xpos"					"0"
 		"ypos"					"280"

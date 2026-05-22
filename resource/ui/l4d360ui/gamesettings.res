@@ -7,7 +7,7 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"wide"						"f0"
-		"tall"						"260"
+		"tall"						"f0"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -15,12 +15,27 @@
 		"tabPosition"				"0"
 	}
 	
+	"Title"
+	{
+		"fieldName"		"Title"
+		"xpos"		"c-266"
+		"ypos"		"123"
+		"wide"		"150"
+		"tall"		"19"
+		"zpos"		"5"
+		"font"		"DefaultExtraLarge"
+		"textAlignment"		"west"
+		"ControlName"		"Label"
+		"labelText"		""
+		"fgcolor_override"		"224 224 224 255"
+	}
+	
 	"ImgBackground"
 	{
 		"ControlName"			"L4DMenuBackground"
 		"fieldName"				"ImgBackground"
 		"xpos"					"0"
-		"ypos"					"179"
+		"ypos"					"189"
 		"zpos"					"-1"
 		"wide"					"f0"
 		"tall"					"144"
@@ -38,9 +53,10 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"ImgLevelImage"
 		"xpos"					"c52"
-		"ypos"					"125"
-		"wide"					"200"
+		"ypos"					"173"
+		"wide"					"133"
 		"tall"					"100"
+		"zpos"					"1"
 		"scaleImage"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -51,41 +67,56 @@
 	}
 	"ImgLevelImageFrame"
 	{
-		"ControlName"			"ImagePanel"
+		"ControlName"			"Panel"
 		"fieldName"				"ImgLevelImageFrame"
-		"xpos"					"c45"
-		"ypos"					"113"
-		"wide"					"246"
-		"tall"					"123"
+		"xpos"					"c51"
+		"ypos"					"172"
+		"wide"					"135"
+		"tall"					"102"
 		"scaleImage"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"image"					"campaignFrame"
-		"scaleImage"			"1"
-	}		
+		"bgcolor_override"		"0 0 0 128"
+		//"image"					"campaignFrame"
+		//"scaleImage"			"1"
+	}
+	"MissionLabel"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"MissionLabel"
+		"xpos"					"c45"
+		"ypos"					"280"
+		"wide"					"137"
+		"tall"					"15"
+		"visible"				"0"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"textAlignment"		"west"
+		"fgcolor_override"		"83 148 192 255"
+	}
 	// Campaign dropdown
-	"DrpMission"
+	"DrpGameType"
 	{
 		"ControlName"			"DropDownMenu"
-		"fieldName"				"DrpMission"
+		"fieldName"				"DrpGameType"
 		"xpos"					"c-250"	
-		"ypos"					"115"	
+		"ypos"					"185"	
 		"zpos"					"1"
 		"wide"					"280"	
 		"tall"					"15"			[$WIN32]
 		"tall"					"20"			[$X360]
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"navUp"					"BtnCancel"		[$WIN32]
-		"navUp"					"BtnStartGame"	[$X360]
+		"navUp"					"BtnSelectMission"	[$X360]
 		"navDown"				"DrpChapter"
 		
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -99,50 +130,49 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"labelText"						"#L4D360UI_GameSettings_Mission"
-			"tooltiptext"					"#L4D360UI_GameSettings_Tooltip_Mission"
-			"disabled_tooltiptext"			"#L4D360UI_GameSettings_Tooltip_Mission_Disabled"
+			"labelText"						"#ASUI_GameType"
+			"tooltiptext"					"#ASUI_GameType_tt"
+			"disabled_tooltiptext"			"#ASUI_GameType_tt"
 			"style"							"DropDownButton"
-			"command"						"FlmMission"
+			"command"						"FlmGameType"
 			"ActivationType"				"1" [$X360]
 			"EnableCondition"				"Never" [$DEMO]
 		}
 	}
 	
 	// Campaign flyout	
-	"FlmMission"
+	"FlmGameType"
 	{
 		"ControlName"			"FlyoutMenu"
-		"fieldName"				"FlmMission"
+		"fieldName"				"FlmGameType"
 		"visible"				"0"
 		"wide"					"0"
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMission.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownGameType.res"
 	}
-	
-	// Chapter Dropdown
-	"DrpChapter"
+
+	"DrpSelectMission"
 	{
 		"ControlName"			"DropDownMenu"
-		"fieldName"				"DrpChapter"
+		"fieldName"				"DrpSelectMission"
 		"xpos"					"c-250"	
-		"ypos"					"135"		[$WIN32]
-		"ypos"					"140"		[$X360]
+		"ypos"					"165"			[$WIN32]
+		"ypos"					"165"			[$X360]
 		"zpos"					"1"
 		"wide"					"280"	
-		"tall"					"15"		[$WIN32]
-		"tall"					"20"		[$X360]
+		"tall"					"15"			[$WIN32]
+		"tall"					"20"			[$X360]
 		"visible"				"1"
 		"enabled"				"1"
-		"navUp"					"DrpMission"
+		"navUp"					"DrpGameType"
 		"navDown"				"DrpDifficulty"
 		
-		//button and label
+		// button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -156,27 +186,56 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"labelText"						"#L4D360UI_GameSettings_Chapter"
-			"tooltiptext"					"#L4D360UI_GameSettings_Tooltip_Chapter"
-			"disabled_tooltiptext"			"#L4D360UI_GameSettings_Tooltip_Chapter_Disabled"
+			"labelText"						"#ASUI_Select_Mission"
+			"tooltiptext"					""
+			"disabled_tooltiptext"			""
 			"style"							"DropDownButton"
-			"command"						""
-			"ActivationType"				"1"		[$X360]
-			"EnableCondition"				"Never" [$DEMO]
+			"command"						"cmd_change_mission"
+			"ActivationType"				"1" [$X360]
 		}
 	}
 	
-	//flyouts		
-	"FlmChapterXXautogenerated"
+	// starting mission in a campaign game
+	"DrpStartingMission"
 	{
-		"ControlName"			"FlyoutMenu"
-		"fieldName"				"FlmChapterFlyout"
-		"visible"				"0"
-		"wide"					"0"
-		"tall"					"0"
-		"zpos"					"4"
-		"InitialFocus"			"BtnChapter1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownChapter.res"
+		"ControlName"			"DropDownMenu"
+		"fieldName"				"DrpStartingMission"
+		"xpos"					"c-250"	
+		"ypos"					"185"			[$WIN32]
+		"ypos"					"165"			[$X360]
+		"zpos"					"1"
+		"wide"					"280"	
+		"tall"					"15"			[$WIN32]
+		"tall"					"20"			[$X360]
+		"visible"				"1"
+		"enabled"				"1"
+		"navUp"					"DrpSelectMission"
+		"navDown"				"DrpDifficulty"
+		
+		// button and label
+		"BtnDropButton"
+		{
+			"ControlName"					"BaseModHybridButton"
+			"fieldName"						"BtnDropButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"2"
+			"wide"							"280"
+			"wideatopen"					"160"
+			"tall"							"15"			[$WIN32]
+			"tall"							"20"			[$X360]
+			"autoResize"					"1"
+			"pinCorner"						"0"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"labelText"						"#ASUI_Select_Starting_Mission"
+			"tooltiptext"					""
+			"disabled_tooltiptext"			""
+			"style"							"DropDownButton"
+			"command"						"cmd_change_starting_mission"
+			"ActivationType"				"1" [$X360]
+		}
 	}
 
 	// Difficulty dropdown
@@ -185,7 +244,7 @@
 		"ControlName"			"DropDownMenu"
 		"fieldName"				"DrpDifficulty"
 		"xpos"					"c-250"	
-		"ypos"					"155"			[$WIN32]
+		"ypos"					"215"			[$WIN32]
 		"ypos"					"165"			[$X360]
 		"zpos"					"1"
 		"wide"					"280"	
@@ -193,13 +252,13 @@
 		"tall"					"20"			[$X360]
 		"visible"				"1"
 		"enabled"				"1"
-		"navUp"					"DrpChapter"
-		"navDown"				"DrpCharacter"
+		"navUp"					"BtnSelectMission"
+		"navDown"				"BtnStartGame"
 		
 		// button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -232,31 +291,29 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnNormal"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownDifficulty.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownDifficulty.res"
 	}
 	
-	// Character dropdown
-	"DrpCharacter"
+	"DrpOnslaught"
 	{
 		"ControlName"			"DropDownMenu"
-		"fieldName"				"DrpCharacter"
-		"xpos"					"c-250"		
-		"ypos"					"175"		[$WIN32]	
-		"ypos"					"190"		[$X360]
+		"fieldName"				"DrpOnslaught"
+		"xpos"					"c-250"	
+		"ypos"					"235"			[$WIN32]
+		"ypos"					"165"			[$X360]
 		"zpos"					"1"
-		"wide"					"280"		
-		"tall"					"15"		[$WIN32]
-		"tall"					"20"		[$X360]
-		"visible"				"1"			[!$X360SPLITSCREEN]
-		"visible"				"0"			[$X360SPLITSCREEN]
+		"wide"					"280"	
+		"tall"					"15"			[$WIN32]
+		"tall"					"20"			[$X360]
+		"visible"				"1"
 		"enabled"				"1"
-		"navUp"					"DrpDifficulty"
+		"navUp"					"BtnSelectMission"
 		"navDown"				"BtnStartGame"
 		
-		//button and label
+		// button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -270,35 +327,88 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"labelText"						"#L4D360UI_GameSettings_Character"
-			"tooltiptext"					"#L4D360UI_GameSettings_Tooltip_Character"
-			"disabled_tooltiptext"			"#L4D360UI_GameSettings_Tooltip_Character_Disabled"
+			"labelText"						"#L4D360UI_Onslaught"
+			"tooltiptext"					""
+			"disabled_tooltiptext"			""
 			"style"							"DropDownButton"
-			"command"						"FlmCharacterFlyout"
+			"command"						"FlmOnslaught"
 			"ActivationType"				"1" [$X360]
 		}
 	}
-	
-	// Character flyout		
-	"FlmCharacterFlyout"
+		
+	"FlmOnslaught"
 	{
 		"ControlName"			"FlyoutMenu"
-		"fieldName"				"FlmCharacterFlyout"
+		"fieldName"				"FlmOnslaught"
 		"visible"				"0"
 		"wide"					"0"
 		"tall"					"0"
 		"zpos"					"4"
-		"InitialFocus"			"BtnRandom"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownCharacters.res"
+		"InitialFocus"			"BtnNormal"
+		"ResourceFile"			"resource/UI/basemodui/DropDownOnslaught.res"
+	}
+	
+	"DrpFriendlyFire"
+	{
+		"ControlName"			"DropDownMenu"
+		"fieldName"				"DrpFriendlyFire"
+		"xpos"					"c-250"	
+		"ypos"					"255"			[$WIN32]
+		"ypos"					"165"			[$X360]
+		"zpos"					"1"
+		"wide"					"280"	
+		"tall"					"15"			[$WIN32]
+		"tall"					"20"			[$X360]
+		"visible"				"1"
+		"enabled"				"1"
+		"navUp"					"BtnSelectMission"
+		"navDown"				"BtnStartGame"
+		
+		// button and label
+		"BtnDropButton"
+		{
+			"ControlName"					"BaseModHybridButton"
+			"fieldName"						"BtnDropButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"2"
+			"wide"							"280"
+			"wideatopen"					"160"
+			"tall"							"15"			[$WIN32]
+			"tall"							"20"			[$X360]
+			"autoResize"					"1"
+			"pinCorner"						"0"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"labelText"						"#L4D360UI_FriendlyFire"
+			"tooltiptext"					""
+			"disabled_tooltiptext"			""
+			"style"							"DropDownButton"
+			"command"						"FlmFriendlyFire"
+			"ActivationType"				"1" [$X360]
+		}
+	}
+	
+	"FlmFriendlyFire"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlmFriendlyFire"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"4"
+		"InitialFocus"			"BtnNormal"
+		"ResourceFile"			"resource/UI/basemodui/DropDownFriendlyFire.res"
 	}
 	
 	"IconForwardArrow"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"IconForwardArrow"
-		"xpos"					"c-265"		[$WIN32]
+		"xpos"					"c-245"		[$WIN32]
 		"xpos"					"c-275"		[$X360]	
-		"ypos"					"195"		[$WIN32]	
+		"ypos"					"185"		[$WIN32]	
 		"ypos"					"215"		[$X360]		
 		"wide"					"15"		[$WIN32]	       
 		"wide"					"20"		[$X360]	    
@@ -306,41 +416,137 @@
 		"tall"					"20"		[$X360]    
 		"scaleImage"			"1"
 		"pinCorner"				"0"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"image"					"icon_button_arrow_right"
 		"scaleImage"			"1"
 	}
-	"BtnStartGame"
+	
+	"BtnStart"
 	{
-		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnStartGame"
-		"xpos"					"c-250"		
-		"ypos"					"195"		[$WIN32]	
-		"ypos"					"215"		[$X360]
-		"zpos"					"0"
-		"wide"					"220"
-		"tall"					"15"		[$WIN32]
-		"tall"					"20"		[$X360]
-		"autoResize"			"1"
-		"pinCorner"				"0"
+		"ControlName"			"CNB_Button"
+		"fieldName"				"BtnStart"
+		"xpos"		"c147"
+		"ypos"		"r23"
+		"wide"		"117"
+		"tall"		"27"
+		"zpos"		"1"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"1"
-		"wrap"					"1"
-		"navUp"					"DrpCharacter"
-		"navDown"				"DrpMission"	[$X360]
-		"navDown"				"BtnCancel"		[$WIN32]
+		"tabPosition"			"0"
 		"labelText"				"#L4D360UI_StartGame"
-		"tooltiptext"			"#L4D360UI_GameSettings_Tooltip_StartGame"
-		"disabled_tooltiptext"	"#L4D360UI_GameSettings_Tooltip_StartGame_Disabled"
-		"style"					"DefaultButton"
-		"command"				"Done"
-		EnabledTextInsetX		"2"
-		DisabledTextInsetX		"2"
-		FocusTextInsetX			"2"
-		OpenTextInsetX			"2"
+		"command"				"StartGame"
+		"textAlignment"		"center"
+		"font"		"DefaultMedium"
+		"fgcolor_override"		"113 142 181 255"
+	}
+	
+	"DrpServerType"
+	{
+		"ControlName"			"DropDownMenu"
+		"fieldName"				"DrpServerType"
+		"xpos"					"c-250"
+		"ypos"					"215"			[$WIN32]
+		"ypos"					"210"			[$X360]
+		"zpos"					"1"
+		"wide"					"280"
+		"tall"					"15"			[$WIN32]
+		"tall"					"20"			[$X360]
+		"visible"				"0"				[$WIN32]
+		"visible"				"0"				[$X360]
+		"enabled"				"1"
+		"navUp"					"DrpGameAccess"
+		"navDown"				"BtnStartLobby"
+		
+		//button and label
+		"BtnDropButton"
+		{
+			"ControlName"			"BaseModHybridButton"
+			"fieldName"				"BtnDropButton"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"280"
+			"wideatopen"			"160"
+			"tall"					"15"			[$WIN32]
+			"tall"					"20"			[$X360]
+			"autoResize"			"1"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"#L4D360UI_Lobby_Change_ServerType"
+			"tooltiptext"			"#L4D360UI_Lobby_Change_ServerType_Tip"
+			"style"					"DropDownButton"
+			"command"				"FlmServerType"
+		}
+	}
+	
+	"DrpGameAccess"
+	{
+		"ControlName"			"DropDownMenu"
+		"fieldName"				"DrpGameAccess"
+		"xpos"					"c-250"
+		"ypos"					"285"			[$WIN32]
+		"ypos"					"185"			[$X360]
+		"zpos"					"1"
+		"wide"					"280"
+		"tall"					"15"			[$WIN32]
+		"tall"					"20"			[$X360]
+		"visible"				"1"
+		"enabled"				"1"
+		"navUp"					"DrpDifficulty"
+		"navDown"				"DrpServerType"
+		
+		//button and label
+		"BtnDropButton"
+		{
+			"ControlName"			"BaseModHybridButton"
+			"fieldName"				"BtnDropButton"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"280"
+			"wideatopen"			"160"
+			"tall"					"15"		[$WIN32]
+			"tall"					"20"		[$X360]
+			"autoResize"			"1"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"#L4D360UI_Lobby_Change_GameAccess"
+			"tooltiptext"			"#L4D360UI_Lobby_Change_GameAccess_Tip"
+			"disabled_tooltiptext"	"#L4D360UI_GameSettings_Tooltip_Access_Disabled"
+			"style"					"DropDownButton"
+			"command"				"FlmGameAccess"
+			"ActivationType"		"1" [$X360]
+		}
+	}
+		
+	"FlmGameAccess"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlmGameAccess"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnFriends"
+		"ResourceFile"			"resource/UI/basemodui/DropDownGameAccess.res"
+	}
+		
+	"FlmServerType"
+	{
+		"ControlName"		"FlyoutMenu"
+		"fieldName"			"FlmServerType"
+		"visible"			"0"
+		"wide"				"0"
+		"tall"				"0"
+		"zpos"				"3"
+		"InitialFocus"		"BtnOfficial"
+		"ResourceFile"		"resource/UI/basemodui/DropDownServerType.res"
 	}
 	
 	"IconBackArrow" [$WIN32]
@@ -348,41 +554,33 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"IconBackArrow"
 		"xpos"					"c-265"		
-		"ypos"					"215"
+		"ypos"					"205"
 		"wide"					"15"
 		"tall"					"15"
 		"scaleImage"			"1"
 		"pinCorner"				"0"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"image"					"icon_button_arrow_left"
 		"scaleImage"			"1"
 	}
-	"BtnCancel"	[$WIN32]
+	"BtnCancel" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"CNB_Button"
 		"fieldName"				"BtnCancel"
-		"xpos"					"c-250"		
-		"ypos"					"215"		
-		"zpos"					"0"
-		"wide"					"220"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"0"
+		"xpos"		"c-264"
+		"ypos"		"r23"
+		"wide"		"117"
+		"tall"		"27"
+		"zpos"		"1"
+		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"wrap"					"1"
-		"navUp"					"BtnStartGame"
-		"navDown"				"DrpMission"
-		"labelText"				"#L4D360UI_Back_Caps"
-		"tooltiptext"			"#L4D360UI_Tooltip_Back"
-		"style"					"DefaultButton"
+		"labelText"				"#nb_back"
 		"command"				"Back"
-		EnabledTextInsetX		"2"
-		DisabledTextInsetX		"2"
-		FocusTextInsetX			"2"
-		OpenTextInsetX			"2"
+		"textAlignment"		"center"
+		"font"		"DefaultMedium"
+		"fgcolor_override"		"113 142 181 255"
 	}
 }

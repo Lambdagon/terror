@@ -17,7 +17,7 @@
 
 	"BtnAudioVideo"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAudioVideo"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -40,7 +40,7 @@
 
 	"BtnController"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnController"
 		"xpos"					"0"
 		"ypos"					"20"

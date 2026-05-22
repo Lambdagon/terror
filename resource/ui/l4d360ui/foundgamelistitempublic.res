@@ -108,7 +108,7 @@
 		"enabled"						"1"
 		"tabPosition"					"0"
 		"labelText"						""
-		"Font"							"DefaultMedium"
+		"Font"							"DefaultSmall"
 		"textAlignment"					"west" [$WIN32]
 		"noshortcutsyntax"		"1"
 	}
@@ -122,7 +122,7 @@
 		"xpos"							"155" [$WIN32]
 		"ypos"							"0" [$X360]
 		"ypos"							"2" [$WIN32]
-		"wide"							"200"
+		"wide"							"100"
 		"tall"							"30" [$X360]
 		"tall"							"20" [$WIN32]
 		"autoResize"					"0"
@@ -131,7 +131,25 @@
 		"enabled"						"1"
 		"tabPosition"					"0"
 		"labelText"						""
-		"Font"							"DefaultMedium"
+		"Font"							"DefaultSmall"
+		"textAlignment"					"west" [$WIN32]
+	}
+	
+	"LblSwarmState"
+	{
+		"ControlName"					"Label"
+		"fieldName"						"LblSwarmState"
+		"xpos"							"230" [$WIN32]
+		"ypos"							"2" [$WIN32]
+		"wide"							"100"
+		"tall"							"20" [$WIN32]
+		"autoResize"					"0"
+		"pinCorner"						"0"
+		"visible"						"1"
+		"enabled"						"1"
+		"tabPosition"					"0"
+		"labelText"						""
+		"Font"							"DefaultSmall"
 		"textAlignment"					"west" [$WIN32]
 	}
 	
@@ -153,7 +171,7 @@
 		"enabled"						"1"
 		"tabPosition"					"0"
 		"labelText"						""
-		"Font"							"DefaultMedium"
+		"Font"							"DefaultSmall"
 		"textAlignment"					"west" [$WIN32]
 	}
 	
@@ -175,7 +193,7 @@
 		"enabled"						"1"
 		"tabPosition"					"0"
 		"labelText"						""
-		"Font"							"DefaultMedium"
+		"Font"							"DefaultSmall"
 		"textAlignment"					"west" [$WIN32]
 	}
 		
@@ -187,7 +205,7 @@
 		"ypos"							"3" [$X360]
 		"wide"							"24" [$X360]
 		"tall"							"24" [$X360]
-		"xpos"							"340" [$WIN32]
+		"xpos"							"380" [$WIN32]
 		"ypos"							"4" [$WIN32]
 		"wide"							"32" [$WIN32]
 		"tall"							"16" [$WIN32]

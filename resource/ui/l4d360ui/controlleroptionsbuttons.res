@@ -58,7 +58,7 @@
 	
 	"BtnSpec1"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnSpec1"
 		"xpos"					"c-264"
 		"ypos"					"300"
@@ -86,7 +86,7 @@
 	
 	"BtnSpec2"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnSpec2"
 		"xpos"					"c-132"
 		"ypos"					"300"
@@ -114,7 +114,7 @@
 	
 	"BtnSpec3"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnSpec3"
 		"xpos"					"c0"
 		"ypos"					"300"
@@ -142,7 +142,7 @@
 	
 	"BtnSpec4"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnSpec4"
 		"xpos"					"c132"
 		"ypos"					"300"

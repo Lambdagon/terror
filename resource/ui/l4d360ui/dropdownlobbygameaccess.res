@@ -19,7 +19,7 @@
 
 	"BtnPrivate"	[$X360]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPrivate"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -42,7 +42,7 @@
 	
 	"BtnFriends"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnFriends"
 		"xpos"					"0"
 		"ypos"					"20"	[$X360]
@@ -67,7 +67,7 @@
 	
 	"BtnPublic"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPublic"
 		"xpos"					"0"
 		"ypos"					"40"	[$X360]

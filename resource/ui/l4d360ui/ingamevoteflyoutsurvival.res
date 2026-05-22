@@ -17,7 +17,7 @@
 
 	"BtnReturnToLobby"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnReturnToLobby"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -38,7 +38,7 @@
 			
 	"BtnRestartScenario"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRestartScenario"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -59,7 +59,7 @@
 	
 	"BtnChangeChapter"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnChangeChapter"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -80,7 +80,7 @@
 	
 	"BtnBootPlayer"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnBootPlayer"
 		"xpos"					"0"
 		"ypos"					"60"

@@ -17,7 +17,7 @@
 
 	"BtnHigh"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnHigh"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -40,7 +40,7 @@
 	
 	"BtnMedium"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnMedium"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -63,7 +63,7 @@
 	
 	"BtnLow"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLow"
 		"xpos"					"0"
 		"ypos"					"40"

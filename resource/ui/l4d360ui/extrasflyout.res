@@ -19,7 +19,7 @@
 
 	"BtnCommentary"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCommentary"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -27,10 +27,10 @@
 		"tall"					"20"
 		"autoResize"			"1"
 		"pinCorner"				"0"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"navUp"					"BtnCredits"  [$WIN32]
+		"navUp"					"BtnAddons"  [$WIN32]
 		"navUp"					"BtnCredits" [$X360]
 		"navDown"				"BtnCredits"
 		"tooltiptext"			"#L4D360UI_Extras_Commentary_Tip"
@@ -41,10 +41,10 @@
 
 	"BtnCredits"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCredits"
 		"xpos"					"0"
-		"ypos"					"20"
+		"ypos"					"0"
 		"wide"					"150"
 		"tall"					"20"
 		"autoResize"			"1"
@@ -54,10 +54,32 @@
 		"tabPosition"			"0"
 		"navUp"					"BtnCommentary"
 		"navDown"				"BtnCommentary" [$X360]
-		"navDown"				"BtnCommentary" [$WIN32]
+		"navDown"				"BtnAddons" [$WIN32]
 		"tooltiptext"			"#L4D360UI_Extras_Credits_Tip"
 		"labelText"				"#L4D360UI_Extras_Credits"
 		"style"					"FlyoutMenuButton"
 		"command"				"Credits"
+	}
+
+	"BtnAddons"	[$WIN32]
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnAddons"
+		"xpos"					"0"
+		"ypos"					"20"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"proportionalToParent"	"1"
+		"navUp"					"BtnCredits"
+		"navDown"				"BtnCommentary"
+		"tooltiptext"			"#L4D360UI_Extras_Addons_Tip"
+		"labelText"				"#L4D360UI_Extras_Addons"
+		"style"					"FlyoutMenuButton"
+		"command"				"Addons"
 	}
 }

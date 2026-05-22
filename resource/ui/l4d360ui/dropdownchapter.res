@@ -18,7 +18,7 @@
 
 	"BtnChapter"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnChapter"
 		"xpos"					"0"
 		"ypos"					"0"

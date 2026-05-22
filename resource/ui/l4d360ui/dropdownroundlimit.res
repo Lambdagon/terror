@@ -18,7 +18,7 @@
 
 	"Btn1"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"Btn1"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -40,7 +40,7 @@
 	
 	"Btn3"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"Btn3"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -62,7 +62,7 @@
 	
 	"Btn5"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"Btn5"
 		"xpos"					"0"
 		"ypos"					"40"

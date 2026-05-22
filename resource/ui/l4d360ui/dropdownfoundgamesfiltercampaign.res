@@ -18,7 +18,7 @@
 
 	"BtnAny"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnAny"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -40,7 +40,7 @@
 	
 	"BtnOfficial"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnOfficial"
 		"xpos"				"0"
 		"ypos"				"20"
@@ -62,7 +62,7 @@
 	
 	"BtnAddOn"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnAddOn"
 		"xpos"				"0"
 		"ypos"				"40"
@@ -84,7 +84,7 @@
 
 	"BtnInstalledAddOn"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnInstalledAddOn"
 		"xpos"				"0"
 		"ypos"				"60"
@@ -106,7 +106,7 @@
 
 	"BtnNotInstalledAddOn"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnNotInstalledAddOn"
 		"xpos"				"0"
 		"ypos"				"80"

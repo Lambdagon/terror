@@ -83,7 +83,7 @@
 
 	"BtnPlayer1"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayer1"
 		"ypos"					"55"
 		"xpos"					"15"
@@ -107,7 +107,7 @@
 	
 	"BtnPlayer2"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayer2"
 		"ypos"					"70"
 		"xpos"					"15"
@@ -131,7 +131,7 @@
 	
 	"BtnPlayer3"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayer3"
 		"ypos"					"85"
 		"xpos"					"15"
@@ -155,7 +155,7 @@
 	
 	"BtnCancel"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancel"
 		"ypos"					"110"
 		"xpos"					"15"

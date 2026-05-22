@@ -18,7 +18,7 @@
 
 	"BtnAny"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnAny"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -40,7 +40,7 @@
 	
 	"BtnInLobby"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnInLobby"
 		"xpos"				"0"
 		"ypos"				"20"
@@ -62,7 +62,7 @@
 	
 	"BtnInGame"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnInGame"
 		"xpos"				"0"
 		"ypos"				"40"

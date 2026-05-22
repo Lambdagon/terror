@@ -18,7 +18,7 @@
 
 	"BtnCampaign1"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCampaign1"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -42,7 +42,7 @@
 
 	"BtnCampaign2"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCampaign2"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -65,7 +65,7 @@
 
 	"BtnCampaign3"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCampaign3"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -86,55 +86,55 @@
 		"command"				"cmd_campaign_L4D2C3"
 	}	
 
-	"BtnCampaign4"
-	{
-		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnCampaign4"
-		"xpos"					"0"
-		"ypos"					"60"
-		"wide"					"150"
-		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"wrap"					"1"
-		"navUp"					"BtnCampaign3"
-		"navDown"				"BtnCampaign5"
-		"labelText"				"#L4D360UI_CampaignName_C4"
-		"tooltiptext"			""
-		"disabled_tooltiptext"	""
-		"style"					"FlyoutMenuButton"
-		"command"				"cmd_campaign_L4D2C4"
-	}	
-
-	"BtnCampaign5"
-	{
-		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnCampaign5"
-		"xpos"					"0"
-		"ypos"					"80"
-		"wide"					"150"
-		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"wrap"					"1"
-		"navUp"					"BtnCampaign4"
-		"navDown"				"BtnAny"
-		"labelText"				"#L4D360UI_CampaignName_C5"
-		"tooltiptext"			""
-		"disabled_tooltiptext"	""
-		"style"					"FlyoutMenuButton"
-		"command"				"cmd_campaign_L4D2C5"
-	}
+// 	"BtnCampaign4"
+// 	{
+// 		"ControlName"			"BaseModHybridButton"
+// 		"fieldName"				"BtnCampaign4"
+// 		"xpos"					"0"
+// 		"ypos"					"60"
+// 		"wide"					"150"
+// 		"tall"					"20"
+// 		"autoResize"			"1"
+// 		"pinCorner"				"0"
+// 		"visible"				"1"
+// 		"enabled"				"1"
+// 		"tabPosition"			"0"
+// 		"wrap"					"1"
+// 		"navUp"					"BtnCampaign3"
+// 		"navDown"				"BtnCampaign5"
+// 		"labelText"				"#L4D360UI_CampaignName_C4"
+// 		"tooltiptext"			""
+// 		"disabled_tooltiptext"	""
+// 		"style"					"FlyoutMenuButton"
+// 		"command"				"cmd_campaign_L4D2C4"
+// 	}	
+// 
+// 	"BtnCampaign5"
+// 	{
+// 		"ControlName"			"BaseModHybridButton"
+// 		"fieldName"				"BtnCampaign5"
+// 		"xpos"					"0"
+// 		"ypos"					"80"
+// 		"wide"					"150"
+// 		"tall"					"20"
+// 		"autoResize"			"1"
+// 		"pinCorner"				"0"
+// 		"visible"				"1"
+// 		"enabled"				"1"
+// 		"tabPosition"			"0"
+// 		"wrap"					"1"
+// 		"navUp"					"BtnCampaign4"
+// 		"navDown"				"BtnAny"
+// 		"labelText"				"#L4D360UI_CampaignName_C5"
+// 		"tooltiptext"			""
+// 		"disabled_tooltiptext"	""
+// 		"style"					"FlyoutMenuButton"
+// 		"command"				"cmd_campaign_L4D2C5"
+// 	}
 
 	"BtnAny"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAny"
 		"xpos"					"0"
 		"ypos"					"100"
@@ -158,7 +158,7 @@
 
 	"BtnCampaignCustom" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCampaignCustom"
 		"xpos"					"0"
 		"ypos"					"120"

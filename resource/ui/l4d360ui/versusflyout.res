@@ -19,7 +19,7 @@
 
 	"BtnQuickMatch"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnQuickMatch"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -42,7 +42,7 @@
 	
 	"BtnPlayVersusWithAnyone"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayVersusWithAnyone"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -66,7 +66,7 @@
 	
 	"BtnPlayVersusWithFriends"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayVersusWithFriends"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -89,7 +89,7 @@
 	
 	"BtnPlayVersusWithTeam"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayVersusWithTeam"
 		"xpos"					"0"
 		"ypos"					"60"
@@ -112,7 +112,7 @@
 
 	"BtnPlayOnGroupServer"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayOnGroupServer"
 		"xpos"					"0"
 		"ypos"					"80"

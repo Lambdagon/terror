@@ -86,7 +86,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -120,7 +120,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMission.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMission.res"
 	}
 
 	// Realism flyout	
@@ -133,7 +133,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMission.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMission.res"
 	}
 
 	// Versus flyout	
@@ -146,7 +146,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMissionVersus.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMissionVersus.res"
 	}
 	
 	// Team Versus flyout	
@@ -159,7 +159,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMissionVersus.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMissionVersus.res"
 	}
 	
 	// Survival flyout	
@@ -172,7 +172,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMissionSurvival.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMissionSurvival.res"
 	}
 
 	// Scavenge flyout	
@@ -185,7 +185,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMissionScavenge.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMissionScavenge.res"
 	}
 	
 	// Team Scavenge flyout
@@ -198,7 +198,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMissionScavenge.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMissionScavenge.res"
 	}
 	
 	// Chapter Dropdown
@@ -221,7 +221,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -254,7 +254,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnChapter1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownChapter.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownChapter.res"
 	}
 
 	"IconForwardArrow"
@@ -279,7 +279,7 @@
 	}
 	"BtnSelect"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnSelect"
 		"xpos"					"c-250"
 		"ypos"					"160"			[$WIN32]
@@ -330,7 +330,7 @@
 
 	"BtnCancel"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancel"
 		"xpos"					"c-250"
 		"ypos"					"180"		[$WIN32]

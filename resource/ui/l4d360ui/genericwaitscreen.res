@@ -1,12 +1,19 @@
 "Resource/UI/GenericWaitScreen.res"
 {
+	"LblTitle"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"LblTitle"
+		"fgcolor_override"		"169 213 255 255"
+	}
+	
 	"GenericWaitScreen"
 	{
 		"ControlName"		"Frame"
 		"fieldName"			"GenericWaitScreen"
-		"xpos"				"c-200"
+		"xpos"				"0"
 		"ypos"				"c-92"
-		"wide"				"400"
+		"wide"				"f0"
 		"tall"				"135"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -22,7 +29,7 @@
 		"xpos"					"5"
 		"ypos"					"5"
 		"zpos"					"0"
-		"wide"					"390"
+		"wide"					"f0"
 		"tall"					"90"
 		"autoResize"			"1"
 		"pinCorner"				"0"
@@ -34,6 +41,7 @@
 		"textAlignment"			"center"
 		"Font"					"DefaultLarge"
 		"labelText"				""
+		"fgcolor_override"		"83 148 192 255"
 		//"bgcolor_override"		"96 96 96 128"
 		//"paintbackground"		"1"
 	}	
@@ -53,6 +61,6 @@
 		"tabPosition"			"0"
 		"proportionalToParent"	"1"
 		"scaleImage"			"1"
-		"image"					"common/l4d_spinner"
+		"image"					"common/swarm_cycle"
 	}	
 }

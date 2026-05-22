@@ -17,7 +17,7 @@
 
 	"BtnToggle"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnToggle"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -40,7 +40,7 @@
 	
 	"BtnHold"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnHold"
 		"xpos"					"0"
 		"ypos"					"20"

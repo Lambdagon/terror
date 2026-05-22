@@ -7,12 +7,24 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"448"
-		"autoResize"		"0"
-		"pinCorner"			"0"
+		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
+	}
+	
+	"Title"
+	{
+		"fieldName"		"Title"
+		"xpos"		"c-266"
+		"ypos"		"41"
+		"wide"		"150"
+		"tall"		"19"
+		"zpos"		"5"
+		"font"		"DefaultExtraLarge"
+		"textAlignment"		"west"
+		"ControlName"		"Label"
+		"labelText"		"#GameUI_Audio"
+		"fgcolor_override"		"224 224 224 255"
 	}
 	
 	"ImgBackground" [$WIN32]
@@ -37,7 +49,7 @@
 		"ControlName"			"SliderControl"
 		"fieldName"				"SldGameVolume"
 		"xpos"					"c-180"
-		"ypos"					"110"
+		"ypos"					"70"
 		"zpos"					"3"
 		"wide"					"360"
 		"tall"					"15"
@@ -55,7 +67,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -85,7 +97,7 @@
 		"ControlName"			"SliderControl"
 		"fieldName"				"SldMusicVolume"
 		"xpos"					"c-180"
-		"ypos"					"130"
+		"ypos"					"90"
 		"zpos"					"3"
 		"wide"					"360"
 		"tall"					"15"
@@ -104,7 +116,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -134,7 +146,7 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpSpeakerConfiguration"
 		"xpos"				"c-180"
-		"ypos"				"150"
+		"ypos"				"110"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
@@ -148,7 +160,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -181,7 +193,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHeadphones"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownSpeakerConfiguration.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownSpeakerConfiguration.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -190,7 +202,7 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpSoundQuality"
 		"xpos"				"c-180"
-		"ypos"				"170"
+		"ypos"				"130"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
@@ -204,7 +216,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -237,7 +249,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHigh"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownSoundQuality.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownSoundQuality.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -246,7 +258,7 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpCaptioning"
 		"xpos"				"c-180"
-		"ypos"				"190"
+		"ypos"				"150"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
@@ -260,7 +272,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -294,7 +306,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownCaption.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownCaption.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -303,12 +315,12 @@
 		"ControlName"			"DropDownMenu"
 		"fieldName"				"DrpLanguage"
 		"xpos"					"c-180"
-		"ypos"					"210"
+		"ypos"					"170"
 		"zpos"					"3"
 		"wide"					"360"
 		"tall"					"15"
-		"visible"				"0"
-		"enabled"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 		"usetitlesafe"			"0"
 		"tabPosition"			"0"
 		"navUp"					"DrpCaptioning"
@@ -317,7 +329,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -327,8 +339,8 @@
 			"tall"						"15"
 			"autoResize"				"1"
 			"pinCorner"					"0"
-			"visible"					"0"
-			"enabled"					"0"
+			"visible"					"1"
+			"enabled"					"1"
 			"tabPosition"				"1"
 			"AllCaps"					"1"
 			"labelText"					"#GAMEUI_AudioSpokenLanguage"
@@ -351,7 +363,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOtherLanguage"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownLanguagePC.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownLanguagePC.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -360,7 +372,7 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpVoiceCommunication"
 		"xpos"				"c-180"
-		"ypos"				"230"
+		"ypos"				"190"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
@@ -374,7 +386,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -407,7 +419,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownVoiceCommunication.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownVoiceCommunication.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -416,7 +428,7 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpVoiceCommunicationStyle"
 		"xpos"				"c-180"
-		"ypos"				"250"
+		"ypos"				"210"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
@@ -430,7 +442,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -464,7 +476,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownVoiceCommunicationStyle.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownVoiceCommunicationStyle.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -473,7 +485,7 @@
 		"ControlName"			"SliderControl"
 		"fieldName"				"SldVoiceVoxThreshold"
 		"xpos"					"c-180"
-		"ypos"					"270"
+		"ypos"					"230"
 		"zpos"					"3"
 		"wide"					"360"
 		"tall"					"15"
@@ -491,7 +503,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -521,7 +533,7 @@
 		"ControlName"			"SliderControl"
 		"fieldName"				"SldVoiceTransmitVolume"
 		"xpos"					"c-180"
-		"ypos"					"290"
+		"ypos"					"250"
 		"zpos"					"3"
 		"wide"					"360"
 		"tall"					"15"
@@ -539,7 +551,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -569,7 +581,7 @@
 		"ControlName"			"SliderControl"
 		"fieldName"				"SldVoiceReceiveVolume"
 		"xpos"					"c-180"
-		"ypos"					"310"
+		"ypos"					"270"
 		"zpos"					"3"
 		"wide"					"360"
 		"tall"					"15"
@@ -587,7 +599,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -617,12 +629,11 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpBoostMicrophone"
 		"xpos"				"c-180"
-		"ypos"				"330"
+		"ypos"				"290"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1" [!$OSX]
-		"visible"			"0" [$OSX]
+		"visible"			"1"
 		"enabled"			"1"
 		"usetitlesafe"		"0"
 		"tabPosition"		"0"
@@ -632,7 +643,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -657,7 +668,7 @@
 	}
 
 	//flyouts		
-	"FlmBoostMicrophone" 
+	"FlmBoostMicrophone"
 	{
 		"ControlName"			"FlyoutMenu"
 		"fieldName"				"FlmBoostMicrophone"
@@ -666,16 +677,16 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownBoostMicrophone.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownBoostMicrophone.res"
 		"OnlyActiveUser"		"1"
 	}
 	
 	"BtnTestMicrophone"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnTestMicrophone"
 		"xpos"					"c-180"
-		"ypos"					"350"
+		"ypos"					"310"
 		"zpos"					"0"
 		"wide"					"200"
 		"tall"					"15"
@@ -704,7 +715,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"MicMeter"
 		"xpos"				"c107"
-		"ypos"				"347"
+		"ypos"				"312"
 		"wide"				"64"
 		"tall"				"16"
 		"autoResize"		"0"
@@ -724,7 +735,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"MicMeter2"
 		"xpos"				"c107"
-		"ypos"				"347"
+		"ypos"				"312"
 		"wide"				"64"
 		"tall"				"16"
 		"autoResize"		"0"
@@ -743,7 +754,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"MicMeterIndicator"
 		"xpos"				"c107"
-		"ypos"				"347"
+		"ypos"				"312"
 		"wide"				"16"
 		"tall"				"16"
 		"autoResize"		"0"
@@ -757,14 +768,42 @@
 		"barSpacing"		"8"
 	}
 	
-	"BtnCancel"
+// 	"BtnCancel"
+// 	{
+// 		"ControlName"			"BaseModHybridButton"
+// 		"fieldName"				"BtnCancel"
+// 		"xpos"					"c-180"
+// 		"ypos"					"370"
+// 		"zpos"					"0"
+// 		"wide"					"200"
+// 		"tall"					"15"
+// 		"autoResize"			"1"
+// 		"pinCorner"				"0"
+// 		"visible"				"1"
+// 		"enabled"				"1"
+// 		"tabPosition"			"0"
+// 		"wrap"					"1"
+// 		"navUp"					"BtnTestMicrophone"
+// 		"navDown"				"Btn3rdPartyCredits"
+// 		"AllCaps"				"1"
+// 		"labelText"				"#L4D360UI_Done"
+// 		"tooltiptext"			"#L4D360UI_Tooltip_Back"
+// 		"style"					"RedButton"
+// 		"command"				"Back"
+// 		EnabledTextInsetX		"2"
+// 		DisabledTextInsetX		"2"
+// 		FocusTextInsetX			"2"
+// 		OpenTextInsetX			"2"
+// 	}
+
+	"BtnJukebox"
 	{
-		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnCancel"
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnJukebox"
 		"xpos"					"c-180"
-		"ypos"					"370"
+		"ypos"					"330"
 		"zpos"					"0"
-		"wide"					"200"
+		"wide"					"280"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"0"
@@ -772,13 +811,14 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
-		"navUp"					"BtnTestMicrophone"
-		"navDown"				"Btn3rdPartyCredits"
+		"navUp"					"BtnCancel"
+		"navDown"				"SldGameVolume"
 		"AllCaps"				"1"
-		"labelText"				"#L4D360UI_Done"
-		"tooltiptext"			"#L4D360UI_Tooltip_Back"
-		"style"					"RedButton"
-		"command"				"Back"
+		"labelText"				"#GameUI_Jukebox"
+		"tooltiptext"			"#GameUI_Jukebox"
+		"style"					"DefaultButton"
+		"command"				"Jukebox"
+		"textAlignment"			"west"
 		EnabledTextInsetX		"2"
 		DisabledTextInsetX		"2"
 		FocusTextInsetX			"2"
@@ -787,10 +827,10 @@
 		
 	"Btn3rdPartyCredits"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"Btn3rdPartyCredits"
 		"xpos"					"c-140"
-		"ypos"					"410"
+		"ypos"					"370"
 		"zpos"					"0"
 		"wide"					"280"
 		"tall"					"15"
@@ -811,5 +851,24 @@
 		DisabledTextInsetX		"2"
 		FocusTextInsetX			"2"
 		OpenTextInsetX			"2"
+	}
+	
+	"BtnDone" [$WIN32]
+	{
+		"ControlName"			"CNB_Button"
+		"fieldName"				"BtnDone"
+		"xpos"		"c-264"
+		"ypos"		"r23"
+		"wide"		"117"
+		"tall"		"27"
+		"zpos"		"1"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#L4D360UI_Done_Caps"
+		"command"				"Back"
+		"textAlignment"		"center"
+		"font"		"DefaultMedium"
+		"fgcolor_override"		"113 142 181 255"
 	}
 }

@@ -17,7 +17,7 @@
 
 	"BtnNormal"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnNormal"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -40,7 +40,7 @@
 	
 	"BtnInverted"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnInverted"
 		"xpos"					"0"
 		"ypos"					"20"

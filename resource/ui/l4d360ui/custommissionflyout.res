@@ -2,7 +2,7 @@
 {
 	"BtnPlayCoopWithFriends"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayCoopWithFriends"
 		"xpos"					"2"
 		"ypos"					"2"
@@ -27,7 +27,7 @@
 	
 	"BtnPlayCoopWithAnyone"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayCoopWithAnyone"
 		"xpos"					"2"
 		"ypos"					"22"
@@ -52,7 +52,7 @@
 	
 	"BtnPlaySystemLink"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlaySystemLink"
 		"xpos"					"2"
 		"ypos"					"44"
@@ -78,7 +78,7 @@
 		
 	"BtnPlaySolo"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlaySolo"
 		"xpos"					"2"
 		"ypos"					"66"

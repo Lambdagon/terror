@@ -121,7 +121,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"scaleImage"			"1"
-		"image"					"common/l4d_spinner"
+		"image"					"common/swarm_cycle"
 	}
 		
 	// Column headers
@@ -525,7 +525,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -557,7 +557,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHospital"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMissionSurvival.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMissionSurvival.res"
 	}
 	
 	// Chapter Dropdown
@@ -578,7 +578,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -610,7 +610,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnChapter1"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownChapter.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownChapter.res"
 	}
 
 	"IconForwardArrow" [$WIN32]
@@ -632,7 +632,7 @@
 
 	"BtnFindServer" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnFindServer"
 		"command"				"FindGameForThisChapter"
 		"xpos"					"c-265"
@@ -673,7 +673,7 @@
 	
 	"BtnExit" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnExit"
 		"command"				"Exit"
 		"xpos"					"c-265"
@@ -701,7 +701,7 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnSendMessage"
-		"ResourceFile"		"resource/UI/L4D360UI/DropDownFoundGamesPlayer.res"
+		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesPlayer.res"
 	}
 	
 	"FlmPlayerFlyout_NotFriend" [$WIN32]
@@ -713,6 +713,6 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnViewSteamID"
-		"ResourceFile"		"resource/UI/L4D360UI/DropDownFoundGamesPlayer_NotFriend.res"
+		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesPlayer_NotFriend.res"
 	}
 }

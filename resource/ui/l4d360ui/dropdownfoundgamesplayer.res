@@ -17,7 +17,7 @@
 
 	"BtnSendMessage"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnSendMessage"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -39,7 +39,7 @@
 	
 	"BtnViewSteamID"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnViewSteamID"
 		"xpos"				"0"
 		"ypos"				"20"

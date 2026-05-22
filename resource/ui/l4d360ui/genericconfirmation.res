@@ -14,6 +14,24 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"title_xpos"		"10000"
+		
+		"paintbackground"	"0"
+		"alpha"				"255"
+	}
+	
+	"PnlBackgroundConfirm"
+	{
+		"ControlName"		"Panel"
+		"fieldName"			"PnlBackgroundConfirm"
+		"xpos"				"0"
+		"ypos"				"105"
+		"zpos"				"-1"
+		"wide"				"f0"
+		"tall"				"260"
+		"visible"			"1"			[$WIN32]
+		"visible"			"0"			[$X360]
+		"enabled"			"1"
+		"fillColor"			"255 25 255 255"
 	}
 
 	"LblMessage"
@@ -30,7 +48,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"Font"					"DefaultLarge"
+		"Font"					"TitleFont"
 		"wrap"					"1"
 	}
 
@@ -44,7 +62,7 @@
 		"tall"					"15"
 		"scaleImage"			"1"
 		"pinCorner"				"0"
-		"visible"				"0"
+		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"image"					"icon_button_arrow_right"
@@ -90,7 +108,7 @@
 
 	"BtnOK"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnOK"
 		"xpos"					"110"
 		"ypos"					"260"
@@ -104,8 +122,8 @@
 		"wrap"					"1"
 		"tabPosition"			"0"
 		"AllCaps"				"1"
-		"labelText"				"#L4D_btn_OK"
-		"style"					"MainMenuSmallButton"
+		"labelText"				"#GameUI_OK"
+		"style"					"AlienSwarmMenuButtonSmall"
 		"textAlignment"			"center"
 		"command"				"OK"
 		"proportionalToParent"	"1"
@@ -152,8 +170,8 @@
 		"tabPosition"			"0"
 		"wrap"					"1"
 		"AllCaps"				"1"
-		"labelText"				"#L4D_btn_cancel"
-		"style"					"MainMenuSmallButton"
+		"labelText"				"#GameUI_Cancel"
+		"style"					"AlienSwarmMenuButtonSmall"
 		"textAlignment"			"center"
 		"command"				"cancel"
 		"proportionalToParent"	"1"

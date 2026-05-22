@@ -36,7 +36,7 @@
 	
 	"BtnHospital"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnHospital"
 		"ypos"					"40"
 		"xpos"					"-31"
@@ -66,7 +66,7 @@
 	
 	"BtnAirport"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAirport"
 		"ypos"					"65"
 		"xpos"					"-31"
@@ -96,7 +96,7 @@
 	
 	"BtnFarm"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnFarm"
 		"ypos"					"90"
 		"xpos"					"-31"
@@ -126,7 +126,7 @@
 	
 	"BtnSmallTown"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnSmallTown"
 		"ypos"					"115"
 		"xpos"					"-31"

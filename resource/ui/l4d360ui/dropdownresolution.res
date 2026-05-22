@@ -17,7 +17,7 @@
 	
 	"BtnRes0"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes0"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -41,7 +41,7 @@
 
 	"BtnRes1"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes1"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -65,7 +65,7 @@
 	
 	"BtnRes2"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes2"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -89,7 +89,7 @@
 	
 	"BtnRes3"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes3"
 		"xpos"					"0"
 		"ypos"					"60"
@@ -113,7 +113,7 @@
 	
 	"BtnRes4"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes4"
 		"xpos"					"0"
 		"ypos"					"80"
@@ -137,7 +137,7 @@
 	
 	"BtnRes5"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes5"
 		"xpos"					"0"
 		"ypos"					"100"
@@ -161,7 +161,7 @@
 	
 	"BtnRes6"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes6"
 		"xpos"					"0"
 		"ypos"					"120"
@@ -185,7 +185,7 @@
 	
 	"BtnRes7"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes7"
 		"xpos"					"0"
 		"ypos"					"140"
@@ -209,7 +209,7 @@
 	
 	"BtnRes8"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes8"
 		"xpos"					"0"
 		"ypos"					"160"
@@ -233,7 +233,7 @@
 	
 	"BtnRes9"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes9"
 		"xpos"					"0"
 		"ypos"					"180"
@@ -257,7 +257,7 @@
 	
 	"BtnRes:"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes:"
 		"xpos"					"0"
 		"ypos"					"200"
@@ -281,7 +281,7 @@
 	
 	"BtnRes;"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes;"
 		"xpos"					"0"
 		"ypos"					"220"
@@ -305,7 +305,7 @@
 	
 	"BtnRes<"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes<"
 		"xpos"					"0"
 		"ypos"					"240"
@@ -329,7 +329,7 @@
 	
 	"BtnRes="
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes="
 		"xpos"					"0"
 		"ypos"					"260"
@@ -353,7 +353,7 @@
 	
 	"BtnRes>"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRes>"
 		"xpos"					"0"
 		"ypos"					"280"

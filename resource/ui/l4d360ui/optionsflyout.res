@@ -9,7 +9,7 @@
 		"zpos"				"-1"
 		"wide"				"156"
 		"tall"				"65" [$X360]
-		"tall"				"125" [$WIN32]
+		"tall"				"145" [$WIN32]
 		"visible"			"1"
 		"enabled"			"1"
 		"paintbackground"	"1"
@@ -18,7 +18,7 @@
 
 	"BtnAudioVideo"	[$X360]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAudioVideo"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -40,7 +40,7 @@
 	
 	"BtnController"	[$X360]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnController"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -63,7 +63,7 @@
 
 	"BtnStorage"	[$X360]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnStorage"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -87,7 +87,7 @@
 	
 	"BtnVideo"	[$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnVideo"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -108,7 +108,7 @@
 	
 	"BtnBrightness"	[$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnBrightness"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -130,7 +130,7 @@
 	
 	"BtnAudio"	[$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAudio"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -142,17 +142,17 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"navUp"					"BtnBrightness"
-		"navDown"				"BtnSteamController"
+		"navDown"				"BtnController"
 		"tooltiptext"			"#L4D_audio_tip"
 		"labelText"				"#GameUI_Audio"
 		"style"					"FlyoutMenuButton"
 		"command"				"Audio"
 	}
 	
-	"BtnSteamController"	[$WIN32]
+	"BtnController"	[$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnSteamController"
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnController"
 		"xpos"					"0"
 		"ypos"					"60"
 		"wide"					"150"
@@ -162,29 +162,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"navUp"					"BtnAudio"
-		"navDown"				"BtnController"
-		"tooltiptext"			"#L4D_keyboard_tip"
-		"labelText"				"#GameUI_SteamController"
-		"style"					"FlyoutMenuButton"
-		"command"				"SteamController"
-	}
-	
-	"BtnController"	[$WIN32]
-	{
-		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnController"
-		"xpos"					"0"
-		"ypos"					"80"
-		"wide"					"150"
-		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
 		"proportionalToParent"	"1"
-		"navUp"					"BtnSteamController"
+		"navUp"					"BtnAudio"
 		"navDown"				"BtnMultiplayer"
 		"tooltiptext"			"#L4D_keyboard_tip"
 		"labelText"				"#L4D360UI_KeyboardMouse"
@@ -194,10 +173,10 @@
 	
 	"BtnMultiplayer"	[$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnMultiplayer"
 		"xpos"					"0"
-		"ypos"					"100"
+		"ypos"					"80"
 		"wide"					"150"
 		"tall"					"20"
 		"autoResize"			"1"
@@ -216,10 +195,10 @@
 	
 	"BtnCloud"	[$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCloud"
 		"xpos"					"0"
-		"ypos"					"120"
+		"ypos"					"100"
 		"wide"					"150"
 		"tall"					"20"
 		"autoResize"			"1"
@@ -235,5 +214,27 @@
 		"labelText"				"#L4D360UI_Cloud_Title"
 		"style"					"FlyoutMenuButton"
 		"command"				"CloudSettings"
+	}
+	
+	"BtnAddons"	[$WIN32]
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnAddons"
+		"xpos"					"0"
+		"ypos"					"120"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"proportionalToParent"	"1"
+		"navUp"					"BtnCredits"
+		"navDown"				"BtnCommentary"
+		"tooltiptext"			"#L4D360UI_Extras_Addons_Tip"
+		"labelText"				"#L4D360UI_Extras_Addons"
+		"style"					"FlyoutMenuButton"
+		"command"				"Addons"
 	}
 }

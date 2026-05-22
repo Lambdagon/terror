@@ -19,7 +19,7 @@
 
 	"BtnGambler"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnGambler"
 		"xpos"					"80"
 		"ypos"					"0"
@@ -42,7 +42,7 @@
 	
 	"BtnProducer"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnProducer"
 		"xpos"					"80"
 		"ypos"					"20"
@@ -65,7 +65,7 @@
 	
 	"BtnCoach"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCoach"
 		"xpos"					"80"
 		"ypos"					"40"
@@ -88,7 +88,7 @@
 		
 	"BtnMechanic"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnMechanic"
 		"xpos"					"80"
 		"ypos"					"60"
@@ -111,7 +111,7 @@
 	
 	"BtnRandom"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnRandom"
 		"xpos"					"80"
 		"ypos"					"80"

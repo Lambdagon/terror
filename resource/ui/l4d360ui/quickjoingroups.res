@@ -1,8 +1,8 @@
-"Resource/UI/L4D360UI/QuickJoinGroups.res"
+"Resource/UI/basemodui/QuickJoinGroups.res"
 {
 	"LblTitle"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"LblTitle"
 		"xpos"					"21"
 		"ypos"					"0"
@@ -19,7 +19,7 @@
 		"Font"					"DefaultMedium"
 		"fgcolor_override"		"255 255 255 255"
 		
-		"style"						"MainMenuSmallButton"
+		"style"						"AlienSwarmMenuButtonSmall"
 		"command"					"GroupServer_"
 		"ActivationType"			"1"				
 		"FocusDisabledBorderSize"	"1"				

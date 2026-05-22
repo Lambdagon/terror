@@ -103,7 +103,7 @@
 	
 		"BtnPlayerName"
 		{
-			"ControlName"		"L4D360HybridButton"
+			"ControlName"		"BaseModHybridButton"
 			"fieldName"			"BtnPlayerName"
 			"xpos"				"0"
 			"ypos" 				"0"

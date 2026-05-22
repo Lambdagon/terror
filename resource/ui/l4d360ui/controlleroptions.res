@@ -17,7 +17,7 @@
 		
 	"BtnEditButtons"
 	{
-		"ControlName"				"L4D360HybridButton"
+		"ControlName"				"BaseModHybridButton"
 		"fieldName"					"BtnEditButtons"
 		"xpos"						"c-180"
 		"ypos"						"110"
@@ -42,7 +42,7 @@
 		
 	"BtnEditSticks"
 	{
-		"ControlName"				"L4D360HybridButton"
+		"ControlName"				"BaseModHybridButton"
 		"fieldName"					"BtnEditSticks"
 		"xpos"						"c-180"
 		"ypos"						"135"
@@ -80,7 +80,7 @@
 		"minValue"				"-3.05"
 		"maxValue"				"-0.55"
 		"inverseFill"			"1"
-		"stepSize"				"0.125"
+		"stepSize"				"0.25"
 		"navUp"					"BtnEditSticks"
 		"navDown"				"SldHorizSens"
 		"conCommand"			"joy_pitchsensitivity"
@@ -90,7 +90,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -125,8 +125,8 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"minValue"				"-3.0"
-		"maxValue"				"-0.5"
-		"stepSize"				"0.125"
+		"maxValue"				"-1.0"
+		"stepSize"				"0.25"
 		"inverseFill"			"1"
 		"navUp"					"SldVertSens"
 		"navDown"				"DrpLookType"
@@ -137,7 +137,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -177,7 +177,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -217,7 +217,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -241,7 +241,7 @@
 	
 	"BtnDefaults"
 	{
-		"ControlName"				"L4D360HybridButton"
+		"ControlName"				"BaseModHybridButton"
 		"fieldName"					"BtnDefaults"
 		"xpos"						"c-180"
 		"ypos"						"260"
@@ -275,7 +275,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnEnglish"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownLookType.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownLookType.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -288,7 +288,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnEnglish"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownDuckMode.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownDuckMode.res"
 		"OnlyActiveUser"		"1"
 	}
 }

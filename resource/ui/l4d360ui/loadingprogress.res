@@ -1,5 +1,7 @@
 "Resource/UI/Downloads.res"
 {
+	// Srcbox has this modified to revert things back to Orangebox's GameUI Loading.
+	// Make dynamic later on instead of whatever this is. can be in the ui code or somehow swapping the stuff from res in code directly.
 	"LoadingProgress"
 	{	
 		"ControlName"			"Frame"
@@ -19,16 +21,10 @@
 	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ProTotalProgress"
-		"xpos"					"r158" [$WIN32]
-		"xpos"					"r158" [$X360HIDEF]
-		"xpos"					"r140" [$X360LODEF]
-		"ypos"					"r45"
-		"wide"					"135" [$WIN32]
-		"wide"					"135" [$X360HIDEF]
-		"wide"					"120" [$X360LODEF]
-		"tall"					"33" [$WIN32]
-		"tall"					"33" [$X360HIDEF]	// texture is 4:1 w:h ratio
-		"tall"					"30" [$X360LODEF]
+		"xpos"					"345" [$WIN32]
+		"ypos"					"411" [$WIN32]
+		"wide"					"170" [$WIN32]
+		"tall"					"10" [$WIN32]
 		"zpos"					"5"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -42,16 +38,16 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"WorkingAnim"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"315"
+		"ypos"					"411"
 		"zpos"					"5"
 		"wide"					"40"
 		"tall"					"40"
-		"visible"				"0"
+		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"scaleImage"			"1"
-		"image"					"common/l4d_spinner"
+		"image"					"ico_box"
 		"frame"					"0"
 	}	
 	
@@ -59,21 +55,20 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"LoadingText"
-		"xpos"					"r223" [$WIN32]
-		"xpos"					"r223" [$X360HIDEF]
-		"xpos"					"r220" [$X360LODEF]
-		"ypos"					"r55"
+		"xpos"					"348" [$WIN32]
+		"ypos"					"392" [$WIN32]
 		"zpos"					"5"
-		"wide"					"200"
+		"wide"					"80"
 		"tall"					"20"
 		"autoResize"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"Font"					"DefaultBold"
-		"labelText"				"#L4D360UI_Loading"
-		"textAlignment"			"east"
+		"Font"					"DefaultVerySmall"
+		"labelText"				"LOADING..."
+		//"labelText"				"#L4D360UI_Loading"
+		//"textAlignment"			"east"
 		"usetitlesafe"			"1"
 	}	
 	
@@ -187,7 +182,8 @@
 		"tabPosition"				"0"
 		"Font"					"DefaultMedium"
 		"textAlignment"				"north-west"
-		"labelText"				"#L4D360UI_Loading_Starring"
+		"labelText"				""
+		//"labelText"				"#L4D360UI_Loading_Starring"
 		"noshortcutsyntax"			"1"
 		"usetitlesafe"				"1"
 		"auto_wide_tocontents"			"1"

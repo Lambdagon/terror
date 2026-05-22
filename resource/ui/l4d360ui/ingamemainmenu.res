@@ -13,12 +13,13 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
+		"setclosebuttonvisible" "0"
 		"PaintBackgroundType"	"0"
 	}
 	
 	"PnlBackground"
 	{
-		"ControlName"		"L4DMenuBackground"
+		"ControlName"		"Panel"
 		"fieldName"			"PnlBackground"
 		"xpos"				"0"
 		"ypos"				"105"
@@ -28,12 +29,12 @@
 		"visible"			"1"			[$WIN32]
 		"visible"			"0"			[$X360]
 		"enabled"			"1"
-		"fillColor"			"0 0 0 0"
+		"fillColor"			"0 0 0 255"
 	}
 			
 	"BtnReturnToGame"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnReturnToGame"
 		"xpos"					"100"
 		"ypos"					"135"
@@ -56,7 +57,7 @@
 
 	"BtnGoIdle"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnGoIdle"
 		"xpos"					"100"
 		"ypos"					"160"
@@ -70,17 +71,19 @@
 		"tabPosition"			"1"
 		"navUp"					"BtnReturnToGame"
 		"navDown"				"BtnCallAVote"
-		"labelText"				"#L4D360UI_InGameMainMenu_GoIdle"
-		"tooltiptext"			"#L4D360UI_InGameMainMenu_GoIdle_Tip"
+		//"labelText"			"#L4D360UI_InGameMainMenu_GoIdle"
+		"labelText"				"#srcbox_singleplayer_menu_gmm"
+		//"tooltiptext"			"#L4D360UI_InGameMainMenu_GoIdle_Tip"
+		"tooltiptext"			"#srcbox_singleplayer_menu_gmm_Tip"
 		"disabled_tooltiptext"	"#L4D360UI_InGameMainMenu_GoIdle_Disabled"
 		"style"					"MainMenuButton"
-		"command"				"GoIdle"
+		"command"				"Srcbox_Singleplayer_Menu"
 		"ActivationType"		"1"
 	}
 
 	"BtnCallAVote"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCallAVote"
 		"xpos"					"100"
 		"ypos"					"185"
@@ -104,7 +107,7 @@
 
 	"BtnInviteFriends"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnInviteFriends"
 		"xpos"					"100"
 		"ypos"					"210"
@@ -141,7 +144,7 @@
 	
 	"BtnLeaderboard"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLeaderboard"
 		"xpos"					"100"
 		"ypos"					"235"
@@ -164,7 +167,7 @@
 	
 	"BtnStatsAndAchievements"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnStatsAndAchievements"
 		"xpos"					"100"
 		"ypos"					"260"
@@ -190,7 +193,7 @@
 
 	"BtnOptions"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnOptions"
 		"xpos"					"100"
 		"ypos"					"285"
@@ -213,7 +216,7 @@
 
 	"BtnExitToMainMenu"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnExitToMainMenu"
 		"xpos"					"100"
 		"ypos"					"322"
@@ -244,8 +247,8 @@
 		"zpos"					"3"
 		"InitialFocus"			"BtnVideo" [$WIN32]
 		"InitialFocus"			"BtnAudioVideo" [$X360]
-		"ResourceFile"			"resource/UI/L4D360UI/OptionsFlyout.res"		[$WIN32]
-		"ResourceFile"			"resource/UI/L4D360UI/OptionsFlyoutIngame.res"	[$X360]
+		"ResourceFile"			"resource/UI/basemodui/OptionsFlyout.res"		[$WIN32]
+		"ResourceFile"			"resource/UI/basemodui/OptionsFlyoutIngame.res"	[$X360]
 	}
 	
 	"FlmOptionsGuestFlyout"
@@ -257,7 +260,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnAudioVideo"
-		"ResourceFile"			"resource/UI/L4D360UI/OptionsGuestFlyout.res"
+		"ResourceFile"			"resource/UI/basemodui/OptionsGuestFlyout.res"
 	}
 
 	"FlmVoteFlyout"
@@ -269,7 +272,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnReturnToLobby"
-		"ResourceFile"			"resource/UI/L4D360UI/InGameVoteFlyout.res"
+		"ResourceFile"			"resource/UI/basemodui/InGameVoteFlyout.res"
 	}
 	
 	"FlmVoteFlyoutVersus"
@@ -281,7 +284,7 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnReturnToLobby"
-		"ResourceFile"		"resource/UI/L4D360UI/InGameVoteFlyoutVersus.res"
+		"ResourceFile"		"resource/UI/basemodui/InGameVoteFlyoutVersus.res"
 	}
 	
 	"FlmVoteFlyoutSurvival"
@@ -293,6 +296,6 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnReturnToLobby"
-		"ResourceFile"		"resource/UI/L4D360UI/InGameVoteFlyoutSurvival.res"
+		"ResourceFile"		"resource/UI/basemodui/InGameVoteFlyoutSurvival.res"
 	}
 }

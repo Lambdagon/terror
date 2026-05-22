@@ -2,7 +2,7 @@
 {
 	"BtnDropButton"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnDropButton"
 		"xpos"					"0"
 		"ypos"					"0"

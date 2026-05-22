@@ -19,7 +19,7 @@
 
 	"BtnCommunity"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCommunity"
 		"xpos"					"0"
 		"ypos"					"0"		[$WIN32]
@@ -43,7 +43,7 @@
 
 	"BtnCommentary"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCommentary"
 		"xpos"					"0"
 		"ypos"					"0"		[$WIN32]
@@ -65,7 +65,7 @@
 
 	"BtnCredits"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCredits"
 		"xpos"					"0"
 		"ypos"					"20"	[$WIN32]
@@ -87,7 +87,7 @@
 
 	"BtnAddons"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAddons"
 		"xpos"					"0"
 		"ypos"					"40"	[$WIN32]

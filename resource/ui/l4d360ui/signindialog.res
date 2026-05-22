@@ -49,7 +49,7 @@
 
 	"BtnSignin"
 	{
-		"ControlName"		"L4D360HybridButton"
+		"ControlName"		"BaseModHybridButton"
 		"fieldName"			"BtnSignin"
 		"xpos"				"75"
 		"ypos"				"60"
@@ -70,7 +70,7 @@
 
 	"BtnPlay"
 	{
-		"ControlName"		"L4D360HybridButton"
+		"ControlName"		"BaseModHybridButton"
 		"fieldName"			"BtnPlay"
 		"xpos"				"75"
 		"ypos"				"60"
@@ -91,7 +91,7 @@
 
 	"BtnPlaySplitscreen"
 	{
-		"ControlName"		"L4D360HybridButton"
+		"ControlName"		"BaseModHybridButton"
 		"fieldName"			"BtnPlaySplitscreen"
 		"xpos"				"75"
 		"ypos"				"85"
@@ -112,7 +112,7 @@
 
 	"BtnPlayAsGuest"
 	{
-		"ControlName"		"L4D360HybridButton"
+		"ControlName"		"BaseModHybridButton"
 		"fieldName"			"BtnPlayAsGuest"
 		"xpos"				"75"
 		"ypos"				"85"
@@ -133,7 +133,7 @@
 
 	"BtnCancelSignIn"
 	{
-		"ControlName"		"L4D360HybridButton"
+		"ControlName"		"BaseModHybridButton"
 		"fieldName"			"BtnCancelSignIn"
 		"xpos"				"75"
 		"ypos"				"135"

@@ -19,7 +19,7 @@
 
 	"BtnQuickMatch"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnQuickMatch"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -42,7 +42,7 @@
 	
 	"BtnPlaySurvivalWithAnyone"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlaySurvivalWithAnyone"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -66,7 +66,7 @@
 	
 	"BtnPlaySurvivalWithFriends"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlaySurvivalWithFriends"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -90,7 +90,7 @@
 
 	"BtnPlayOnGroupServer" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayOnGroupServer"
 		"xpos"					"0"
 		"ypos"					"60"
@@ -113,7 +113,7 @@
 
 	"BtnPlaySurvivalLeaderboards"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlaySurvivalLeaderboards"
 		"xpos"					"0"
 		"ypos"					"60" [$X360]

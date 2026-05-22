@@ -20,10 +20,10 @@
 		"ControlName"			"L4DMenuBackground"
 		"fieldName"				"ImgBackground"
 		"xpos"					"0"
-		"ypos"					"109"
+		"ypos"					"119"
 		"zpos"					"-1"
 		"wide"					"f0"
-		"tall"					"291"
+		"tall"					"261"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -34,10 +34,10 @@
 	
 	"BtnEditBindings"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnEditBindings"
 		"xpos"					"c-180"
-		"ypos"					"85"
+		"ypos"					"110"
 		"zpos"					"0"
 		"wide"					"200"
 		"tall"					"15"
@@ -65,11 +65,11 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpMouseYInvert"
 		"xpos"				"c-180"
-		"ypos"				"105"
+		"ypos"				"130"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"usetitlesafe"		"0"
 		"tabPosition"		"0"
@@ -79,7 +79,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -112,7 +112,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMouseYInvert.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMouseYInvert.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -121,11 +121,11 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpMouseFilter"
 		"xpos"				"c-180"
-		"ypos"				"123"
+		"ypos"				"150"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"usetitlesafe"		"0"
 		"tabPosition"		"0"
@@ -135,7 +135,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -168,7 +168,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMouseFilter.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMouseFilter.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -177,11 +177,11 @@
 		"ControlName"			"SliderControl"
 		"fieldName"				"SldMouseSensitivity"
 		"xpos"					"c-180"
-		"ypos"					"141"
+		"ypos"					"170"
 		"zpos"					"3"
 		"wide"					"360"
 		"tall"					"15"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"minValue"				"1.0f"
@@ -195,7 +195,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -219,171 +219,12 @@
 		}
 	}
 	
-	"DrpRawMouse"	[$WIN32]
-	{
-		"ControlName"		"DropDownMenu"
-		"fieldName"			"DrpRawMouse"
-		"xpos"				"c-180"
-		"ypos"				"159"
-		"zpos"				"3"
-		"wide"				"360"
-		"tall"				"15"
-		"visible"			"1"
-		"enabled"				"1"
-		"usetitlesafe"		"0"
-		"tabPosition"		"0"
-		"navUp"				"SldMouseSensitivity"
-		"navDown"			"DrpMouseAcceleration"
-				
-		//button and label
-		"BtnDropButton"
-		{
-			"ControlName"				"L4D360HybridButton"
-			"fieldName"					"BtnDropButton"
-			"xpos"						"0"
-			"ypos"						"0"
-			"zpos"						"0"
-			"wide"						"360"
-			"wideatopen"				"260"	[$WIN32 && !$WIN32WIDE]
-			"tall"						"15"
-			"autoResize"				"1"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-			"tabPosition"				"1"
-			"AllCaps"					"1"
-			"labelText"					"#GameUI_RawMouse"
-			"tooltiptext"				"#GameUI_RawMouse_Hint"
-			"style"						"DropDownButton"
-			"command"					"FlmRawMouse"
-			"ActivationType"			"1"
-			"OnlyActiveUser"			"1"
-		}
-	}
-	
-	//flyouts		
-	"FlmRawMouse"	[$WIN32]
-	{
-		"ControlName"			"FlyoutMenu"
-		"fieldName"				"FlmRawMouse"
-		"visible"				"0"
-		"wide"					"0"
-		"tall"					"0"
-		"zpos"					"4"
-		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownRawMouse.res"
-		"OnlyActiveUser"		"1"
-	}
-	
-	"DrpMouseAcceleration"	[$WIN32]
-	{
-		"ControlName"		"DropDownMenu"
-		"fieldName"			"DrpMouseAcceleration"
-		"xpos"				"c-180"
-		"ypos"				"177"
-		"zpos"				"3"
-		"wide"				"360"
-		"tall"				"15"
-		"visible"			"1"
-		"enabled"				"1"
-		"usetitlesafe"		"0"
-		"tabPosition"		"0"
-		"navUp"				"DrpRawMouse"
-		"navDown"			"SldMouseAcceleration"
-				
-		//button and label
-		"BtnDropButton"
-		{
-			"ControlName"				"L4D360HybridButton"
-			"fieldName"					"BtnDropButton"
-			"xpos"						"0"
-			"ypos"						"0"
-			"zpos"						"0"
-			"wide"						"360"
-			"wideatopen"				"260"	[$WIN32 && !$WIN32WIDE]
-			"tall"						"15"
-			"autoResize"				"1"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-			"tabPosition"				"1"
-			"AllCaps"					"1"
-			"labelText"					"#GameUI_MouseAcceleration"
-			"tooltiptext"				"#GameUI_MouseAcceleration_Hint"
-			"style"						"DropDownButton"
-			"command"					"FlmMouseAcceleration"
-			"ActivationType"			"1"
-			"OnlyActiveUser"			"1"
-		}
-	}
-	
-	//flyouts		
-	"FlmMouseAcceleration"	[$WIN32]
-	{
-		"ControlName"			"FlyoutMenu"
-		"fieldName"				"FlmMouseAcceleration"
-		"visible"				"0"
-		"wide"					"0"
-		"tall"					"0"
-		"zpos"					"4"
-		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMouseAcceleration.res"
-		"OnlyActiveUser"		"1"
-	}
-
-	"SldMouseAcceleration"	[$WIN32]
-	{
-		"ControlName"			"SliderControl"
-		"fieldName"				"SldMouseAcceleration"
-		"xpos"					"c-180"
-		"ypos"					"195"
-		"zpos"					"3"
-		"wide"					"360"
-		"tall"					"15"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"minValue"				"1.0f"
-		"maxValue"				"1.4f"
-		"stepSize"				"0.01"
-		"navUp"					"DrpMouseAcceleration"
-		"navDown"				"DrpDeveloperConsole"
-		"conCommand"			"m_customaccel_exponent"
-		"inverseFill"			"0"
-				
-		//button and label
-		"BtnDropButton"
-		{
-			"ControlName"			"L4D360HybridButton"
-			"fieldName"				"BtnDropButton"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"0"
-			"wide"					"360"
-			"wideatopen"			"260"	[$WIN32 && !$WIN32WIDE]
-			"tall"					"15"
-			"autoResize"			"1"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"tabPosition"			"0"
-			"AllCaps"				"1"
-			"labelText"				"#GameUI_MouseAccelerationAmount"
-			"tooltiptext"			"#GameUI_MouseAccelerationAmount_Hint"
-			"style"					"DefaultButton"
-			"command"				""
-			"ActivationType"		"1"
-			"OnlyActiveUser"		"1"
-			"usablePlayerIndex"		"nobody"
-		}
-	}
-	
 	"DrpDeveloperConsole"
 	{
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpDeveloperConsole"
 		"xpos"				"c-180"
-		"ypos"				"213"
+		"ypos"				"190"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
@@ -397,7 +238,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -430,7 +271,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownDeveloperConsole.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownDeveloperConsole.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -439,11 +280,11 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpGamepadEnable"
 		"xpos"				"c-180"
-		"ypos"				"233"
+		"ypos"				"230"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"usetitlesafe"		"0"
 		"tabPosition"		"0"
@@ -453,7 +294,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -486,7 +327,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownGamepadEnable.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownGamepadEnable.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -495,11 +336,11 @@
 		"ControlName"			"SliderControl"
 		"fieldName"				"SldGamepadHSensitivity"
 		"xpos"					"c-180"
-		"ypos"					"251"
+		"ypos"					"250"
 		"zpos"					"3"
 		"wide"					"360"
 		"tall"					"15"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"minValue"				"-7.0f"
@@ -513,7 +354,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -543,11 +384,11 @@
 		"ControlName"			"SliderControl"
 		"fieldName"				"SldGamepadVSensitivity"
 		"xpos"					"c-180"
-		"ypos"					"269"
+		"ypos"					"270"
 		"zpos"					"3"
 		"wide"					"360"
 		"tall"					"15"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"minValue"				"0.5"
@@ -561,7 +402,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -591,11 +432,11 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpGamepadYInvert"
 		"xpos"				"c-180"
-		"ypos"				"287"
+		"ypos"				"290"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"usetitlesafe"		"0"
 		"tabPosition"		"0"
@@ -605,7 +446,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -639,7 +480,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownGamepadYInvert.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownGamepadYInvert.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -648,21 +489,21 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpGamepadSwapSticks"
 		"xpos"				"c-180"
-		"ypos"				"305"
+		"ypos"				"310"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"usetitlesafe"		"0"
 		"tabPosition"		"0"
 		"navUp"				"DrpGamepadYInvert"
-		"navDown"			"DrpGamepadAutoAim"
+		"navDown"			"BtnCancel"
 				
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -696,130 +537,16 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownGamepadSwapSticks.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownGamepadSwapSticks.res"
 		"OnlyActiveUser"		"1"
-	}
-
-	"DrpGamepadAutoAim"
-	{
-		"ControlName"		"DropDownMenu"
-		"fieldName"			"DrpGamepadAutoAim"
-		"xpos"				"c-180"
-		"ypos"				"323"
-		"zpos"				"3"
-		"wide"				"360"
-		"tall"				"15"
-		"visible"			"1"
-		"enabled"			"1"
-		"usetitlesafe"		"0"
-		"tabPosition"		"0"
-		"navUp"				"DrpGamepadSwapSticks"
-		"navDown"			"DrpGamepadVibration"
-				
-		//button and label
-		"BtnDropButton"
-		{
-			"ControlName"				"L4D360HybridButton"
-			"fieldName"					"BtnDropButton"
-			"xpos"						"0"
-			"ypos"						"0"
-			"zpos"						"0"
-			"wide"						"360"
-			"wideatopen"				"260"	[$WIN32 && !$WIN32WIDE]
-			"tall"						"15"
-			"autoResize"				"1"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-			"tabPosition"				"1"
-			"AllCaps"					"1"
-			"labelText"					"#GameUI_AutoAim"
-			"tooltiptext"				"#L4D_autoaim_tip"
-			"disabled_tooltiptext"		"#L4D360UI_KeyboardOptions_GamepadDesc"
-			"style"						"DropDownButton"
-			"command"					"FlmGamepadAutoAim"
-			"ActivationType"			"1"
-			"OnlyActiveUser"			"1"
-		}
 	}
 	
-	//flyouts		
-	"FlmGamepadAutoAim"
-	{
-		"ControlName"			"FlyoutMenu"
-		"fieldName"				"FlmGamepadAutoAim"
-		"visible"				"0"
-		"wide"					"0"
-		"tall"					"0"
-		"zpos"					"4"
-		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownGamepadAutoAimEnable.res"
-		"OnlyActiveUser"		"1"
-	}
-
-	"DrpGamepadVibration"
-	{
-		"ControlName"		"DropDownMenu"
-		"fieldName"			"DrpGamepadVibration"
-		"xpos"				"c-180"
-		"ypos"				"341"
-		"zpos"				"3"
-		"wide"				"360"
-		"tall"				"15"
-		"visible"			"1"
-		"enabled"			"1"
-		"usetitlesafe"		"0"
-		"tabPosition"		"0"
-		"navUp"				"DrpGamepadAutoAim"
-		"navDown"			"BtnCancel"
-				
-		//button and label
-		"BtnDropButton"
-		{
-			"ControlName"				"L4D360HybridButton"
-			"fieldName"					"BtnDropButton"
-			"xpos"						"0"
-			"ypos"						"0"
-			"zpos"						"0"
-			"wide"						"360"
-			"wideatopen"				"260"	[$WIN32 && !$WIN32WIDE]
-			"tall"						"15"
-			"autoResize"				"1"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-			"tabPosition"				"1"
-			"AllCaps"					"1"
-			"labelText"					"#L4D360UI_Vibration"
-			"tooltiptext"				"#L4D_vibration_tip"
-			"disabled_tooltiptext"		"#L4D360UI_KeyboardOptions_GamepadDesc"
-			"style"						"DropDownButton"
-			"command"					"FlmGamepadVibration"
-			"ActivationType"			"1"
-			"OnlyActiveUser"			"1"
-		}
-	}
-	
-	//flyouts		
-	"FlmGamepadVibration"
-	{
-		"ControlName"			"FlyoutMenu"
-		"fieldName"				"FlmGamepadVibration"
-		"visible"				"0"
-		"wide"					"0"
-		"tall"					"0"
-		"zpos"					"4"
-		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownGamepadVibrationEnable.res"
-		"OnlyActiveUser"		"1"
-	}
-
 	"BtnCancel"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancel"
 		"xpos"					"c-180"
-		"ypos"					"361"
+		"ypos"					"330"
 		"zpos"					"0"
 		"wide"					"200"
 		"tall"					"15"
@@ -829,7 +556,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
-		"navUp"					"DrpGamepadVibration"
+		"navUp"					"DrpGamepadSwapSticks"
 		"navDown"				"BtnEditBindings"
 		"AllCaps"				"1"
 		"labelText"				"#L4D360UI_Done"

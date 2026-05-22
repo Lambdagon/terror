@@ -18,7 +18,7 @@
 			
 	"BtnStub"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnStub"
 		"xpos"					"100"
 		"ypos"					"175"
@@ -40,7 +40,7 @@
 	
 	"BtnQuit" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnQuit"
 		"xpos"					"100"
 		"ypos"					"200"

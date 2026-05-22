@@ -84,7 +84,7 @@
 		"visible"				"0" [$X360]
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#L4D_btn_OK"
+		"labelText"				"#GameUI_OK"
 		"textAlignment"			"center"
 		"command"				"OK"
 	}
@@ -102,7 +102,7 @@
 		"visible"				"0" [$X360]
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#L4D_btn_cancel"
+		"labelText"				"#GameUI_Cancel"
 		"textAlignment"			"center"
 		"command"				"cancel"
 	}

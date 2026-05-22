@@ -157,13 +157,31 @@
 		"textAlignment"					"west" [$WIN32]
 	}
 	
+	"LblSwarmState"
+	{
+		"ControlName"					"Label"
+		"fieldName"						"LblSwarmState"
+		"xpos"							"240" [$WIN32]
+		"ypos"							"2" [$WIN32]
+		"wide"							"100"
+		"tall"							"20" [$WIN32]
+		"autoResize"					"0"
+		"pinCorner"						"0"
+		"visible"						"1"
+		"enabled"						"1"
+		"tabPosition"					"0"
+		"labelText"						""
+		"Font"							"DefaultSmall"
+		"textAlignment"					"west" [$WIN32]
+	}
+	
 	"LblNumPlayers"
 	{
 		"ControlName"					"Label"
 		"fieldName"						"LblNumPlayers"
 		"xpos"							"400" [$X360 && $X360WIDE]
 		"xpos"							"365" [$X360 && !$X360WIDE]
-		"xpos"							"300" [$WIN32]
+		"xpos"							"320" [$WIN32]
 		"ypos"							"0" [$X360]
 		"ypos"							"2" [$WIN32]
 		"wide"							"200"
@@ -187,7 +205,7 @@
 		"ypos"							"3" [$X360]
 		"wide"							"24" [$X360]
 		"tall"							"24" [$X360]
-		"xpos"							"340" [$WIN32]
+		"xpos"							"360" [$WIN32]
 		"ypos"							"4" [$WIN32]
 		"wide"							"32" [$WIN32]
 		"tall"							"16" [$WIN32]
@@ -205,7 +223,7 @@
 	{
 		"ControlName"					"ImagePanel"
 		"fieldName"						"ImgPingSmall"
-		"xpos"							"330"
+		"xpos"							"350"
 		"ypos"							"9"
 		"wide"							"8"
 		"tall"							"8"

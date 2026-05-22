@@ -1,4 +1,4 @@
-"Resource/UI/L4D360UI/dropdowninvitelive.res"
+"Resource/UI/basemodui/dropdowninvitelive.res"
 {
 	"PnlBackground"
 	{
@@ -17,7 +17,7 @@
 
 	"BtnPlayers"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnPlayers"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -42,7 +42,7 @@
 	
 	"BtnFriends"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnFriends"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -67,7 +67,7 @@
 
 	"BtnInviteParty"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnInviteParty"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -92,7 +92,7 @@
 
 	"BtnParty"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnParty"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -120,7 +120,7 @@
 
 	"BtnCommunity"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCommunity"
 		"xpos"					"0"
 		"ypos"					"60"
@@ -145,7 +145,7 @@
 
 	"BtnVoiceUI"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnVoiceUI"
 		"xpos"					"0"
 		"ypos"					"80"
@@ -170,7 +170,7 @@
 
 	"BtnGameVoiceUI"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnGameVoiceUI"
 		"xpos"					"0"
 		"ypos"					"120"

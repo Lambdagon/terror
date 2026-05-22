@@ -17,7 +17,7 @@
 
 	"BtnAudioVideo"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAudioVideo"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -39,7 +39,7 @@
 
 	"BtnController"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnController"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -62,7 +62,7 @@
 
 	"BtnStorage"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnStorage"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -86,7 +86,7 @@
 	
 	"BtnEnableSplitscreen"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnEnableSplitscreen"
 		"xpos"					"0"
 		"ypos"					"60"
@@ -109,7 +109,7 @@
 	
 	"BtnDisableSplitscreen"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnDisableSplitscreen"
 		"xpos"					"0"
 		"ypos"					"60"

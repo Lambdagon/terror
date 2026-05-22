@@ -34,7 +34,7 @@
 			
 	"BtnReturnToGame"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnReturnToGame"
 		"xpos"					"100"
 		"ypos"					"135"
@@ -58,7 +58,7 @@
 
 	"BtnGoIdle"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnGoIdle"
 		"xpos"					"100"
 		"ypos"					"150"	[$WIN32]
@@ -83,7 +83,7 @@
 
 	"BtnCallAVoteNotAvailableInDemo"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCallAVoteNotAvailableInDemo"
 		"xpos"					"100"
 		"ypos"					"165"	[$WIN32]
@@ -108,7 +108,7 @@
 
 	"BtnInviteAFriendNotAvailableInDemo"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnInviteAFriendNotAvailableInDemo"
 		"xpos"					"100"
 		"ypos"					"180"	[$WIN32]
@@ -133,7 +133,7 @@
 	
 	"BtnLeaderboardNotAvailableInDemo"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLeaderboardNotAvailableInDemo"
 		"xpos"					"100"
 		"ypos"					"195"	[$WIN32]
@@ -157,7 +157,7 @@
 	
 	"BtnStatsAndAchievementsNotAvailableInDemo"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnStatsAndAchievementsNotAvailableInDemo"
 		"xpos"					"100"
 		"ypos"					"210"	[$WIN32]
@@ -183,7 +183,7 @@
 
 	"BtnOptions"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnOptions"
 		"xpos"					"100"
 		"ypos"					"225"	[$WIN32]
@@ -209,7 +209,7 @@
 
 	"BtnExitToMainMenu"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnExitToMainMenu"
 		"xpos"					"100"
 		"ypos"					"250"	[$WIN32]
@@ -242,8 +242,8 @@
 		"zpos"					"3"
 		"InitialFocus"			"BtnVideo" [$WIN32]
 		"InitialFocus"			"BtnAudioVideo" [$X360]
-		"ResourceFile"			"resource/UI/L4D360UI/OptionsFlyout.res"		[$WIN32]
-		"ResourceFile"			"resource/UI/L4D360UI/OptionsGuestFlyout.res"	[$X360]
+		"ResourceFile"			"resource/UI/basemodui/OptionsFlyout.res"		[$WIN32]
+		"ResourceFile"			"resource/UI/basemodui/OptionsGuestFlyout.res"	[$X360]
 	}
 	
 	"FlmOptionsGuestFlyout"
@@ -255,7 +255,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnAudioVideo"
-		"ResourceFile"			"resource/UI/L4D360UI/OptionsGuestFlyout.res"
+		"ResourceFile"			"resource/UI/basemodui/OptionsGuestFlyout.res"
 	}
 
 	"FlmVoteFlyout"
@@ -267,7 +267,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnReturnToLobby"
-		"ResourceFile"			"resource/UI/L4D360UI/InGameVoteFlyout.res"
+		"ResourceFile"			"resource/UI/basemodui/InGameVoteFlyout.res"
 	}
 	
 	"FlmVoteFlyoutVersus"
@@ -279,7 +279,7 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnReturnToLobby"
-		"ResourceFile"		"resource/UI/L4D360UI/InGameVoteFlyoutVersus.res"
+		"ResourceFile"		"resource/UI/basemodui/InGameVoteFlyoutVersus.res"
 	}
 	
 	"FlmVoteFlyoutSurvival"
@@ -291,6 +291,6 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnReturnToLobby"
-		"ResourceFile"		"resource/UI/L4D360UI/InGameVoteFlyoutSurvival.res"
+		"ResourceFile"		"resource/UI/basemodui/InGameVoteFlyoutSurvival.res"
 	}
 }

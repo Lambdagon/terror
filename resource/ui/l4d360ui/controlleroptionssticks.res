@@ -60,7 +60,7 @@
 	
 	"BtnDefault"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnDefault"
 		"xpos"					"c-180"
 		"ypos"					"240"
@@ -89,7 +89,7 @@
 	
 	"BtnSouthpaw"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnSouthpaw"
 		"xpos"					"c0"
 		"ypos"					"240"

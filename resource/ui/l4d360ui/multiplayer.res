@@ -7,12 +7,27 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"398"
+		"tall"				"f0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
+	}
+	
+	"Title"
+	{
+		"fieldName"		"Title"
+		"xpos"		"c-266"
+		"ypos"		"133"
+		"wide"		"150"
+		"tall"		"19"
+		"zpos"		"5"
+		"font"		"DefaultExtraLarge"
+		"textAlignment"		"west"
+		"ControlName"		"Label"
+		"labelText"		"#GameUI_Multiplayer"
+		"fgcolor_override"		"224 224 224 255"
 	}
 	
 	"ImgBackground" [$WIN32]
@@ -37,7 +52,7 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpLanGamesDiscovery"
 		"xpos"				"c-180"
-		"ypos"				"110"
+		"ypos"				"180"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
@@ -51,7 +66,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -84,7 +99,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownMpLanGames.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownMpLanGames.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -93,7 +108,7 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpAllowCustomContent"
 		"xpos"				"c-180"
-		"ypos"				"130"
+		"ypos"				"200"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
@@ -107,7 +122,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -141,7 +156,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHeadphones"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownAllowCustomContent.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownAllowCustomContent.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -154,7 +169,7 @@
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"usetitlesafe"		"0"
 		"tabPosition"		"0"
@@ -164,7 +179,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -198,13 +213,13 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHeadphones"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownSpraypaint.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownSpraypaint.res"
 		"OnlyActiveUser"		"1"
 	}
 	
 	"BtnBrowseSpraypaint"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnBrowseSpraypaint"
 		"xpos"					"c-180"
 		"ypos"					"170"
@@ -213,7 +228,7 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"0"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
@@ -256,7 +271,7 @@
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"usetitlesafe"		"0"
 		"tabPosition"		"0"
@@ -266,7 +281,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -299,7 +314,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownColorBlind.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownColorBlind.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -308,7 +323,7 @@
 		"ControlName"		"DropDownMenu"
 		"fieldName"			"DrpGameInstructor"
 		"xpos"				"c-180"
-		"ypos"				"280"
+		"ypos"				"220"
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
@@ -322,7 +337,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -355,7 +370,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownGameInstructor.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownGameInstructor.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -368,7 +383,7 @@
 		"zpos"				"3"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"usetitlesafe"		"0"
 		"tabPosition"		"0"
@@ -378,7 +393,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -411,7 +426,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHeadphones"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownAllowFreeLook.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownAllowFreeLook.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -424,16 +439,16 @@
 		"zpos"				"1"
 		"wide"				"360"
 		"tall"				"15"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"navUp"				"DrpAllowFreeLook"
-		"navDown"			"SldFOV"
+		"navDown"			"BtnCancel"
 				
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -466,113 +481,54 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnGoreHigh"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownGore.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownGore.res"
 		"OnlyActiveUser"		"1"
 	}
-
-	"SldFOV"
-	{
-		"ControlName"			"SliderControl"
-		"fieldName"				"SldFOV"
-		"xpos"					"c-180"
-		"ypos"					"340"
-		"zpos"					"3"
-		"wide"					"360"
-		"tall"					"15"
-		"visible"				"1"
-		"enabled"				"1"
-		"IgnoreButtonA"			"1"
-		"usetitlesafe"			"0"
-		"tabPosition"			"0"
-		"minValue"				"75.0"
-		"maxValue"				"120.0"
-		"navUp"					"DrpGore"
-		"navDown"				"BtnCancel"
-		"conCommand"			"fov_desired"
-		"inverseFill"			"0"
-
-		//button and label
-		"BtnDropButton"
-		{
-			"ControlName"			"L4D360HybridButton"
-			"fieldName"				"BtnDropButton"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"0"
-			"wide"					"410"
-			"wideatopen"			"260"	[$WIN32 && !$WIN32WIDE]
-			"tall"					"15"
-			"autoResize"			"1"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"IgnoreButtonA"			"1"
-			"tabPosition"			"0"
-			"AllCaps"				"1"
-			"labelText"				"#GameUI_FOV"
-			"tooltiptext"			""
-			"disabled_tooltiptext"	""
-			"style"					"DefaultButton"
-			"command"				""
-			"ActivationType"		"1"
-			"OnlyActiveUser"		"1"
-			"usablePlayerIndex"		"nobody"
-		}
-
-		//button and label
-		"BtnFOVCurrentValue"
-		{
-			"ControlName"			"L4D360HybridButton"
-			"fieldName"				"BtnFOVCurrentValue"
-			"xpos"					"258"
-			"ypos"					"0"
-			"zpos"					"0"
-			"wide"					"410"
-			"wideatopen"			"260"	[$WIN32 && !$WIN32WIDE]
-			"tall"					"15"
-			"autoResize"			"1"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"IgnoreButtonA"			"1"
-			"tabPosition"			"0"
-			"AllCaps"				"1"
-			"labelText"				"90.0"
-			"tooltiptext"			""
-			"disabled_tooltiptext"	""
-			"style"					"SmallButton"
-			"command"				""
-			"ActivationType"		"1"
-			"OnlyActiveUser"		"1"
-			"usablePlayerIndex"		"nobody"
-		}
-	}
 		
-	"BtnCancel"
+// 	"BtnCancel"
+// 	{
+// 		"ControlName"			"BaseModHybridButton"
+// 		"fieldName"				"BtnCancel"
+// 		"xpos"					"c-180"
+// 		"ypos"					"340"
+// 		"zpos"					"0"
+// 		"wide"					"200"
+// 		"tall"					"15"
+// 		"autoResize"			"1"
+// 		"pinCorner"				"0"
+// 		"visible"				"1"
+// 		"enabled"				"1"
+// 		"tabPosition"			"0"
+// 		"wrap"					"1"
+// 		"navUp"					"DrpGore"
+// 		"navDown"				"DrpLanGamesDiscovery"
+// 		"AllCaps"				"1"
+// 		"labelText"				"#L4D360UI_Done"
+// 		"tooltiptext"			"#L4D360UI_Tooltip_Back"
+// 		"style"					"RedButton"
+// 		"command"				"Back"
+// 		EnabledTextInsetX		"2"
+// 		DisabledTextInsetX		"2"
+// 		FocusTextInsetX			"2"
+// 		OpenTextInsetX			"2"
+// 	}
+	
+	"BtnDone" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnCancel"
-		"xpos"					"c-180"
-		"ypos"					"360"
-		"zpos"					"0"
-		"wide"					"200"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"0"
+		"ControlName"			"CNB_Button"
+		"fieldName"				"BtnDone"
+		"xpos"		"c-264"
+		"ypos"		"r23"
+		"wide"		"117"
+		"tall"		"27"
+		"zpos"		"1"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"wrap"					"1"
-		"navUp"					"SldFOV"
-		"navDown"				"DrpLanGamesDiscovery"
-		"AllCaps"				"1"
-		"labelText"				"#L4D360UI_Done"
-		"tooltiptext"			"#L4D360UI_Tooltip_Back"
-		"style"					"RedButton"
+		"labelText"				"#L4D360UI_Done_Caps"
 		"command"				"Back"
-		EnabledTextInsetX		"2"
-		DisabledTextInsetX		"2"
-		FocusTextInsetX			"2"
-		OpenTextInsetX			"2"
+		"textAlignment"		"center"
+		"font"		"DefaultMedium"
+		"fgcolor_override"		"113 142 181 255"
 	}
 }

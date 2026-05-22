@@ -16,6 +16,21 @@
 		"tabPosition"	"0"
 	}
 	
+	"Title"
+	{
+		"fieldName"		"Title"
+		"xpos"		"c-266"
+		"ypos"		"56"
+		"wide"		"150"
+		"tall"		"19"
+		"zpos"		"5"
+		"font"		"DefaultExtraLarge"
+		"textAlignment"		"west"
+		"ControlName"		"Label"
+		"labelText"		"#L4D360UI_My_Addons"
+		"fgcolor_override"		"224 224 224 255"
+	}
+	
 	"Divider1"
 	{
 		"ControlName"			"ImagePanel"
@@ -27,7 +42,7 @@
 		"tall"					"2"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"image"					"divider_gradient"
@@ -49,6 +64,8 @@
 		"enabled"				"1"
 		"tabPosition"			"1"
 		"proportionalToParent"	"1"
+		
+		"bgcolor_override" "0 0 0 255"
 	}
 	
 	"Divider2"
@@ -62,7 +79,7 @@
 		"tall"					"2"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"image"					"divider_gradient"
@@ -184,7 +201,7 @@
 			"enabled"				"1"
 			"tabPosition"			"0"
 			"scaleImage"			"1"
-			"image"					"common/l4d_spinner"
+			"image"					"common/swarm_cycle"
 		}
 			
 		"LblInstalling"
@@ -383,7 +400,7 @@
 
 	"BtnInstallSupport"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnInstallSupport"
 		"xpos"					"c-211"
 		"ypos"					"415"
@@ -418,38 +435,29 @@
 		"tall"					"15"
 		"scaleImage"			"1"
 		"pinCorner"				"0"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"image"					"icon_button_arrow_left"
 		"scaleImage"			"1"
 	}
 	
-	"BtnCancel"
+	"BtnCancel" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"CNB_Button"
 		"fieldName"				"BtnCancel"
-		"xpos"					"c-211"
-		"ypos"					"435"
-		"zpos"					"1"
-		"wide"					"250"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"0"
+		"xpos"		"c-264"
+		"ypos"		"r23"
+		"wide"		"117"
+		"tall"		"27"
+		"zpos"		"1"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"wrap"					"1"
-		"labelText"				"#L4D360UI_Done"
-		"tooltiptext"			"#L4D360UI_Tooltip_Back"
-		"style"					"MainMenuSmallButton"
+		"labelText"				"#nb_back"
 		"command"				"Back"
-		"proportionalToParent"	"1"
-		"usetitlesafe" 			"0"
-		EnabledTextInsetX		"2"
-		DisabledTextInsetX		"2"
-		FocusTextInsetX			"2"
-		OpenTextInsetX			"2"
-		"allcaps"				"1"
+		"textAlignment"		"center"
+		"font"		"DefaultMedium"
+		"fgcolor_override"		"113 142 181 255"
 	}
 }

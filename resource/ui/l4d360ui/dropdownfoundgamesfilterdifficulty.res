@@ -8,7 +8,7 @@
 		"ypos"				"0"
 		"zpos"				"-1"
 		"wide"				"156"
-		"tall"				"110"
+		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
 		"paintbackground"		"1"
@@ -17,7 +17,7 @@
 
 	"BtnAny"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnAny"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -39,7 +39,7 @@
 	
 	"BtnEasy"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnEasy"
 		"xpos"				"0"
 		"ypos"				"20"
@@ -61,7 +61,7 @@
 	
 	"BtnNormal"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnNormal"
 		"xpos"				"0"
 		"ypos"				"40"
@@ -83,7 +83,7 @@
 	
 	"BtnAdvanced"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnAdvanced"
 		"xpos"				"0"
 		"ypos"				"60"
@@ -105,7 +105,7 @@
 		
 	"BtnExpert"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnExpert"
 		"xpos"				"0"
 		"ypos"				"80"
@@ -122,6 +122,28 @@
 		"labelText"			"#L4D360UI_FoundPublicGames_Filter_Difficulty_Expert"
 		"tooltiptext"			"#L4D360UI_FoundPublicGames_Filter_Difficulty_Expert_Tip"
 		"style"				"FlyoutMenuButton"
-		"command"			"filter_difficulty_impossible"
+		"command"			"filter_difficulty_insane"
 	}	
+	
+	"BtnImba"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"			"BtnExpert"
+		"xpos"				"0"
+		"ypos"				"100"
+		"wide"				"150"
+		"tall"				"20"
+		"autoResize"			"1"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"			"0"
+		"wrap"				"1"
+		"navUp"				"BtnAdvanced"
+		"navDown"			"BtnAny"
+		"labelText"			"#L4D360UI_FoundPublicGames_Filter_Difficulty_Imba"
+		"tooltiptext"			"#L4D360UI_FoundPublicGames_Filter_Difficulty_Imba_Tip"
+		"style"				"FlyoutMenuButton"
+		"command"			"filter_difficulty_imba"
+	}
 }

@@ -43,7 +43,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -84,7 +84,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -117,7 +117,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnTelevision"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownColorMode.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownColorMode.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -146,7 +146,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -188,7 +188,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -221,7 +221,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnDefault"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownSplitScreenDirection.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownSplitScreenDirection.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -248,7 +248,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -295,7 +295,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -337,7 +337,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -370,7 +370,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownCaption.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownCaption.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -392,7 +392,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -425,7 +425,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnGoreHigh"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownGore.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownGore.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -448,7 +448,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"				"L4D360HybridButton"
+			"ControlName"				"BaseModHybridButton"
 			"fieldName"					"BtnDropButton"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -481,7 +481,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOtherLanguage"
-		"ResourceFile"			"resource/UI/L4D360UI/DropDownLanguage.res"
+		"ResourceFile"			"resource/UI/basemodui/DropDownLanguage.res"
 		"OnlyActiveUser"		"1"
 	}
 }

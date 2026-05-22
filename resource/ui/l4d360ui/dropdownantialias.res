@@ -17,7 +17,7 @@
 	
 	"BtnAntialias0"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias0"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -41,7 +41,7 @@
 
 	"BtnAntialias1"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias1"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -65,7 +65,7 @@
 	
 	"BtnAntialias2"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias2"
 		"xpos"					"0"
 		"ypos"					"40"
@@ -89,7 +89,7 @@
 	
 	"BtnAntialias3"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias3"
 		"xpos"					"0"
 		"ypos"					"60"
@@ -113,7 +113,7 @@
 	
 	"BtnAntialias4"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias4"
 		"xpos"					"0"
 		"ypos"					"80"
@@ -137,7 +137,7 @@
 	
 	"BtnAntialias5"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias5"
 		"xpos"					"0"
 		"ypos"					"100"
@@ -161,7 +161,7 @@
 	
 	"BtnAntialias6"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias6"
 		"xpos"					"0"
 		"ypos"					"120"
@@ -185,7 +185,7 @@
 	
 	"BtnAntialias7"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias7"
 		"xpos"					"0"
 		"ypos"					"140"
@@ -209,7 +209,7 @@
 	
 	"BtnAntialias8"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias8"
 		"xpos"					"0"
 		"ypos"					"160"
@@ -233,7 +233,7 @@
 	
 	"BtnAntialias9"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnAntialias9"
 		"xpos"					"0"
 		"ypos"					"180"

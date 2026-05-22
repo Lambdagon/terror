@@ -1,4 +1,4 @@
-"Resource/UI/L4D360UI/CustomCampaigns.res"
+"Resource/UI/basemodui/CustomCampaigns.res"
 {
 	"CustomCampaigns" //#L4D360UI_CustomCampaigns_FriendsTitle #L4D360UI_CustomCampaigns_SystemLinkTitle
 	{
@@ -74,7 +74,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"LblNoCampaignsFound"
 		"xpos"				"c-225"
-		"ypos"				"90"
+		"ypos"				"200"
 		"wide"				"400"
 		"tall"				"18"
 		"zpos"				"2"
@@ -104,7 +104,7 @@
 		"tabPosition"		"0"
 		"font"				"DefaultLarge"
 		"textAlignment"		"north-west"
-		"labelText"		""
+		"labelText"		"Dead Line 2"
 	}
 	
 	"LblAuthor"
@@ -141,7 +141,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"					""
 		"Font"				"Default"
 		"textAlignment"		"north-west"
 		"wrap"				"1"
@@ -187,7 +186,7 @@
 	
 	"BtnSelect"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnSelect"
 		"xpos"					"c-211"
 		"ypos"					"415"
@@ -231,7 +230,7 @@
 	
 	"BtnCancel"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancel"
 		"xpos"					"c-211"
 		"ypos"					"435"

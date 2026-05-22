@@ -17,7 +17,7 @@
 	
 	"BtnTripleBuffered"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnTripleBuffered"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -40,7 +40,7 @@
 	
 	"BtnOn"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnOn"
 		"xpos"					"0"
 		"ypos"					"20"
@@ -63,7 +63,7 @@
 	
 	"BtnOff"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnOff"
 		"xpos"					"0"
 		"ypos"					"40"

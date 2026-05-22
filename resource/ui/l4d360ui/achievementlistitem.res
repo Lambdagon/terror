@@ -5,7 +5,7 @@
 		"ControlName"		"Frame"
 		"fieldName"		"AchievementListItem"
 		"tall"			"40"	[$X360]
-		"tall"			"48"	[$WIN32]
+		"tall"			"38"	[$WIN32]
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -15,6 +15,8 @@
 		
 		"DetailsExtraHeight"	"14"
 		"DetailsRowHeight"	"16"
+		
+		"BackgroundColor"		"24 45 64 255"
 	}
 
 	"LblName"
@@ -22,7 +24,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"LblName"
 		"xpos"			"42"
-		"ypos"			"2"  [$WIN32]
+		"ypos"			"6"  [$WIN32]
 		"ypos"			"0"  [$X360]
 		"wide"			"265"
 		"tall"			"24" [$WIN32]
@@ -32,24 +34,25 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"textAlignment"	"north-west"
-		"Font"			"DefaultBold" [$WIN32]
+		"Font"			"DefaultMedium" [$WIN32]
 		"font_hidef"	"DefaultBold" [$X360]
 		"font_lodef"	"DefaultVerySmall" [$X360]
+		"fgcolor_override"		"169 213 255 255"
 	}
 
 	"LblProgress"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"LblProgress"
-		"xpos"			"230"
-		"ypos"			"0"
+		"xpos"			"225"
+		"ypos"			"3"
 		"wide"			"100"
 		"tall"			"10"
 		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"font"			"DefaultSmall"
 	}
 
 	"DivTitleDivider"
@@ -69,10 +72,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ImgAchievementIcon"
-		"xpos"				"2"
-		"ypos"				"2"
-		"wide"				"36"
-		"tall"				"36"
+		"xpos"				"6"
+		"ypos"				"6"
+		"wide"				"26"
+		"tall"				"26"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -85,7 +88,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"LblHowTo"
 		"xpos"			"42"
-		"ypos"			"16"	[$WIN32]
+		"ypos"			"20"	[$WIN32]
 		"ypos_hidef"	"14"	[$X360]
 		"ypos_lodef"	"12"	[$X360]
 		"wide"			"394"	[$X360]
@@ -98,15 +101,16 @@
 		"tabPosition"	"0"
 		"wrap"			"1"
 		"textAlignment"	"north-west"
-		"font"			"DefaultMedium" [$WIN32]
+		"font"			"Default" [$WIN32]
 		"font"			"DefaultVerySmall" [$X360]
+		"fgcolor_override"		"83 148 192 255"
 	}
 
 	"PrgProgress"
 	{
 		"ControlName"	"ProgressBar"
 		"fieldName"		"PrgProgress"
-		"xpos"			"325"
+		"xpos"			"320"
 		"ypos"			"4"	[$WIN32]
 		"ypos_hidef"	"4" [$X360]
 		"ypos_lodef"	"1" [$X360]
@@ -123,19 +127,19 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"LblCurrProgress"
-		"xpos"			"220"
-		"ypos_hidef"	"3"		[$X360]
-		"ypos_lodef"	"0"		[$X360]
+		"xpos"			"215"
+		"ypos"			"4"
 		"wide"			"100"
-		"tall"			"24"	[$WIN32]
+		"tall"			"11"	[$WIN32]
 		"ypos"			"2"		[$WIN32]
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"textAlignment"	"north-east"
-		"font"			"Default" [$WIN32]
+		"textAlignment"	"east"
+		"font"			"DefaultSmall" [$WIN32]
+		"fgcolor_override"		"83 148 192 255"
 	}
 
 	"LblGamerScore"
@@ -240,7 +244,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"image"				"hud/vote_yes"
+		//"image"				"hud/vote_yes"
 		"scaleImage"		"1"
 	}	
 	
@@ -257,7 +261,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"image"				"hud/vote_yes"
+		//"image"				"hud/vote_yes"
 		"scaleImage"		"1"
 	}	
 }
