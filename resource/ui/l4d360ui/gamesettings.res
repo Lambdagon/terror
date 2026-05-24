@@ -150,7 +150,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownGameType.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownGameType.res"
 	}
 
 	"DrpSelectMission"
@@ -291,7 +291,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnNormal"
-		"ResourceFile"			"resource/UI/basemodui/DropDownDifficulty.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownDifficulty.res"
 	}
 	
 	"DrpOnslaught"
@@ -345,7 +345,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnNormal"
-		"ResourceFile"			"resource/UI/basemodui/DropDownOnslaught.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownOnslaught.res"
 	}
 	
 	"DrpFriendlyFire"
@@ -399,7 +399,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnNormal"
-		"ResourceFile"			"resource/UI/basemodui/DropDownFriendlyFire.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownFriendlyFire.res"
 	}
 	
 	"IconForwardArrow"
@@ -534,7 +534,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnFriends"
-		"ResourceFile"			"resource/UI/basemodui/DropDownGameAccess.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownGameAccess.res"
 	}
 		
 	"FlmServerType"
@@ -546,7 +546,7 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnOfficial"
-		"ResourceFile"		"resource/UI/basemodui/DropDownServerType.res"
+		"ResourceFile"		"resource/UI/l4d360ui/DropDownServerType.res"
 	}
 	
 	"IconBackArrow" [$WIN32]
