@@ -18,7 +18,7 @@
 
 	"BtnAny"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnAny"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -40,7 +40,7 @@
 	
 	"BtnOnePlayer"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnOnePlayer"
 		"xpos"				"0"
 		"ypos"				"20"
@@ -62,7 +62,7 @@
 	
 	"BtnFourPlayers"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnFourPlayers"
 		"xpos"				"0"
 		"ypos"				"40"
@@ -84,7 +84,7 @@
 
 	"BtnEightPlayers"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"			"BtnEightPlayers"
 		"xpos"				"0"
 		"ypos"				"60"
@@ -106,7 +106,7 @@
 
 // 	"BtnTestNoResults"
 // 	{
-// 		"ControlName"			"L4D360HybridButton"
+// 		"ControlName"			"BaseModHybridButton"
 // 		"fieldName"			"BtnTestNoResults"
 // 		"xpos"				"0"
 // 		"ypos"				"75"
