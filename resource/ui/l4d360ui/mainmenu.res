@@ -60,32 +60,46 @@
 		"tabPosition"			"0"
 		"navUp"					"PnlQuickJoin"
 		"navDown"				"BtnMultiplayer"
-		"labelText"				"#L4D360UI_MainMenu_PlaySolo"
-		"tooltiptext"			"#L4D360UI_MainMenu_PlaySolo_Tip"
+		"labelText"				"#L4D360UI_MainMenu_ServerBrowser"
+		"tooltiptext"			"#L4D360UI_MainMenu_ServerBrowser_Tip"
 		"style"					"AlienSwarmMenuButtonSmall"
 		"command"				"OpenServerBrowser"
 		"ActivationType"		"0"
 	}
 	
-	"BtnNewGame"
+	"BtnCoOp"
 	{
 		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnNewGame"
+		"fieldName"				"BtnCoOp"
 		"xpos"					"86"
 		"ypos"					"240"
 		"wide"					"180"
 		"tall"					"30"
+		"autoResize"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
-		"navUp"					"BtnQuit"
-		"navDown"				"BtnLoadGame"
-		"labelText"				"#GameUI_GameMenu_NewGame"
-		"style"					"AlienSwarmMenuButton"
-		//"command"				"NewGameDialog"	
-		"command"				"OpenCreateMultiplayerGameDialog"	
+		"tabPosition"			"1"
+		"navUp"					"BtnExtras" [$X360]
+		"navUp"					"PnlQuickJoin" [$WIN32]
+		"navDown"				"BtnVersus"
+		"labelText"				"#L4D360UI_MainMenu_CoOp"
+		"tooltiptext"			"#L4D360UI_MainMenu_CoOp_Tip"
+		"style"					"MainMenuButton"
+		"command"				"FlmCampaignFlyout"
 		"ActivationType"		"1"
+	}
+	
+	"FlmCampaignFlyout"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlmCampaignFlyout"
+		"visible"				"0"
+		"wide"					"50"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnQuickMatch"
+		"ResourceFile"			"resource/UI/L4D360UI/CampaignFlyout.res"
 	}
 	
 	"BtnLoadGame"
