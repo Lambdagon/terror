@@ -275,7 +275,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnEnglish"
-		"ResourceFile"			"resource/UI/basemodui/DropDownLookType.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownLookType.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -288,7 +288,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnEnglish"
-		"ResourceFile"			"resource/UI/basemodui/DropDownDuckMode.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownDuckMode.res"
 		"OnlyActiveUser"		"1"
 	}
 }

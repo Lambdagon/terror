@@ -34,7 +34,7 @@
 			
 	"BtnReturnToGame"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnReturnToGame"
 		"xpos"					"100"
 		"ypos"					"135"
@@ -57,7 +57,7 @@
 
 	"BtnGoIdle"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnGoIdle"
 		"xpos"					"100"
 		"ypos"					"160"
@@ -81,7 +81,7 @@
 
 	"BtnCallAVote"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCallAVote"
 		"xpos"					"100"
 		"ypos"					"185"
@@ -105,7 +105,7 @@
 
 	"BtnInviteFriends"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnInviteFriends"
 		"xpos"					"100"
 		"ypos"					"210"
@@ -142,7 +142,7 @@
 	
 	"BtnLeaderboard"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnLeaderboard"
 		"xpos"					"100"
 		"ypos"					"235"
@@ -165,7 +165,7 @@
 	
 	"BtnStatsAndAchievements"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnStatsAndAchievements"
 		"xpos"					"100"
 		"ypos"					"260"
@@ -191,7 +191,7 @@
 
 	"BtnOptions"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnOptions"
 		"xpos"					"100"
 		"ypos"					"285"
@@ -214,7 +214,7 @@
 
 	"BtnExitToMainMenu"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnExitToMainMenu"
 		"xpos"					"100"
 		"ypos"					"322"

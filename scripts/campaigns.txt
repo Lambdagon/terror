@@ -1,0 +1,136 @@
+"Campaigns"
+{
+    "Dead Center"
+    {
+        "maps"
+        {
+            "c1m1_hotel"   "1"
+            "c1m2_streets" "1"
+            "c1m3_mall"    "1"
+            "c1m4_atrium"  "1"
+        }
+    }
+    "Dark Carnival"
+    {
+        "maps"
+        {
+            "c2m1_highway"    "1"
+            "c2m2_fairgrounds" "1"
+            "c2m3_coaster"    "1"
+            "c2m4_barns"      "1"
+            "c2m5_concert"    "1"
+        }
+    }
+    "Swamp Fever"
+    {
+        "maps"
+        {
+            "c3m1_plankcountry" "1"
+            "c3m2_swamp"        "1"
+            "c3m3_shantytown"   "1"
+            "c3m4_plantation"   "1"
+        }
+    }
+    "Hard Rain"
+    {
+        "maps"
+        {
+            "c4m1_milltown_a"     "1"
+            "c4m2_sugarmill_a"    "1"
+            "c4m3_sugarmill_b"    "1"
+            "c4m4_milltown_b"     "1"
+            "c4m5_milltown_escape" "1"
+        }
+    }
+    "The Parish"
+    {
+        "maps"
+        {
+            "c5m1_waterfront" "1"
+            "c5m2_park"       "1"
+            "c5m3_cemetery"   "1"
+            "c5m4_quarter"    "1"
+            "c5m5_bridge"     "1"
+        }
+    }
+    "The Passing"
+    {
+        "maps"
+        {
+            "c6m1_riverbank" "1"
+            "c6m2_bedlam"    "1"
+            "c6m3_port"      "1"
+        }
+    }
+    "The Sacrifice"
+    {
+        "maps"
+        {
+            "c7m1_docks" "1"
+            "c7m2_barge" "1"
+            "c7m3_port"  "1"
+        }
+    }
+    "No Mercy"
+    {
+        "maps"
+        {
+            "c8m1_apartment" "1"
+            "c8m2_subway"    "1"
+            "c8m3_sewers"    "1"
+            "c8m4_interior"  "1"
+            "c8m5_rooftop"   "1"
+        }
+    }
+    "Crash Course"
+    {
+        "maps"
+        {
+            "c9m1_alleys" "1"
+            "c9m2_lots"   "1"
+        }
+    }
+    "Death Toll"
+    {
+        "maps"
+        {
+            "c10m1_caves"     "1"
+            "c10m2_drainage"  "1"
+            "c10m3_ranchhouse" "1"
+            "c10m4_mainstreet" "1"
+            "c10m5_houseboat"  "1"
+        }
+    }
+    "Dead Air"
+    {
+        "maps"
+        {
+            "c11m1_greenhouse" "1"
+            "c11m2_offices"    "1"
+            "c11m3_garage"     "1"
+            "c11m4_terminal"   "1"
+            "c11m5_runway"     "1"
+        }
+    }
+    "Blood Harvest"
+    {
+        "maps"
+        {
+            "c12m1_hilltop"     "1"
+            "c12m2_traintunnel" "1"
+            "c12m3_bridge"      "1"
+            "c12m4_barn"        "1"
+            "c12m5_cornfield"   "1"
+        }
+    }
+    "Cold Stream"
+    {
+        "maps"
+        {
+            "c13m1_alpinecreek"      "1"
+            "c13m2_southpinestream"  "1"
+            "c13m3_memorialbridge"   "1"
+            "c13m4_cutthroatcreek"   "1"
+        }
+    }
+}

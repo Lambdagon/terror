@@ -1,5 +1,10 @@
-"Resource/UI/DropDownMission.res"
+"Resource/UI/DropDownMissionSurvivalExtended.res"
 {
+	"FlyoutMenuSettings"
+	{
+		"noblindnavigation"		"1"
+	}
+
 	"PnlBackground"
 	{
 		"ControlName"			"Panel"
@@ -8,8 +13,8 @@
 		"ypos"					"0"
 		"zpos"					"-1"
 		"wide"					"156"
-		"tall"					"125" [$X360]
-		"tall"					"145" [$WIN32]
+		"tall"					"285" [$X360]
+		"tall"					"325" [$WIN32]
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
@@ -30,9 +35,8 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
-		"navUp"					"BtnAny" [$X360]
-		"navUp"					"BtnCampaignCustom" [$WIN32]
-		"navDown"				"BtnCampaign2"
+		"navUp"					"BtnCampaignCustom"
+		"navDown"				"BtnCampaign6"
 		"labelText"				"#L4D360UI_CampaignName_C1"
 		"tooltiptext"			""
 		"disabled_tooltiptext"	""
@@ -40,10 +44,10 @@
 		"command"				"cmd_campaign_L4D2C1"
 	}	
 
-	"BtnCampaign2"
+	"BtnCampaign6"
 	{
 		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnCampaign2"
+		"fieldName"				"BtnCampaign6"
 		"xpos"					"0"
 		"ypos"					"20"
 		"wide"					"150"
@@ -55,6 +59,30 @@
 		"tabPosition"			"0"
 		"wrap"					"1"
 		"navUp"					"BtnCampaign1"
+		"navDown"				"BtnCampaign2"
+		"labelText"				"#L4D360UI_CampaignName_C6" [!($X360 && !$DLC1_INSTALLED)]
+		"labelText"				"#L4D360UI_CampaignName_C6_DLC" [$X360 && !$DLC1_INSTALLED]
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_L4D2C6"
+	}	
+
+	"BtnCampaign2"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCampaign2"
+		"xpos"					"0"
+		"ypos"					"40"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign6"
 		"navDown"				"BtnCampaign3"
 		"labelText"				"#L4D360UI_CampaignName_C2"
 		"tooltiptext"			""
@@ -68,7 +96,7 @@
 		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCampaign3"
 		"xpos"					"0"
-		"ypos"					"40"
+		"ypos"					"60"
 		"wide"					"150"
 		"tall"					"20"
 		"autoResize"			"1"
@@ -91,7 +119,7 @@
 		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCampaign4"
 		"xpos"					"0"
-		"ypos"					"60"
+		"ypos"					"80"
 		"wide"					"150"
 		"tall"					"20"
 		"autoResize"			"1"
@@ -114,29 +142,6 @@
 		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCampaign5"
 		"xpos"					"0"
-		"ypos"					"80"
-		"wide"					"150"
-		"tall"					"20"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"wrap"					"1"
-		"navUp"					"BtnCampaign4"
-		"navDown"				"BtnAny"
-		"labelText"				"#L4D360UI_CampaignName_C5"
-		"tooltiptext"			""
-		"disabled_tooltiptext"	""
-		"style"					"FlyoutMenuButton"
-		"command"				"cmd_campaign_L4D2C5"
-	}
-
-	"BtnAny"
-	{
-		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnAny"
-		"xpos"					"0"
 		"ypos"					"100"
 		"wide"					"150"
 		"tall"					"20"
@@ -146,21 +151,19 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
-		"navUp"					"BtnCampaign5"
-		"navDown"				"BtnCampaign1" [$X360]
-		"navDown"				"BtnCampaignCustom" [$WIN32]
-		"labelText"				"#L4D360UI_Campaign_Any"
-		"tooltiptext"			"#L4D360UI_Campaign_Tooltip_Any"
-		"disabled_tooltiptext"	"#L4D360UI_Campaign_Tooltip_Any_Disabled"
+		"navUp"					"BtnCampaign4"
+		"navDown"				"BtnCampaign7"
+		"labelText"				"#L4D360UI_CampaignName_C5"
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
 		"style"					"FlyoutMenuButton"
-		"command"				"cmd_campaign_"
+		"command"				"cmd_campaign_L4D2C5"
 	}	
 
-
-	"BtnCampaignCustom" [$WIN32]
+	"BtnCampaign7"
 	{
 		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnCampaignCustom"
+		"fieldName"				"BtnCampaign7"
 		"xpos"					"0"
 		"ypos"					"120"
 		"wide"					"150"
@@ -168,6 +171,222 @@
 		"autoResize"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign5"
+		"navDown"				"BtnCampaign8"
+		"labelText"				"#L4D360UI_CampaignName_C7" [!($X360 && !$DLC2_INSTALLED)]
+		"labelText"				"#L4D360UI_CampaignName_C7_DLC" [$X360 && !$DLC2_INSTALLED]
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_L4D2C7"
+	}
+
+	"BtnCampaign8"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCampaign8"
+		"xpos"					"0"
+		"ypos"					"140"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign7"
+		"navDown"				"BtnCampaign9"
+		"labelText"				"#L4D360UI_CampaignName_C8" [!($X360 && !$DLC2_INSTALLED)]
+		"labelText"				"#L4D360UI_CampaignName_C8_DLC" [$X360 && !$DLC2_INSTALLED]
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_L4D2C8"
+	}
+
+	"BtnCampaign9"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCampaign9"
+		"xpos"					"0"
+		"ypos"					"160"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign8"
+		"navDown"				"BtnCampaign10"
+		"labelText"				"#L4D360UI_CampaignName_C9" [!($X360 && !$DLC3_INSTALLED)]
+		"labelText"				"#L4D360UI_CampaignName_C9_DLC" [$X360 && !$DLC3_INSTALLED]
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_L4D2C9"
+	}
+
+	"BtnCampaign10"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCampaign10"
+		"xpos"					"0"
+		"ypos"					"180"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign9"
+		"navDown"				"BtnCampaign11"
+		"labelText"				"#L4D360UI_CampaignName_C10" [!($X360 && !$DLC3_INSTALLED)]
+		"labelText"				"#L4D360UI_CampaignName_C10_DLC" [$X360 && !$DLC3_INSTALLED]
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_L4D2C10"
+	}
+
+	"BtnCampaign11"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCampaign11"
+		"xpos"					"0"
+		"ypos"					"200"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign10"
+		"navDown"				"BtnCampaign12"
+		"labelText"				"#L4D360UI_CampaignName_C11" [!($X360 && !$DLC3_INSTALLED)]
+		"labelText"				"#L4D360UI_CampaignName_C11_DLC" [$X360 && !$DLC3_INSTALLED]
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_L4D2C11"
+	}
+
+	"BtnCampaign12"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCampaign12"
+		"xpos"					"0"
+		"ypos"					"220"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign11"
+		"navDown"				"BtnCampaign13"
+		"labelText"				"#L4D360UI_CampaignName_C12" [!($X360 && !$DLC3_INSTALLED)]
+		"labelText"				"#L4D360UI_CampaignName_C12_DLC" [$X360 && !$DLC3_INSTALLED]
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_L4D2C12"
+	}
+
+	"BtnCampaign13"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCampaign13"
+		"xpos"					"0"
+		"ypos"					"240"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign12"
+		"navDown"				"BtnCampaign14"
+		"labelText"				"#L4D360UI_CampaignName_C13" [!($X360 && !$DLC3_INSTALLED)]
+		"labelText"				"#L4D360UI_CampaignName_C13_DLC" [$X360 && !$DLC3_INSTALLED]
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_L4D2C13"
+	}
+
+	"BtnCampaign14"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCampaign14"
+		"xpos"					"0"
+		"ypos"					"260"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign13"
+		"navDown"				"BtnAny"
+		"labelText"				"#L4D360UI_CampaignName_C14" [!($X360 && !$DLC3_INSTALLED)]
+		"labelText"				"#L4D360UI_CampaignName_C14_DLC" [$X360 && !$DLC3_INSTALLED]
+		"tooltiptext"			""
+		"disabled_tooltiptext"	""
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_L4D2C14"
+	}
+	
+	"BtnAny"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnAny"
+		"xpos"					"0"
+		"ypos"					"280"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnCampaign14"
+		"navDown"				"BtnCampaignCustom"
+		"labelText"				"#L4D360UI_Campaign_Any"
+		"tooltiptext"			"#L4D360UI_Campaign_Tooltip_Any"
+		"disabled_tooltiptext"	"#L4D360UI_Campaign_Tooltip_Any_Disabled"
+		"style"					"FlyoutMenuButton"
+		"command"				"cmd_campaign_"
+	}
+
+	"BtnCampaignCustom"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCampaignCustom"
+		"xpos"					"0"
+		"ypos"					"300"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1" [$WIN32]
+		"visible"				"0" [$X360]
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"

@@ -112,7 +112,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMouseYInvert.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMouseYInvert.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -168,7 +168,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMouseFilter.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMouseFilter.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -271,7 +271,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownDeveloperConsole.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownDeveloperConsole.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -327,7 +327,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownGamepadEnable.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownGamepadEnable.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -480,7 +480,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownGamepadYInvert.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownGamepadYInvert.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -537,7 +537,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownGamepadSwapSticks.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownGamepadSwapSticks.res"
 		"OnlyActiveUser"		"1"
 	}
 	

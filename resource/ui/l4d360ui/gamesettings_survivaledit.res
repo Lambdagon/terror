@@ -86,7 +86,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -139,7 +139,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -192,7 +192,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -243,12 +243,12 @@
 		"enabled"				"1"
 		"navUp"					"DrpChapter"
 		"navDown"				"DrpMission" [$X360]
-		"navDown"				"BtnCancel" [$WIN32]
+		"navDown"				"DrpSwitchMode" [$WIN32]
 		
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -281,12 +281,102 @@
 		"ResourceFile"			"resource/UI/L4D360UI/DropDownServerType.res"
 	}
 	
+	"DrpSwitchMode"
+	{
+		"ControlName"			"DropDownMenu"
+		"fieldName"				"DrpSwitchMode"
+		"xpos"					"c-250"
+		"ypos"					"175"	[$WIN32]
+		"ypos"					"215"	[$X360]
+		"zpos"					"1"
+		"wide"					"280"
+		"tall"					"15"	[$WIN32]
+		"tall"					"20"	[$X360]
+		"visible"				"1"
+		"enabled"				"1"
+		"navUp"					"DrpServerType"
+		"navDown"				"BtnCancel"
+		
+		//button and label
+		"BtnDropButton"
+		{
+			"ControlName"			"BaseModHybridButton"
+			"fieldName"				"BtnDropButton"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"280"
+			"wideatopen"			"160"
+			"tall"					"15"	[$WIN32]
+			"tall"					"20"	[$X360]
+			"autoResize"			"1"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"#L4D360UI_MainMenu_ChangeScriptedMode"
+			"tooltiptext"			"Convert the game to another mode."
+			"style"					"DropDownButton"
+			"command"				"FlmSwitchMode"
+			"?condition?mutation15"
+			{
+				"command"			"FlmSwitchModeVersus"
+			}
+			"allcaps"				"1"
+		}
+	}
+	
+	"FlmSwitchMode"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlmSwitchMode"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnMode1"
+		"ResourceFile"			"resource/UI/L4D360UI/DropDownSwitchMode4.res"
+	}
+	
+	"FlmSwitchModeVersus"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlmSwitchModeVersus"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnMode1"
+		"ResourceFile"			"resource/UI/L4D360UI/DropDownSwitchMode8.res"
+	}
+	
+	"IconSwitchToMode"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"IconSwitchToMode"
+		"xpos"					"c-265"		[$WIN32]
+		"ypos"					"175"		[$WIN32]
+		"wide"					"15"		[$WIN32]
+		"tall"					"15"		[$WIN32]
+		"xpos"					"c-275"		[$X360]
+		"ypos"					"215"		[$X360]
+		"wide"					"20"		[$X360]
+		"tall"					"20"		[$X360]
+		"scaleImage"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"image"					"icon_button_settings"
+		"scaleImage"			"1"
+	}
+	
     "IconBackArrow" [$WIN32]
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"IconBackArrow"
 		"xpos"					"c-265"
-		"ypos"					"175"
+		"ypos"					"195"
 		"wide"					"15"
 		"tall"					"15"
 		"scaleImage"			"1"
@@ -299,10 +389,10 @@
 	}
 	"BtnCancel"	[$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancel"
 		"xpos"					"c-250"
-		"ypos"					"175"
+		"ypos"					"195"
 		"zpos"					"0"
 		"wide"					"220"
 		"tall"					"15"
@@ -312,7 +402,7 @@
 		"enabled"				"1"
 		"tabPosition"			"1"
 		"wrap"					"1"
-		"navUp"					"DrpServerType"
+		"navUp"					"DrpSwitchMode"
 		"navDown"				"DrpMission"
 		"labelText"				"#L4D360UI_Back_Caps"
 		"tooltiptext"			"#L4D360UI_Tooltip_Back"

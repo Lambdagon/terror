@@ -242,8 +242,8 @@
 		"zpos"					"3"
 		"InitialFocus"			"BtnVideo" [$WIN32]
 		"InitialFocus"			"BtnAudioVideo" [$X360]
-		"ResourceFile"			"resource/UI/basemodui/OptionsFlyout.res"		[$WIN32]
-		"ResourceFile"			"resource/UI/basemodui/OptionsGuestFlyout.res"	[$X360]
+		"ResourceFile"			"resource/UI/l4d360ui/OptionsFlyout.res"		[$WIN32]
+		"ResourceFile"			"resource/UI/l4d360ui/OptionsGuestFlyout.res"	[$X360]
 	}
 	
 	"FlmOptionsGuestFlyout"
@@ -255,7 +255,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnAudioVideo"
-		"ResourceFile"			"resource/UI/basemodui/OptionsGuestFlyout.res"
+		"ResourceFile"			"resource/UI/l4d360ui/OptionsGuestFlyout.res"
 	}
 
 	"FlmVoteFlyout"
@@ -267,7 +267,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnReturnToLobby"
-		"ResourceFile"			"resource/UI/basemodui/InGameVoteFlyout.res"
+		"ResourceFile"			"resource/UI/l4d360ui/InGameVoteFlyout.res"
 	}
 	
 	"FlmVoteFlyoutVersus"
@@ -279,7 +279,7 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnReturnToLobby"
-		"ResourceFile"		"resource/UI/basemodui/InGameVoteFlyoutVersus.res"
+		"ResourceFile"		"resource/UI/l4d360ui/InGameVoteFlyoutVersus.res"
 	}
 	
 	"FlmVoteFlyoutSurvival"
@@ -291,6 +291,6 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnReturnToLobby"
-		"ResourceFile"		"resource/UI/basemodui/InGameVoteFlyoutSurvival.res"
+		"ResourceFile"		"resource/UI/l4d360ui/InGameVoteFlyoutSurvival.res"
 	}
 }

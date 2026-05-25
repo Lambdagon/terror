@@ -96,7 +96,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownAspectRatio.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownAspectRatio.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -152,7 +152,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownResolution.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownResolution.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -208,7 +208,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownDisplayMode.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownDisplayMode.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -264,7 +264,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownLockMouseToWindow.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownLockMouseToWindow.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -399,7 +399,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownAntialias.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownAntialias.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -455,7 +455,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownFiltering.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownFiltering.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -511,7 +511,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownVSync.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownVSync.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -567,7 +567,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownQueuedMode.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownQueuedMode.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -623,7 +623,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownShaderDetail.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownShaderDetail.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -679,7 +679,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownCPUDetail.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownCPUDetail.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -735,7 +735,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownModelDetail.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownModelDetail.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -791,7 +791,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownPagedPoolMem.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownPagedPoolMem.res"
 		"OnlyActiveUser"		"1"
 	}
 	

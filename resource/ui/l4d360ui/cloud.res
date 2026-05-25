@@ -118,7 +118,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownCloud.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownCloud.res"
 		"OnlyActiveUser"		"1"
 	}
 	

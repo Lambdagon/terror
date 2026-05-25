@@ -86,7 +86,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -142,7 +142,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -197,7 +197,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -235,7 +235,7 @@
 
 	"BtnCreateLobby"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCreateLobby"
 		"xpos"					"c-250"
 		"ypos"					"155"		[$WIN32]
@@ -285,7 +285,7 @@
 	}
 	"BtnJoinAnywhere"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnJoinAnywhere"
 		"xpos"					"c-250"
 		"ypos"					"175"	[$WIN32]
@@ -335,7 +335,7 @@
 	}	
 	"BtnJoinStart"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnJoinStart"
 		"xpos"					"c-250"
 		"ypos"					"195"		[$WIN32]
@@ -382,7 +382,7 @@
 	}
 	"BtnCancel" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancel"
 		"xpos"					"c-250"
 		"ypos"					"215"

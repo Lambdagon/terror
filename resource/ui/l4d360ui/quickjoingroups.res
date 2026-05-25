@@ -1,4 +1,4 @@
-"Resource/UI/basemodui/QuickJoinGroups.res"
+"resource/UI/l4d360ui/QuickJoinGroups.res"
 {
 	"LblTitle"
 	{

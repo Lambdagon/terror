@@ -99,7 +99,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMpLanGames.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMpLanGames.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -156,7 +156,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHeadphones"
-		"ResourceFile"			"resource/UI/basemodui/DropDownAllowCustomContent.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownAllowCustomContent.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -213,7 +213,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHeadphones"
-		"ResourceFile"			"resource/UI/basemodui/DropDownSpraypaint.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownSpraypaint.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -314,7 +314,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownColorBlind.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownColorBlind.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -370,7 +370,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownGameInstructor.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownGameInstructor.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -426,7 +426,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHeadphones"
-		"ResourceFile"			"resource/UI/basemodui/DropDownAllowFreeLook.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownAllowFreeLook.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -481,7 +481,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnGoreHigh"
-		"ResourceFile"			"resource/UI/basemodui/DropDownGore.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownGore.res"
 		"OnlyActiveUser"		"1"
 	}
 		

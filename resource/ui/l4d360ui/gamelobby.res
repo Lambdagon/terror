@@ -50,7 +50,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"scaleImage"			"1"
-		"image"					"common/swarm_cycle"
+		"image"					"common/l4d_spinner"
 	}	
 
 	"GplSurvivors"
@@ -104,7 +104,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnSendMessage"
-		"ResourceFile"			"resource/UI/basemodui/DropDownLobbySteamPlayer.res"
+		"ResourceFile"			"resource/UI/L4D360UI/DropDownLobbySteamPlayer.res"
 	}
 			
 	"FlmPlayerFlyoutLeader"
@@ -116,7 +116,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnSendMessage"
-		"ResourceFile"			"resource/UI/basemodui/DropDownLobbySteamPlayerLeader.res"
+		"ResourceFile"			"resource/UI/L4D360UI/DropDownLobbySteamPlayerLeader.res"
 	}
 			
 	"LblLeaderLine"
@@ -435,7 +435,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnRandom"
-		"ResourceFile"			"resource/UI/basemodui/DropDownCoopCharacters.res"
+		"ResourceFile"			"resource/UI/L4D360UI/DropDownCoopCharacters.res"
 	}
 	
     "IconCharacterVersus"
@@ -517,7 +517,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnRandom"
-		"ResourceFile"			"resource/UI/basemodui/DropDownVersusCharacters.res"
+		"ResourceFile"			"resource/UI/L4D360UI/DropDownVersusCharacters.res"
 	}
 	
 	"IconFriends"
@@ -628,7 +628,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnPlayers"
-		"ResourceFile"			"resource/UI/basemodui/DropDownInviteLive.res"
+		"ResourceFile"			"resource/UI/L4D360UI/DropDownInviteLive.res"
 	}
 	
     "IconPermissions"
@@ -711,7 +711,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnPublic"
-		"ResourceFile"			"resource/UI/basemodui/DropDownLobbyGameAccess.res"
+		"ResourceFile"			"resource/UI/L4D360UI/DropDownLobbyGameAccess.res"
 	}
 	
     "IconForwardArrow"
@@ -734,7 +734,26 @@
 		"tabPosition"			"0"
 		"image"					"icon_button_arrow_right"
 		"scaleImage"			"1"
-	}	
+	}
+
+	"IconBackArrow" [$WIN32]
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"IconBackArrow"
+		"xpos"					"c-255"		[$ENGLISH]
+		"xpos"					"c-275"		[!$ENGLISH]
+		"ypos"					"306"
+		"wide"					"15"
+		"tall"					"15"
+		"scaleImage"			"1"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"image"					"icon_button_arrow_left"
+		"scaleImage"			"1"
+	}
+
 	"BtnStartGame"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -768,28 +787,11 @@
 		"fgcolor_override"		"255 12 12 255" [$WIN32]
 	}
 	
-    "IconBackArrow" [$WIN32]
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"IconBackArrow"
-		"xpos"					"c-255"		[$ENGLISH]
-		"xpos"					"c-275"		[!$ENGLISH]
-		"ypos"					"306"
-		"wide"					"15"
-		"tall"					"15"
-		"scaleImage"			"1"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"image"					"icon_button_arrow_left"
-		"scaleImage"			"1"
-	}
 	"BtnCancelDedicatedSearch"
 	{
 		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancelDedicatedSearch"
-		"command"				"CancelDedicatedSearch"
+		"command"				"CancelStartGame"
 		"xpos"					"c-240"		[$WIN32 && $ENGLISH]
 		"xpos"					"c-260"		[$WIN32 && !$ENGLISH]
 		"ypos"					"306"		[$WIN32]
@@ -806,14 +808,72 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"navUp"					"BtnStartGame"
-		"navDown"				"ChatInputLine" [$WIN32]
-		"navDown"				"BtnChangeGameSettings" [$X360]
+		"navDown"				"BtnRequestStart"
 		"navRight"				"GplSurvivors"
+		"navLeft"				"BtnRequestStart"
 		"tooltiptext"			"#L4D360UI_Lobby_CancelMatchmacking_Tip"
 		"labelText"				"#L4D360UI_Lobby_CancelMatchmacking"
 		"style"					"DefaultButton"
 	}
 		
+	"BtnRequestStart"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnRequestStart"
+		"command"				"StartGame"
+		"xpos"					"c-240"		[$WIN32 && $ENGLISH]
+		"xpos"					"c-260"		[$WIN32 && !$ENGLISH]
+		"ypos"					"306"		[$WIN32]
+		"wide"					"180"		[$WIN32 && $ENGLISH]
+		"wide"					"260"		[$WIN32 && !$ENGLISH]
+		"tall"					"15"		[$WIN32]
+		"xpos"					"c-260"		[$X360]
+		"ypos"					"310"		[$X360]
+		"wide"					"180"		[$X360]
+		"tall"					"20"		[$X360]
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"navUp"					"BtnCancelDedicatedSearch"
+		"navDown"				"BtnCancelRequestStart"
+		"navRight"				"GplSurvivors"
+		"navLeft"				"BtnCancelRequestStart"
+		"tooltiptext"			"#L4D360UI_Lobby_RequestStartMatchmacking_Tip"
+		"labelText"				"#L4D360UI_Lobby_RequestStartMatchmacking"
+		"style"					"DefaultButton"
+	}
+
+	"BtnCancelRequestStart"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCancelRequestStart"
+		"command"				"CancelStartGame"
+		"xpos"					"c-240"		[$WIN32 && $ENGLISH]
+		"xpos"					"c-260"		[$WIN32 && !$ENGLISH]
+		"ypos"					"306"		[$WIN32]
+		"wide"					"180"		[$WIN32 && $ENGLISH]
+		"wide"					"260"		[$WIN32 && !$ENGLISH]
+		"tall"					"15"		[$WIN32]
+		"xpos"					"c-260"		[$X360]
+		"ypos"					"310"		[$X360]
+		"wide"					"180"		[$X360]
+		"tall"					"20"		[$X360]
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"navUp"					"BtnRequestStart"
+		"navDown"				"ChatInputLine" [$WIN32]
+		"navDown"				"BtnChangeGameSettings" [$X360]
+		"navRight"				"GplSurvivors"
+		"tooltiptext"			"#L4D360UI_Lobby_CancelRequestStartMatchmacking_Tip"
+		"labelText"				"#L4D360UI_Lobby_CancelRequestStartMatchmacking"
+		"style"					"DefaultButton"
+	}
+
 	"IconBackArrow2" [$WIN32]
 	{
 		"ControlName"			"ImagePanel"
@@ -831,6 +891,7 @@
 		"image"					"icon_button_arrow_left"
 		"scaleImage"			"1"
 	}
+
 	"BtnLeaveLobby" [$WIN32]
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -894,7 +955,7 @@
 		"labelText"				""
 		"textAlignment"			"south-west"
 		"font"					"ChatFont"
-		"maxchars"				"-1"
+		"maxchars"				"65536"
 		"bgcolor_override"     	"0 0 0 255"
 	}
 

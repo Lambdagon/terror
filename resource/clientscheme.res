@@ -2657,10 +2657,10 @@ Scheme
 		"2"		"resource/csd.ttf"
 		"3"		"resource/Cstrike.ttf"
 		"4"		"resource/CSlogo.ttf"
-		"5"		"resource/Futurot.vfont"
-		"6"		"resource/Toolbox.vfont"
-		"7"     "resource/TG.vfont"
-		"8"     "resource/TGB.vfont"
+		"5"		"resource/Futurot.ttf"
+		"6"		"resource/Toolbox.ttf"
+		"7"     "resource/TG.ttf"
+		"8"     "resource/TGB.ttf"
 		"9"		"resource/stubble-bold.ttf"
 	}
 

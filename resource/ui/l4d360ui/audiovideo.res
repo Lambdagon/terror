@@ -117,7 +117,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnTelevision"
-		"ResourceFile"			"resource/UI/basemodui/DropDownColorMode.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownColorMode.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -221,7 +221,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnDefault"
-		"ResourceFile"			"resource/UI/basemodui/DropDownSplitScreenDirection.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownSplitScreenDirection.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -370,7 +370,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownCaption.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownCaption.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -425,7 +425,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnGoreHigh"
-		"ResourceFile"			"resource/UI/basemodui/DropDownGore.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownGore.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -481,7 +481,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOtherLanguage"
-		"ResourceFile"			"resource/UI/basemodui/DropDownLanguage.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownLanguage.res"
 		"OnlyActiveUser"		"1"
 	}
 }

@@ -10,6 +10,7 @@
 	advcrosshair 3
 	bots 1
 	gamelogo 1
+	AdditionalLocalization	"l4d2"
 	icon		"resource/icon"
 	supportsvr	0
 	hidden_maps

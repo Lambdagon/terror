@@ -120,7 +120,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMission.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMission.res"
 	}
 
 	// Realism flyout	
@@ -133,7 +133,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMission.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMission.res"
 	}
 
 	// Versus flyout	
@@ -146,7 +146,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMissionVersus.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMissionVersus.res"
 	}
 	
 	// Team Versus flyout	
@@ -159,7 +159,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMissionVersus.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMissionVersus.res"
 	}
 	
 	// Survival flyout	
@@ -172,7 +172,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMissionSurvival.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMissionSurvival.res"
 	}
 
 	// Scavenge flyout	
@@ -185,7 +185,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMissionScavenge.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMissionScavenge.res"
 	}
 	
 	// Team Scavenge flyout
@@ -198,7 +198,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnCampaign1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMissionScavenge.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMissionScavenge.res"
 	}
 	
 	// Chapter Dropdown
@@ -254,7 +254,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnChapter1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownChapter.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownChapter.res"
 	}
 
 	"IconForwardArrow"

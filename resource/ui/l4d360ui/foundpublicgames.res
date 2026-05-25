@@ -474,7 +474,7 @@
 		"tall"				"0"
 		"zpos"				"4"
 		"InitialFocus"		"BtnAny"
-		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesFilterCampaign.res"
+		"ResourceFile"		"resource/UI/l4d360ui/DropDownFoundGamesFilterCampaign.res"
 	}
 
 	"DrpFilterDifficulty" [$WIN32]
@@ -524,7 +524,7 @@
 		"tall"				"0"
 		"zpos"				"4"
 		"InitialFocus"		"BtnAny"
-		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesFilterDifficulty.res"
+		"ResourceFile"		"resource/UI/l4d360ui/DropDownFoundGamesFilterDifficulty.res"
 	}
 	
 	"DrpFilterOnslaught" [$WIN32]
@@ -574,7 +574,7 @@
 		"tall"				"0"
 		"zpos"				"4"
 		"InitialFocus"		"BtnAny"
-		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesFilterOnslaught.res"
+		"ResourceFile"		"resource/UI/l4d360ui/DropDownFoundGamesFilterOnslaught.res"
 	}
 
 // 	"DrpCreateGame"

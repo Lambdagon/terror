@@ -193,7 +193,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHeadphones"
-		"ResourceFile"			"resource/UI/basemodui/DropDownSpeakerConfiguration.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownSpeakerConfiguration.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -249,7 +249,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHigh"
-		"ResourceFile"			"resource/UI/basemodui/DropDownSoundQuality.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownSoundQuality.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -306,7 +306,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOff"
-		"ResourceFile"			"resource/UI/basemodui/DropDownCaption.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownCaption.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -363,7 +363,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOtherLanguage"
-		"ResourceFile"			"resource/UI/basemodui/DropDownLanguagePC.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownLanguagePC.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -419,7 +419,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownVoiceCommunication.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownVoiceCommunication.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -476,7 +476,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownVoiceCommunicationStyle.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownVoiceCommunicationStyle.res"
 		"OnlyActiveUser"		"1"
 	}
 	
@@ -677,7 +677,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnOn"
-		"ResourceFile"			"resource/UI/basemodui/DropDownBoostMicrophone.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownBoostMicrophone.res"
 		"OnlyActiveUser"		"1"
 	}
 	

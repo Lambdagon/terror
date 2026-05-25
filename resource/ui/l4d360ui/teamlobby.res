@@ -82,7 +82,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnSendMessage"
-		"ResourceFile"			"resource/UI/basemodui/DropDownLobbySteamPlayer.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownLobbySteamPlayer.res"
 	}
 			
 	"FlmPlayerFlyoutLeader"
@@ -94,7 +94,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnSendMessage"
-		"ResourceFile"			"resource/UI/basemodui/DropDownLobbySteamPlayerLeader.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownLobbySteamPlayerLeader.res"
 	}
 			
 	"LblLeaderLine"
@@ -414,7 +414,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnRandom"
-		"ResourceFile"			"resource/UI/basemodui/DropDownCoopCharacters.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownCoopCharacters.res"
 	}
 	
     "IconCharacterVersus"
@@ -496,7 +496,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnRandom"
-		"ResourceFile"			"resource/UI/basemodui/DropDownVersusCharacters.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownVersusCharacters.res"
 	}
 	
 	"IconFriends"
@@ -607,7 +607,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnPlayers"
-		"ResourceFile"			"resource/UI/basemodui/DropDownInviteLive.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownInviteLive.res"
 	}
 	
     "IconPermissions"
@@ -692,7 +692,7 @@
 		"tall"					"0"
 		"zpos"					"3"
 		"InitialFocus"			"BtnPublic"
-		"ResourceFile"			"resource/UI/basemodui/DropDownGameAccessTeam.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownGameAccessTeam.res"
 	}
 
     "IconForwardArrow"

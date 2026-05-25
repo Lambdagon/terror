@@ -1,4 +1,4 @@
-"Resource/UI/basemodui/CustomCampaigns.res"
+"resource/UI/l4d360ui/CustomCampaigns.res"
 {
 	"CustomCampaigns" //#L4D360UI_CustomCampaigns_FriendsTitle #L4D360UI_CustomCampaigns_SystemLinkTitle
 	{

@@ -10,9 +10,10 @@
 		"tall"						"260"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"1"
+		"visible"					"0"
 		"enabled"					"1"
 		"tabPosition"				"0"
+		"setclosebuttonvisible" 	"0"
 	}
 	
 	"Title"
@@ -41,7 +42,7 @@
 		"tall"					"144"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"				[$WIN32]
+		"visible"				"0"				[$WIN32]
 		"visible"				"0"				[$X360]
 		"enabled"				"1"
 		"tabPosition"			"0"
@@ -358,6 +359,33 @@
 		OpenTextInsetX			"2"
 	}
 	
+	"BtnCancel"	[$WIN32]
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnCancel"
+		"xpos"					"c-250"		
+		"ypos"					"215"	
+		"zpos"					"0"
+		"wide"					"220"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnStartGame"
+		"navDown"				"DrpMission"
+		"labelText"				"#L4D360UI_Back_Caps"
+		"tooltiptext"			"#L4D360UI_Tooltip_Back"
+		"style"					"DefaultButton"
+		"command"				"Back"
+		EnabledTextInsetX		"2"
+		DisabledTextInsetX		"2"
+		FocusTextInsetX			"2"
+		OpenTextInsetX			"2"
+	}
+	
 	"IconBackArrow" [$WIN32]
 	{
 		"ControlName"			"ImagePanel"
@@ -373,31 +401,5 @@
 		"tabPosition"			"0"
 		"image"					"icon_button_arrow_left"
 		"scaleImage"			"1"
-	}
-	"BtnCancel"	[$WIN32]
-	{
-		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnCancel"
-		"xpos"					"c-250"		
-		"ypos"					"215"		
-		"zpos"					"0"
-		"wide"					"220"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"wrap"					"1"
-		"navUp"					"BtnStartGame"
-		"navDown"				"DrpMission"
-		"labelText"				"#L4D360UI_Back_Caps"
-		"tooltiptext"			"#L4D360UI_Tooltip_Back"
-		"style"					"DefaultButton"
-		"command"				"Back"
-		EnabledTextInsetX		"2"
-		DisabledTextInsetX		"2"
-		FocusTextInsetX			"2"
-		OpenTextInsetX			"2"
 	}
 }

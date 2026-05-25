@@ -30,12 +30,11 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
-		"navUp"					"BtnChapter"
-		"navDown"				"BtnChapter"
+		"navUp"					"BtnChapter"      // Will be overridden in code
+		"navDown"				"BtnChapter"      // Will be overridden in code
 		"labelText"				"#L4D360UI_Chapter_"
 		"tooltiptext"			""
 		"style"					"FlyoutMenuButton"
-		"command"				"#L4D360UI_Chapter_"
+		"command"				"cmd_chapter_"
 	}	
-	
 }

@@ -156,7 +156,7 @@
 
 	"BtnCancel"
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancel"
 		"xpos"					"110"
 		"ypos"					"240"

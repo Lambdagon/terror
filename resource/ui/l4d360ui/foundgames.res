@@ -101,7 +101,7 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnSendMessage"
-		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesPlayer.res"
+		"ResourceFile"		"resource/UI/l4d360ui/DropDownFoundGamesPlayer.res"
 	}
 	
 	"FlmPlayerFlyout_NotFriend" [$WIN32]
@@ -113,7 +113,7 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnViewSteamID"
-		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesPlayer_NotFriend.res"
+		"ResourceFile"		"resource/UI/l4d360ui/DropDownFoundGamesPlayer_NotFriend.res"
 	}
 					
 	"FlmPlayerFlyout_SteamGroup" [$WIN32]
@@ -125,7 +125,7 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnViewSteamID"
-		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesPlayer_SteamGroup.res"
+		"ResourceFile"		"resource/UI/l4d360ui/DropDownFoundGamesPlayer_SteamGroup.res"
 	}
 					
 	"LblCampaign"

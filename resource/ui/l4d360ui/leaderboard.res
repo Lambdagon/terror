@@ -557,7 +557,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnHospital"
-		"ResourceFile"			"resource/UI/basemodui/DropDownMissionSurvival.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownMissionSurvival.res"
 	}
 	
 	// Chapter Dropdown
@@ -610,7 +610,7 @@
 		"tall"					"0"
 		"zpos"					"4"
 		"InitialFocus"			"BtnChapter1"
-		"ResourceFile"			"resource/UI/basemodui/DropDownChapter.res"
+		"ResourceFile"			"resource/UI/l4d360ui/DropDownChapter.res"
 	}
 
 	"IconForwardArrow" [$WIN32]
@@ -701,7 +701,7 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnSendMessage"
-		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesPlayer.res"
+		"ResourceFile"		"resource/UI/l4d360ui/DropDownFoundGamesPlayer.res"
 	}
 	
 	"FlmPlayerFlyout_NotFriend" [$WIN32]
@@ -713,6 +713,6 @@
 		"tall"				"0"
 		"zpos"				"3"
 		"InitialFocus"		"BtnViewSteamID"
-		"ResourceFile"		"resource/UI/basemodui/DropDownFoundGamesPlayer_NotFriend.res"
+		"ResourceFile"		"resource/UI/l4d360ui/DropDownFoundGamesPlayer_NotFriend.res"
 	}
 }

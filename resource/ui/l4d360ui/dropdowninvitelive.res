@@ -1,4 +1,4 @@
-"Resource/UI/basemodui/dropdowninvitelive.res"
+"resource/UI/l4d360ui/dropdowninvitelive.res"
 {
 	"PnlBackground"
 	{

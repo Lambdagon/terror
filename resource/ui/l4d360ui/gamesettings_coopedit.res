@@ -86,7 +86,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -141,7 +141,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -197,7 +197,7 @@
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -254,7 +254,7 @@
 		// button and label
 		"BtnDropButton"
 		{
-			"ControlName"					"L4D360HybridButton"
+			"ControlName"					"BaseModHybridButton"
 			"fieldName"						"BtnDropButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -304,12 +304,12 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"navUp"					"DrpDifficulty"
-		"navDown"				"BtnSwitchToRealism"
+		"navDown"				"DrpSwitchMode"
 		
 		//button and label
 		"BtnDropButton"
 		{
-			"ControlName"			"L4D360HybridButton"
+			"ControlName"			"BaseModHybridButton"
 			"fieldName"				"BtnDropButton"
 			"xpos"					"0"
 			"ypos"					"0"
@@ -341,11 +341,64 @@
 		"InitialFocus"			"BtnOfficial"
 		"ResourceFile"			"resource/UI/L4D360UI/DropDownServerType.res"
 	}
-
-	"IconSwitchToCoop"
+	
+	"DrpSwitchMode"
+	{
+		"ControlName"			"DropDownMenu"
+		"fieldName"				"DrpSwitchMode"
+		"xpos"					"c-250"
+		"ypos"					"195"	[$WIN32]
+		"ypos"					"215"	[$X360]
+		"zpos"					"1"
+		"wide"					"280"
+		"tall"					"15"	[$WIN32]
+		"tall"					"20"	[$X360]
+		"visible"				"1"
+		"enabled"				"1"
+		"navUp"					"DrpServerType"
+		"navDown"				"BtnCancel"
+		
+		//button and label
+		"BtnDropButton"
+		{
+			"ControlName"			"BaseModHybridButton"
+			"fieldName"				"BtnDropButton"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"280"
+			"wideatopen"			"160"
+			"tall"					"15"	[$WIN32]
+			"tall"					"20"	[$X360]
+			"autoResize"			"1"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"#L4D360UI_MainMenu_ChangeScriptedMode"
+			"tooltiptext"			"Convert the game to another mode."
+			"style"					"DropDownButton"
+			"command"				"FlmSwitchMode"
+			"allcaps"				"1"
+		}
+	}
+	
+	"FlmSwitchMode"
+	{
+		"ControlName"			"FlyoutMenu"
+		"fieldName"				"FlmSwitchMode"
+		"visible"				"0"
+		"wide"					"0"
+		"tall"					"0"
+		"zpos"					"3"
+		"InitialFocus"			"BtnMode1"
+		"ResourceFile"			"resource/UI/L4D360UI/DropDownSwitchMode4.res"
+	}
+	
+	"IconSwitchToMode"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"IconSwitchToCoop"
+		"fieldName"				"IconSwitchToMode"
 		"xpos"					"c-265"		[$WIN32]
 		"ypos"					"195"		[$WIN32]
 		"wide"					"15"		[$WIN32]
@@ -356,41 +409,11 @@
 		"tall"					"20"		[$X360]
 		"scaleImage"			"1"
 		"pinCorner"				"0"
-		"visible"				"0"
+		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"image"					"icon_button_settings"
 		"scaleImage"			"1"
-	}
-	
-	"BtnSwitchToRealism"
-	{
-		"ControlName"			"L4D360HybridButton"
-		"fieldName"				"BtnSwitchToRealism"
-		"xpos"					"c-250"
-		"ypos"					"195"	[$WIN32]
-		"ypos"					"215"	[$X360]
-		"wide"					"220"
-		"tall"					"15"	[$WIN32]
-		"tall"					"20"	[$X360]
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"		[!$DEMO]
-		"enabled"				"0"		[$DEMO]
-		"tabPosition"			"0"
-		"wrap"					"1"
-		"navUp"					"DrpServerType"
-		"navDown"				"DrpMission" [$X360]
-		"navDown"				"BtnCancel" [$WIN32]
-		"labelText"				"#L4D360UI_Lobby_SwitchTo_realism"
-		"tooltiptext"			"#L4D360UI_Lobby_SwitchTip_realism"
-		"style"					"DefaultButton"
-		"command"				"SwitchGameModeTo_realism"
-		EnabledTextInsetX		"2"
-		DisabledTextInsetX		"2"
-		FocusTextInsetX			"2"
-		OpenTextInsetX			"2"
 	}
 
 	"IconBackArrow"	[$WIN32]
@@ -411,7 +434,7 @@
 	}
 	"BtnCancel" [$WIN32]
 	{
-		"ControlName"			"L4D360HybridButton"
+		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnCancel"
 		"xpos"					"c-250"
 		"ypos"					"215"
@@ -424,7 +447,7 @@
 		"enabled"				"1"
 		"tabPosition"			"1"
 		"wrap"					"1"
-		"navUp"					"BtnSwitchToRealism"
+		"navUp"					"DrpSwitchMode"
 		"navDown"				"DrpMission"
 		"labelText"				"#L4D360UI_Back_Caps"
 		"tooltiptext"			"#L4D360UI_Tooltip_Back"
