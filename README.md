@@ -1,9 +1,14 @@
-# Terror-Strike.
-## Requirements
-- A legal copy of Counter-Strike: Source, Half-Life 2 and Left 4 Dead 2.
-- Source SDK 2013 Multiplayer on default branch
-- The ability to read
-  
-This mod is attempting to remake L4D2 in it's entireity in Source 2013 using reverse engineered and decompiled code.
+# Left 4 Dead SDK 2013 (Terror Strike).
 
-### Source code coming soon! (I just need to clean it up first.)
+This is a WIP project that attempts to recreate/reverse Left 4 Dead 2 in the 2013 version of the Source SDK base. 
+
+## Requirements
+- A legal copy of both Counter-Strike: Source and Left 4 Dead 2.
+- Source SDK 2013 Multiplayer
+
+## Credits
+
+- [Siobhan](https://github.com/siobhan-saoirse) (Reversing and Project start)
+- [Vvis](https://github.com/Lambdagon) (Programming + further fixes/improvements)
+- [LUX Shaders](https://github.com/LUX-Shaders-Team/) (Shader system used for Infected + other)
+
