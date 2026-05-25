@@ -101,3 +101,4 @@ cfg/server_blacklist.txt
 maps/gm_bigcity.bsp
 scripts/gm_bigcity.nav
 maps/gm_bigcity.nav
+/cfg

@@ -74,11 +74,6 @@
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
-			// hl2 episodic content for missing texture fixes
-			game			|appid_220|ep2/ep2_sound_vo_english.vpk
-			game			|appid_220|ep2/ep2_pak.vpk
-			game			|appid_220|episodic/ep1_sound_vo_english.vpk
-			game			|appid_220|episodic/ep1_pak.vpk
 
 			// l4d2, because this is a remake of l4d2 in source 2013
 			game			|appid_550|update
